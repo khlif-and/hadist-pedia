@@ -1,0 +1,54 @@
+{
+  "version": "1.0",
+  "metadata": {
+    "title": "",
+    "compiler": "",
+    "total_hadith": 0,
+    "last_updated": ""
+  },
+  "books": [
+    {
+      "book_id": "",
+      "book_name_ar": "",
+      "book_name_id": "",
+      "chapters": [
+        {
+          "chapter_id": "",
+          "chapter_name_ar": "",
+          "chapter_name_id": "",
+          "hadiths": [
+            {
+              "hadith_id": "",
+              "hadith_number": 0,
+              "narrator_name": "",
+              "text_arabic": "",
+              "text_translation_id": "",
+              "text_translation_en": "",
+              "authenticity": {
+                "status": "",
+                "grade": "",
+                "scholar_reference": ""
+              },
+              "categories": [],
+              "tags": [],
+              "media": {
+                "audio_url": "",
+                "image_url": ""
+              },
+              "explanations": [
+                {
+                  "source": "",
+                  "content": ""
+                }
+              ],
+              "flags": {
+                "is_daily_vibe": false,
+                "is_reflection": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
