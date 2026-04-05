@@ -14,7 +14,23 @@ class AppColors {
   static const Color white = Colors.white;
   static const Color transparent = Colors.transparent;
 
+  static const Color trendingIconBg = Color(0xFF352F52);
+  static const Color trendingIconColor = Color(0xFF9E7CFF);
+  static const Color hadistCardTop = Color(0xFF001D4A);
+  static const Color hadistCardBottom = Color(0xFF86B9D8);
+
+  static Color white02 = Colors.white.withOpacity(0.02);
+  static Color white04 = Colors.white.withOpacity(0.04);
+  static Color white05 = Colors.white.withOpacity(0.05);
   static Color white08 = Colors.white.withOpacity(0.08);
-  static Color white60 = Colors.white.withOpacity(0.6);
-  static Color white80 = Colors.white.withOpacity(0.8);
+  static Color white10 = Colors.white.withOpacity(0.10);
+  static Color white15 = Colors.white.withOpacity(0.15);
+  static Color white18 = Colors.white.withOpacity(0.18);
+  static Color white20 = Colors.white.withOpacity(0.20);
+  static Color white25 = Colors.white.withOpacity(0.25);
+  static Color white40 = Colors.white.withOpacity(0.40);
+  static Color white50 = Colors.white.withOpacity(0.50);
+  static Color white60 = Colors.white.withOpacity(0.60);
+  static Color white70 = Colors.white.withOpacity(0.70);
+  static Color white80 = Colors.white.withOpacity(0.80);
 }

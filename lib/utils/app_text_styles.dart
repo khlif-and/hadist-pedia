@@ -64,4 +64,54 @@ class AppTextStyles {
     fontSize: 14.sp,
     fontWeight: FontWeight.w600,
   );
+
+  static TextStyle navLabelActive = GoogleFonts.plusJakartaSans(
+    color: AppColors.white,
+    fontSize: 13.sp,
+    fontWeight: FontWeight.bold,
+  );
+
+  static TextStyle navLabelDockedActive = GoogleFonts.plusJakartaSans(
+    color: AppColors.white,
+    fontSize: 11.sp,
+    fontWeight: FontWeight.bold,
+  );
+
+  static TextStyle navLabelDockedInactive = GoogleFonts.plusJakartaSans(
+    color: AppColors.white50,
+    fontSize: 11.sp,
+    fontWeight: FontWeight.w500,
+  );
+
+  static TextStyle hadistTitle = GoogleFonts.beVietnamPro(
+    color: AppColors.white,
+    fontWeight: FontWeight.w700,
+    fontSize: 14.sp,
+  );
+
+  static TextStyle hadistDescription = GoogleFonts.beVietnamPro(
+    color: AppColors.white60,
+    fontSize: 14.sp,
+    fontWeight: FontWeight.normal,
+  );
+
+  static TextStyle trendingTitle = GoogleFonts.plusJakartaSans(
+    fontSize: 18.sp,
+    fontWeight: FontWeight.bold,
+    color: AppColors.white,
+  );
+
+  static TextStyle trendingBody = GoogleFonts.beVietnamPro(
+    color: AppColors.white80,
+    fontSize: 14.sp,
+    fontWeight: FontWeight.w500,
+    height: 1.5,
+  );
+
+  static TextStyle trendingBadge = GoogleFonts.plusJakartaSans(
+    color: AppColors.white70,
+    letterSpacing: 1.2,
+    fontWeight: FontWeight.w600,
+    fontSize: 10.sp,
+  );
 }
