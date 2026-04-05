@@ -24,7 +24,7 @@ class GlowBackground extends StatelessWidget {
             child: Container(color: AppColors.surface.withOpacity(0.65)),
           ),
         ),
-        SafeArea(child: child),
+        SafeArea(bottom: false, child: child),
       ],
     );
   }
