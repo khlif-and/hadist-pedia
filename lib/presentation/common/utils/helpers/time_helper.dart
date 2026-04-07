@@ -9,7 +9,7 @@ class TimeHelper {
     } else if (hour >= 15 && hour < 18) {
       return 'assets/images/gradient_evening.webp';
     } else {
-      return 'assets/images/gradient_night.webp';
+      return 'assets/images/gradient_nigts.webp';
     }
   }
 }

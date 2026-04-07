@@ -1,12 +1,13 @@
-import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:hadist_pedia/presentation/common/utils/helpers/time_helper.dart';
+import 'package:hadist_pedia/presentation/atom/background_home.dart';
+import 'package:hadist_pedia/presentation/common/utils/constant/style.dart';
 import 'package:hadist_pedia/presentation/molecules/chips_and_button.dart';
 import 'package:hadist_pedia/presentation/organisms/card_group_card.dart';
 import 'package:hadist_pedia/presentation/organisms/bottom_bar.dart';
 import 'package:hadist_pedia/presentation/organisms/header.dart';
 import 'package:hadist_pedia/presentation/organisms/trending_card_available.dart';
+import 'package:hadist_pedia/presentation/molecules/card_grid_big_card.dart';
 
 class HomeTemplate extends StatelessWidget {
   const HomeTemplate({Key? key}) : super(key: key);
@@ -18,20 +19,7 @@ class HomeTemplate extends StatelessWidget {
       extendBody: true,
       body: Stack(
         children: [
-          Positioned.fill(
-            child: Image.asset(
-              TimeHelper.getBackgroundImage(),
-              fit: BoxFit.cover,
-            ),
-          ),
-          Positioned.fill(
-            child: BackdropFilter(
-              filter: ImageFilter.blur(sigmaX: 35.0, sigmaY: 35.0),
-              child: Container(
-                color: Colors.white.withOpacity(0.2),
-              ),
-            ),
-          ),
+          const BackgroundHome(),
           SafeArea(
             bottom: false,
             child: CustomScrollView(
@@ -54,33 +42,25 @@ class HomeTemplate extends StatelessWidget {
                   delegate: _StickyChipsDelegate(
                     child: Container(
                       height: 56.h,
-                      color: Colors.transparent,
+                      color: AppStyle.overlayDarkBackground,
                       alignment: Alignment.center,
                       child: const ChipsAndButton(),
                     ),
                   ),
                 ),
-
-                // PERUBAHAN DI SINI
                 SliverPadding(
-                  // Hapus horizontal: 8.w agar konten bisa menyentuh pinggir layar
-                  padding: EdgeInsets.symmetric(vertical: 20.h), 
+                  padding: EdgeInsets.symmetric(vertical: 20.h),
                   sliver: SliverList(
                     delegate: SliverChildListDelegate([
-                      // Beri padding manual hanya untuk CardGroupCard 
-                      // agar kartu besar ini tetap tidak menempel ke pinggir
                       Padding(
                         padding: EdgeInsets.symmetric(horizontal: 8.w),
                         child: const CardGroupCard(),
                       ),
-                      
                       SizedBox(height: 20.h),
-                      
-                      // TrendingCardAvailable sekarang bisa Edge-to-Edge 
-                      // karena sudah tidak ditahan oleh SliverPadding di atas
                       const TrendingCardAvailable(),
-                      
-                      SizedBox(height: 120.h), 
+                      SizedBox(height: 20.h),
+                      const CardGridBigCard(),
+                      SizedBox(height: 120.h),
                     ]),
                   ),
                 ),
