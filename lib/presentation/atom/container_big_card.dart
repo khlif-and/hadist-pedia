@@ -1,9 +1,11 @@
 import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:hadist_pedia/presentation/common/utils/constant/style.dart';
 
 class ContainerBigCard extends StatelessWidget {
   final Widget child;
+  
   const ContainerBigCard({Key? key, required this.child}) : super(key: key);
 
   @override
@@ -11,12 +13,12 @@ class ContainerBigCard extends StatelessWidget {
     return ClipRRect(
       borderRadius: BorderRadius.circular(32.r),
       child: BackdropFilter(
-        filter: ImageFilter.blur(sigmaX: 20, sigmaY: 20),
+        filter: AppStyle.blurBackground,
         child: Container(
           width: double.infinity,
           padding: EdgeInsets.symmetric(vertical: 32.h),
           decoration: BoxDecoration(
-            color: Colors.white.withOpacity(0.15),
+            color: AppStyle.overlayDarkBackground,
             borderRadius: BorderRadius.circular(32.r),
             border: Border.all(
               color: Colors.white.withOpacity(0.3),
