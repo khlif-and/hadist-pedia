@@ -10,7 +10,8 @@ import '../atom/related_hadist_card.dart';
 
 class HadistBottomSheet extends StatelessWidget {
   final int index;
-  const HadistBottomSheet({Key? key, this.index = 0}) : super(key: key);
+  final String jsonPath;
+  const HadistBottomSheet({Key? key, this.index = 0, this.jsonPath = 'lib/json/hadist_bukhari.json'}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -47,13 +48,13 @@ class HadistBottomSheet extends StatelessWidget {
                     ),
                   ),
                 ),
-                HeadlineHadist(title: 'Keutamaan Menuntut Ilmu', index: index),
+                HeadlineHadist(title: 'Keutamaan Menuntut Ilmu', index: index, jsonPath: jsonPath),
                 SizedBox(height: 16.h),
-                _AuthorSection(index: index),
+                _AuthorSection(index: index, jsonPath: jsonPath),
                 SizedBox(height: 24.h),
-                CategoriesHadist(index: index),
+                CategoriesHadist(index: index, jsonPath: jsonPath),
                 SizedBox(height: 32.h),
-                HadistContent(index: index),
+                HadistContent(index: index, jsonPath: jsonPath),
                 SizedBox(height: 40.h),
                 Text(
                   'Related Hadist',
@@ -86,11 +87,12 @@ class HadistBottomSheet extends StatelessWidget {
 
 class _AuthorSection extends StatelessWidget {
   final int index;
-  const _AuthorSection({Key? key, this.index = 0}) : super(key: key);
+  final String jsonPath;
+  const _AuthorSection({Key? key, this.index = 0, this.jsonPath = 'lib/json/hadist_bukhari.json'}) : super(key: key);
 
   Future<Map<String, dynamic>> _loadAuthor() async {
     try {
-      final String response = await rootBundle.loadString('lib/json/hadist_bukhari.json');
+      final String response = await rootBundle.loadString(jsonPath);
       final List<dynamic> data = json.decode(response);
       if (data.length > index) return data[index] as Map<String, dynamic>;
       return data[0] as Map<String, dynamic>;

@@ -1,0 +1,69 @@
+[
+    {
+        "id": "tabiin-story-001",
+        "number": 1,
+        "book": {
+            "name": "Riwayat Para Tabi'in dalam Sejarah Islam",
+            "name_arabic": "روايات التابعين في التاريخ الإسلامي",
+            "name_short": "Riwayat Tabi'in",
+            "chapter_name": "Kisah Keberanian dan Keteguhan Ulama Tabi'in",
+            "chapter_name_arabic": "قصص شجاعة وعزيمة علماء التابعين",
+            "chapter_name_translated": "Kisah Keberanian dan Keteguhan Ulama Tabi'in",
+            "chapter_number": 1,
+            "volume": null,
+            "page": null,
+            "page_note": "Diriwayatkan dalam berbagai kitab sejarah dan biografi seperti 'Mereka adalah Para Tabi'in' karya Dr. Abdurrahman Ra'fat Basya serta sumber-sumber klasik seperti Thabaqat Ibn Sa'd dan Hilyat al-Awliya' karya Abu Nu'aim.",
+            "edition_reference": "Berdasarkan riwayat yang masyhur dan shahih dalam literatur sejarah Islam, tanpa sanad hadits nabawi karena ini adalah kisah historis Tabi'in"
+        },
+        "author": {
+            "full_name": "Berbagai Perawi Tabi'in dan Ulama Sejarah",
+            "full_name_arabic": "رواة التابعين وعلماء التاريخ",
+            "known_as": "Riwayat Para Tabi'in",
+            "born": null,
+            "died": null
+        },
+        "type": "Riwayat Tabi'in",
+        "category": [
+            "Keberanian Ulama",
+            "Keteguhan Iman",
+            "Zuhud Tabi'in",
+            "Fiqih Madinah",
+            "Nasihat kepada Penguasa"
+        ],
+        "story": "Sa'id bin al-Musayyib rahimahullah adalah penghulu para Tabi'in dan termasuk dalam tujuh fuqaha Madinah yang terkenal. Pada suatu hari, al-Hajjaj bin Yusuf ats-Tsaqafi — penguasa zalim Bani Umayyah — mengirim utusan untuk melamar putri Sa'id agar dinikahkan dengan putranya. Sa'id menolak mentah-mentah. Utusan itu berkata: 'Wahai Abu Muhammad, ini adalah putra penguasa yang paling berkuasa di muka bumi.' Sa'id menjawab dengan tenang namun tegas: 'Putriku bukan untuk anak orang zalim. Aku tidak akan menikahkannya dengan orang yang menzalimi hamba-hamba Allah.' Ketika kabar penolakan itu sampai kepada al-Hajjaj, ia marah besar dan mengancam akan membunuh Sa'id atau menyiksanya. Sa'id tetap teguh dan berkata: 'Aku lebih takut kepada Allah daripada kepada al-Hajjaj. Jika ia ingin membunuhku, maka itu adalah syahadah bagiku. Jika tidak, maka aku tetap pada kebenaran.' Al-Hajjaj akhirnya tidak berani menyentuh Sa'id karena keteguhan dan kedudukannya di kalangan ulama Madinah. Kisah ini menjadi teladan bagi para Tabi'in bahwa kebenaran dan ketakwaan harus diutamakan di atas kekuasaan duniawi.",
+        "source": "Diriwayatkan dalam kitab-kitab biografi Tabi'in seperti Thabaqat Ibn Sa'd, Hilyat al-Awliya' karya Abu Nu'aim al-Ashbahani, dan 'Mereka adalah Para Tabi'in' karya Dr. Abdurrahman Ra'fat Basya. Riwayat ini masyhur dan diterima oleh para ulama sejarah Islam.",
+        "meaning": {
+            "overview": "Kisah ini menggambarkan keteguhan iman dan keberanian seorang Tabi'in besar dalam menghadapi penguasa zalim. Sa'id bin al-Musayyib mewakili generasi Tabi'in yang menjaga prinsip kebenaran meski menghadapi ancaman kekuasaan.",
+            "key_points": [
+                "Tabi'in seperti Sa'id bin al-Musayyib adalah penerus ajaran Sahabat yang menjunjung tinggi keadilan dan ketakwaan.",
+                "Penolakan pernikahan dengan keluarga zalim menunjukkan bahwa agama tidak boleh dikompromikan demi kepentingan duniawi.",
+                "Keteguhan Sa'id menjadi teladan bahwa ulama harus berani menasihati penguasa tanpa takut ancaman.",
+                "Kisah ini menegaskan bahwa Allah melindungi hamba-Nya yang ikhlas, meskipun mereka lemah secara lahiriah."
+            ]
+        },
+        "tafsir": {
+            "scholars": [
+                {
+                    "scholar": "Dr. Abdurrahman Ra'fat Basya",
+                    "work": "Mereka adalah Para Tabi'in",
+                    "explanation": "Beliau menjelaskan bahwa Sa'id bin al-Musayyib adalah simbol keteguhan Tabi'in. Penolakannya terhadap lamaran al-Hajjaj menunjukkan bahwa Tabi'in tidak takut kepada penguasa zalim demi menjaga kehormatan agama dan keluarga."
+                },
+                {
+                    "scholar": "Abu Nu'aim al-Ashbahani (wafat 430 H)",
+                    "work": "Hilyat al-Awliya'",
+                    "explanation": "Beliau mencatat kisah ini sebagai bukti zuhud dan keberanian ulama Tabi'in, yang lebih mengutamakan akhirat daripada kedekatan dengan penguasa dunia."
+                }
+            ]
+        },
+        "relevant_ayat": [
+            {
+                "surah": "Al-Maidah",
+                "surah_number": 5,
+                "ayah_number": 8,
+                "arabic": "يَا أَيُّهَا الَّذِينَ آمَنُوا كُونُوا قَوَّامِينَ لِلَّهِ شُهَدَاءَ بِالْقِسْطِ ۖ وَلَا يَجْرِمَنَّكُمْ شَنَآنُ قَوْمٍ عَلَىٰ أَلَّا تَعْدِلُوا ۚ اعْدِلُوا هُوَ أَقْرَبُ لِلتَّقْوَىٰ",
+                "translation": "Hai orang-orang yang beriman, hendaklah kamu jadi orang-orang yang selalu menegakkan (kebenaran) karena Allah, menjadi saksi dengan adil. Dan janganlah sekali-kali kebencianmu terhadap sesuatu kaum mendorong kamu untuk berlaku tidak adil.",
+                "relevance": "Ayat ini menjadi landasan keteguhan Sa'id dalam menolak kezaliman, meskipun dari penguasa yang berkuasa."
+            }
+        ]
+    }
+]

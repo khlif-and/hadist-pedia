@@ -59,7 +59,9 @@ class HomeTemplate extends StatelessWidget {
                       SizedBox(height: 20.h),
                       const TrendingCardAvailable(),
                       SizedBox(height: 20.h),
-                      const CardGridBigCard(),
+                      const CardGridBigCard(
+                        jsonPath: 'lib/json/daily_picks.json',
+                      ),
                       SizedBox(height: 120.h),
                     ]),
                   ),
@@ -83,9 +85,14 @@ class _StickyChipsDelegate extends SliverPersistentHeaderDelegate {
   @override
   double get maxExtent => 56.h;
   @override
-  Widget build(BuildContext context, double shrinkOffset, bool overlapsContent) {
+  Widget build(
+    BuildContext context,
+    double shrinkOffset,
+    bool overlapsContent,
+  ) {
     return SizedBox.expand(child: child);
   }
+
   @override
   bool shouldRebuild(_StickyChipsDelegate oldDelegate) => false;
 }

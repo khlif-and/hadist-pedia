@@ -6,26 +6,34 @@ import 'package:go_router/go_router.dart';
 import 'package:hadist_pedia/presentation/atom/dot_card.dart';
 
 class CardGridBigCard extends StatelessWidget {
-  const CardGridBigCard({Key? key}) : super(key: key);
+  final String jsonPath;
 
-  Future<List<dynamic>> _loadData() async {
+  const CardGridBigCard({
+    Key? key,
+    this.jsonPath = 'lib/json/daily_picks.json',
+  }) : super(key: key);
+
+  Future<Map<String, dynamic>> _loadData() async {
     try {
-      final String response = await rootBundle.loadString('lib/json/hadist_bukhari.json');
-      return json.decode(response) as List<dynamic>;
+      final String response = await rootBundle.loadString(jsonPath);
+      return json.decode(response) as Map<String, dynamic>;
     } catch (e) {
-      return [];
+      return {};
     }
   }
 
   @override
   Widget build(BuildContext context) {
-    return FutureBuilder<List<dynamic>>(
+    return FutureBuilder<Map<String, dynamic>>(
       future: _loadData(),
       builder: (context, snapshot) {
-        List<dynamic> items = [];
+        Map<String, dynamic> data = {};
         if (snapshot.connectionState == ConnectionState.done && snapshot.hasData) {
-          items = snapshot.data!.take(7).toList();
+          data = snapshot.data!;
         }
+
+        String sectionTitle = data['section_title'] ?? 'Hadist of the day';
+        List<dynamic> items = data['cards'] ?? [];
 
         return Column(
           crossAxisAlignment: CrossAxisAlignment.start,
@@ -36,14 +44,19 @@ class CardGridBigCard extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
-                  Text(
-                    'Hadist of the day',
-                    style: TextStyle(
-                      color: Colors.white,
-                      fontSize: 22.sp,
-                      fontWeight: FontWeight.w500,
+                  Expanded(
+                    child: Text(
+                      sectionTitle,
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 22.sp,
+                        fontWeight: FontWeight.w500,
+                      ),
+                      maxLines: 1,
+                      overflow: TextOverflow.ellipsis,
                     ),
                   ),
+                  SizedBox(width: 8.w),
                   Text(
                     'See all',
                     style: TextStyle(
@@ -66,14 +79,16 @@ class CardGridBigCard extends StatelessWidget {
                       itemCount: items.length,
                       itemBuilder: (context, index) {
                         final item = items[index];
-                        final book = item['book'] ?? {};
-                        final type = item['type'] ?? 'Shahih';
-                        final meaning = item['meaning'] ?? {};
+                        final badgeText = item['badge_text'] ?? 'Hadist';
+                        final cardTitle = item['card_title'] ?? '';
+                        final cardSubtitle = item['card_subtitle'] ?? '';
+                        final targetFile = item['target_file'] ?? 'lib/json/hadist_bukhari.json';
+                        final targetIndex = item['target_index'] ?? 0;
 
                         return GestureDetector(
                           onTap: () {
-                            // Arahkan ke route halaman HadistPage dengan membawa index
-                            context.push('/hadist', extra: index);
+                            // Arahkan ke route halaman HadistPage dengan pointer spesifik
+                            context.push('/hadist', extra: {'index': targetIndex, 'jsonPath': targetFile});
                           },
                           child: Container(
                             width: 260.w,
@@ -119,7 +134,7 @@ class CardGridBigCard extends StatelessWidget {
                                           Icon(Icons.verified_outlined, size: 16.sp, color: Colors.black),
                                           SizedBox(width: 4.w),
                                           Text(
-                                            type.toString(),
+                                            badgeText.toString(),
                                             style: TextStyle(
                                               color: Colors.black,
                                               fontSize: 12.sp,
@@ -138,7 +153,7 @@ class CardGridBigCard extends StatelessWidget {
                                       crossAxisAlignment: CrossAxisAlignment.start,
                                       children: [
                                         Text(
-                                          book['chapter_name_translated']?.toString() ?? '',
+                                          'HIGHLIGHT HARI INI',
                                           style: TextStyle(
                                             color: const Color(0xFFD4E99C),
                                             fontSize: 12.sp,
@@ -148,37 +163,19 @@ class CardGridBigCard extends StatelessWidget {
                                           overflow: TextOverflow.ellipsis,
                                         ),
                                         SizedBox(height: 4.h),
-                                        Row(
-                                          crossAxisAlignment: CrossAxisAlignment.end,
-                                          children: [
-                                            Expanded(
-                                              child: Text(
-                                                (item['category'] != null && item['category'].isNotEmpty) 
-                                                  ? item['category'].first.toString() 
-                                                  : 'Hadist ke-${item['number']}',
-                                                style: TextStyle(
-                                                  color: Colors.white,
-                                                  fontSize: 22.sp,
-                                                  fontWeight: FontWeight.w700,
-                                                ),
-                                                maxLines: 2,
-                                                overflow: TextOverflow.ellipsis,
-                                              ),
-                                            ),
-                                            SizedBox(width: 8.w),
-                                            Text(
-                                              book['name']?.toString() ?? '',
-                                              style: TextStyle(
-                                                color: Colors.white70,
-                                                fontSize: 12.sp,
-                                                fontWeight: FontWeight.w600,
-                                              ),
-                                            ),
-                                          ],
+                                        Text(
+                                          cardTitle.toString(),
+                                          style: TextStyle(
+                                            color: Colors.white,
+                                            fontSize: 22.sp,
+                                            fontWeight: FontWeight.w700,
+                                          ),
+                                          maxLines: 2,
+                                          overflow: TextOverflow.ellipsis,
                                         ),
                                         SizedBox(height: 8.h),
                                         Text(
-                                          meaning['overview']?.toString() ?? '',
+                                          cardSubtitle.toString(),
                                           style: TextStyle(
                                             color: Colors.white.withOpacity(0.9),
                                             fontSize: 13.sp,

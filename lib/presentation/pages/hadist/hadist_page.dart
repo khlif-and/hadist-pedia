@@ -4,7 +4,8 @@ import 'package:hadist_pedia/presentation/templates/hadist_template.dart';
 
 class HadistPage extends StatelessWidget {
   final int index;
-  const HadistPage({Key? key, this.index = 0}) : super(key: key);
+  final String jsonPath;
+  const HadistPage({Key? key, this.index = 0, this.jsonPath = 'lib/json/hadist_bukhari.json'}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -13,7 +14,7 @@ class HadistPage extends StatelessWidget {
       onBackPressed: () {
         Navigator.pop(context);
       },
-      bottomSheet: HadistBottomSheet(index: index),
+      bottomSheet: HadistBottomSheet(index: index, jsonPath: jsonPath),
     );
   }
 }

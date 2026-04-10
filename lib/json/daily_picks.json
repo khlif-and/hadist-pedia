@@ -1,0 +1,33 @@
+{
+  "section_title": "✨ Hadist Buat Kamu ✨",
+  "cards": [
+    {
+      "card_title": "Niat Lurus, Hasil Mulus (Fix No Debat)",
+      "badge_text": "Shahih Bukhari",
+      "card_subtitle": "Semua amal perbuatan tergantung niatnya. Make sure niat kamu selalu karena Allah biar hasilnya ikhlas dan berkah tanpa beban.",
+      "target_file": "lib/json/hadist_bukhari.json",
+      "target_index": 0
+    },
+    {
+      "card_title": "Pertolongan Jalur Langit (Rahmat Allah)",
+      "badge_text": "Hadits Qudsi",
+      "card_subtitle": "Sebesar apapun masalahmu, rahmat Allah jauh lebih luas. Jangan pernah putus asa karena bantuan-Nya selalu datang tepat waktu.",
+      "target_file": "lib/json/hadist_kudsi.json",
+      "target_index": 0
+    },
+    {
+      "card_title": "Adab & Wahyu: Biar Hati Tetap Kalem",
+      "badge_text": "Shahih Bukhari",
+      "card_subtitle": "Bagaimana wahyu pertama kali turun membawa ketenangan dan ilmu yang membimbing nabi dalam berdakwah.",
+      "target_file": "lib/json/hadist_bukhari.json",
+      "target_index": 1
+    },
+    {
+      "card_title": "Ilmu Dulu Baru Action (Biar Valid)",
+      "badge_text": "Shahih Bukhari",
+      "card_subtitle": "Lebih baik menuntut ilmu sebelum beramal supaya pondasinya kuat dan setiap gerakan kita dihitung ibadah yang sahih.",
+      "target_file": "lib/json/hadist_bukhari.json",
+      "target_index": 2
+    }
+  ]
+}

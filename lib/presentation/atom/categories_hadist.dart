@@ -6,11 +6,12 @@ import 'info_card.dart';
 
 class CategoriesHadist extends StatelessWidget {
   final int index;
-  const CategoriesHadist({Key? key, this.index = 0}) : super(key: key);
+  final String jsonPath;
+  const CategoriesHadist({Key? key, this.index = 0, this.jsonPath = 'lib/json/hadist_bukhari.json'}) : super(key: key);
 
   Future<Map<String, dynamic>> _loadData() async {
     try {
-      final String response = await rootBundle.loadString('lib/json/hadist_bukhari.json');
+      final String response = await rootBundle.loadString(jsonPath);
       final List<dynamic> data = json.decode(response);
       if (data.length > index) return data[index] as Map<String, dynamic>;
       return data[0] as Map<String, dynamic>;

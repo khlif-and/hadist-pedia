@@ -6,12 +6,13 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 class HeadlineHadist extends StatelessWidget {
   final String title;
   final int index;
+  final String jsonPath;
 
-  const HeadlineHadist({Key? key, required this.title, this.index = 0}) : super(key: key);
+  const HeadlineHadist({Key? key, required this.title, this.index = 0, this.jsonPath = 'lib/json/hadist_bukhari.json'}) : super(key: key);
 
   Future<String> _loadChapterName() async {
     try {
-      final String response = await rootBundle.loadString('lib/json/hadist_bukhari.json');
+      final String response = await rootBundle.loadString(jsonPath);
       final List<dynamic> data = json.decode(response);
       if (data.length > index) return data[index]['book']['chapter_name_translated'];
       return data[0]['book']['chapter_name_translated'];
