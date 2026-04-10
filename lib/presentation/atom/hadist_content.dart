@@ -6,11 +6,12 @@ import 'expandables.dart';
 
 class HadistContent extends StatelessWidget {
   final int index;
-  const HadistContent({Key? key, this.index = 0}) : super(key: key);
+  final String jsonPath;
+  const HadistContent({Key? key, this.index = 0, this.jsonPath = 'lib/json/hadist_bukhari.json'}) : super(key: key);
 
   Future<Map<String, dynamic>> _loadData() async {
     try {
-      final String response = await rootBundle.loadString('lib/json/hadist_bukhari.json');
+      final String response = await rootBundle.loadString(jsonPath);
       final List<dynamic> data = json.decode(response);
       if (data.length > index) return data[index] as Map<String, dynamic>;
       return data[0] as Map<String, dynamic>;
@@ -43,18 +44,12 @@ class HadistContent extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             // ARABIC
-            Text(
-              data['arabic'] ?? '',
-              style: TextStyle(
-                color: Colors.white, 
-                fontSize: 26.sp, 
-                height: 1.8, 
-                fontFamily: 'Amiri', 
-                fontWeight: FontWeight.bold
+            if (data['arabic'] != null)
+              ExpandableText(
+                label: 'Teks Arab',
+                text: data['arabic'],
+                isArabic: true,
               ),
-              textAlign: TextAlign.right,
-              textDirection: TextDirection.rtl,
-            ),
             SizedBox(height: 24.h),
             
             // LATIN

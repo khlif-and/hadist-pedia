@@ -8,13 +8,7 @@ class ChipsAndButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final List<String> categories = [
-      'All',
-      'Africa',
-      'Europe',
-      'Australia',
-      'Asia',
-    ];
+    final List<String> categories = ['All', 'Hadist', 'Story', 'Dzikr LoFi'];
 
     return ClipRRect(
       child: BackdropFilter(

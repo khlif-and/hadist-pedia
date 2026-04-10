@@ -23,8 +23,10 @@ final GoRouter appRouter = GoRouter(
     GoRoute(
       path: '/hadist',
       builder: (context, state) {
-        final int index = state.extra as int? ?? 0;
-        return HadistPage(index: index);
+        final Map<String, dynamic> extra = (state.extra as Map<String, dynamic>?) ?? {};
+        final int index = extra['index'] as int? ?? 0;
+        final String jsonPath = extra['jsonPath'] as String? ?? 'lib/json/hadist_bukhari.json';
+        return HadistPage(index: index, jsonPath: jsonPath);
       },
     ),
     GoRoute(
