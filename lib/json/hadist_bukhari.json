@@ -1,156 +1,165 @@
+[
+  {
+    "id": "bukhari-001",
+    "number": 1,
+    "book": {
+      "name": "Ṣaḥīḥ al-Bukhārī",
+      "name_arabic": "الجامع المسند الصحيح المختصر من أمور رسول الله ﷺ وسننه وأيامه",
+      "name_short": "Shahih al-Bukhari",
+      "chapter_name": "Kitāb Bad' al-Waḥy",
+      "chapter_name_arabic": "كتاب بدء الوحى",
+      "chapter_name_translated": "Kitab Permulaan Turunnya Wahyu",
+      "chapter_number": 1,
+      "volume": 1,
+      "page": 9,
+      "page_note": "Mengacu pada edisi Dār al-Fikr, Beirut. Nomor halaman bisa sedikit berbeda tergantung edisi cetakan.",
+      "edition_reference": "Dār al-Fikr, Beirut — sesuai juga dengan penomoran dalam Fath al-Bārī karya Ibn Hajar al-Asqalani"
+    },
+    "author": {
+      "full_name": "Abū ʿAbdillāh Muḥammad ibn Ismāʿīl ibn Ibrāhīm ibn al-Mughīrah al-Bukhārī",
+      "full_name_arabic": "أبو عبد الله محمد بن إسماعيل بن إبراهيم بن المغيرة البخاري",
+      "known_as": "Imam al-Bukhari",
+      "born": "194 H / 810 M — Bukhara (sekarang wilayah Uzbekistan)",
+      "died": "256 H / 870 M — Khartank, dekat Samarkand"
+    },
+    "type": "Shahih",
+    "category": [
+      "Niat / Niyyah",
+      "Amal Perbuatan",
+      "Ikhlas",
+      "Hijrah",
+      "Fiqh Hati"
+    ],
+    "arabic": "حَدَّثَنَا الْحُمَيْدِيُّ عَبْدُ اللَّهِ بْنُ الزُّبَيْرِ، قَالَ حَدَّثَنَا سُفْيَانُ، قَالَ حَدَّثَنَا يَحْيَى بْنُ سَعِيدٍ الأَنْصَارِيُّ، قَالَ أَخْبَرَنِي مُحَمَّدُ بْنُ إِبْرَاهِيمَ التَّيْمِيُّ، أَنَّهُ سَمِعَ عَلْقَمَةَ بْنَ وَقَّاصٍ اللَّيْثِيَّ، يَقُولُ سَمِعْتُ عُمَرَ بْنَ الْخَطَّابِ رَضِيَ اللَّهُ عَنْهُ عَلَى الْمِنْبَرِ قَالَ سَمِعْتُ رَسُولَ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ يَقُولُ إِنَّمَا الأَعْمَالُ بِالنِّيَّاتِ، وَإِنَّمَا لِكُلِّ امْرِئٍ مَا نَوَى، فَمَنْ كَانَتْ هِجْرَتُهُ إِلَى اللَّهِ وَرَسُولِهِ فَهِجْرَتُهُ إِلَى اللَّهِ وَرَسُولِهِ، وَمَنْ كَانَتْ هِجْرَتُهُ لِدُنْيَا يُصِيبُهَا أَوْ إِلَى امْرَأَةٍ يَنْكِحُهَا فَهِجْرَتُهُ إِلَى مَا هَاجَرَ إِلَيْهِ",
+    "latin": "Ḥaddathanā al-Ḥumaydī ʿAbdullāh ibn al-Zubayr, qāla ḥaddathanā Sufyān, qāla ḥaddathanā Yaḥyā ibn Saʿīd al-Anṣārī, qāla akhbaranī Muḥammad ibn Ibrāhīm al-Taymī, annahu samiʿa ʿAlqamata ibn Waqqāṣ al-Laythī, yaqūlu samiʿtu ʿUmara ibn al-Khaṭṭāb raḍiyallāhu ʿanhu ʿalā al-minbar, qāla samiʿtu Rasūlallāhi ṣallallāhu ʿalayhi wa sallam yaqūlu: Innamā al-aʿmālu bi-al-niyyāt, wa innamā li-kulli imriʾin mā nawā. Fa-man kānat hijratuhu ilā Allāh wa rasūlihi fa-hijratuhu ilā Allāh wa rasūlihi, wa man kānat hijratuhu li-dunyā yuṣībuhā aw ilā imraʾatin yankiḥuhā fa-hijratuhu ilā mā hājara ilayh.",
+    "translation": "Al-Humaidi Abdullah ibn al-Zubayr menceritakan kepada kami, ia berkata: Sufyan menceritakan kepada kami, ia berkata: Yahya ibn Sa'id al-Ansari menceritakan kepada kami, ia berkata: Muhammad ibn Ibrahim al-Taymi mengabarkan kepadaku bahwa ia mendengar 'Alqamah ibn Waqqas al-Laythi berkata: Aku mendengar Umar ibn al-Khattab radhiyallahu 'anhu di atas mimbar berkata: Aku mendengar Rasulullah shallallahu 'alaihi wa sallam bersabda: 'Sesungguhnya segala amal itu hanyalah tergantung niatnya, dan setiap orang hanya akan mendapatkan sesuai dengan apa yang ia niatkan. Maka barangsiapa yang hijrahnya karena Allah dan Rasul-Nya, maka hijrahnya itu kepada Allah dan Rasul-Nya. Dan barangsiapa yang hijrahnya karena dunia yang ingin ia raih atau karena wanita yang ingin ia nikahi, maka hijrahnya itu hanyalah kepada apa yang ia hijrah kepadanya.'",
+    "isnad": {
+      "chain_summary": "Al-Humaidi → Sufyan ibn ʿUyaynah → Yahya ibn Sa'id al-Ansari → Muhammad ibn Ibrahim al-Taymi → 'Alqamah ibn Waqqas al-Laythi → 'Umar ibn al-Khattab → Rasulullah ﷺ",
+      "chain_length": 5,
+      "narrators": [
+        {
+          "level": 1,
+          "name": "Al-Ḥumaydī — ʿAbdullāh ibn al-Zubayr al-Ḥumaydī",
+          "name_arabic": "الحميدي عبد الله بن الزبير",
+          "role": "Guru langsung Imam Bukhari",
+          "status": "Tsiqah (sangat terpercaya) — Imam al-Syafi'i menyebutnya sebagai orang yang paling menguasai hadits di antara penduduk Makkah",
+          "died": "219 H"
+        },
+        {
+          "level": 2,
+          "name": "Sufyān ibn ʿUyaynah",
+          "name_arabic": "سفيان بن عيينة",
+          "role": "Ulama hadits besar Makkah",
+          "status": "Tsiqah Tsabt (kokoh dan terpercaya) — salah satu otoritas hadits terbesar di zamannya",
+          "born": "107 H",
+          "died": "198 H"
+        },
+        {
+          "level": 3,
+          "name": "Yaḥyā ibn Saʿīd al-Anṣārī",
+          "name_arabic": "يحيى بن سعيد الأنصاري",
+          "role": "Tabi'in — mata rantai utama (common link) yang membuat hadits ini tersebar luas ke banyak jalur periwayatan",
+          "status": "Tsiqah Tsabt — meriwayatkan sekitar 300 hadits. Di antara murid-muridnya: Imam Malik, Syu'bah, dan Yahya al-Qatthan.",
+          "died": "143 H"
+        },
+        {
+          "level": 4,
+          "name": "Muḥammad ibn Ibrāhīm al-Taymī",
+          "name_arabic": "محمد بن إبراهيم التيمي",
+          "role": "Tabi'in — perawi perantara",
+          "status": "Tsiqah — tercatat dalam literatur ilmu rijal sebagai perawi yang dapat dipercaya",
+          "died": "sekitar 120 H"
+        },
+        {
+          "level": 5,
+          "name": "ʿAlqamah ibn Waqqāṣ al-Laythī",
+          "name_arabic": "علقمة بن وقاص الليثي",
+          "role": "Tabi'in — perawi yang mendengar langsung dari 'Umar ibn al-Khattab radhiyallahu 'anhu",
+          "status": "Tsiqah — salah satu tabi'in senior yang sempat bertemu langsung dengan para sahabat Nabi",
+          "died": "sekitar 80-an H"
+        },
+        {
+          "level": 6,
+          "name": "ʿUmar ibn al-Khaṭṭāb radhiyallahu ʿanhu",
+          "name_arabic": "عمر بن الخطاب رضي الله عنه",
+          "role": "Sahabat Nabi — Khalifah Islam kedua. Mendengar langsung sabda ini dari Rasulullah ﷺ lalu menyampaikannya dari atas mimbar di hadapan kaum Muslimin.",
+          "died": "23 H / 644 M — wafat syahid di Madinah"
+        }
+      ]
+    },
+    "asbab_al_wurud": {
+      "title": "Kisah Muhajir Umm Qais — Lelaki yang Berhijrah demi Seorang Wanita",
+      "summary": "Hadits ini berkaitan langsung dengan sebuah peristiwa nyata yang diriwayatkan oleh Ibnu Mas'ud radhiyallahu 'anhu, dicatat oleh Sa'id ibn Mansur dan al-Thabarani dengan sanad yang shahih.",
+      "narrative": "Pada masa ketika hijrah dari Makkah ke Madinah masih diwajibkan atas setiap Muslim, ada seorang laki-laki yang jatuh hati pada seorang wanita bernama Umm Qais. Ia melamar wanita tersebut, namun Umm Qais menetapkan satu syarat: ia tidak akan menerimanya sebagai suami kecuali jika lelaki itu ikut berhijrah ke Madinah bersama kaum Muslimin. Lelaki itu — bukan karena kerinduan kepada Allah dan Rasul-Nya, melainkan semata-mata karena ingin menikahi wanita tersebut — lalu mengemas seluruh barang bawaannya dan menempuh perjalanan jauh dari Makkah ke Madinah. Peristiwa ini pun menjadi buah bibir di kalangan para Sahabat. Lelaki itu dijuluki 'Muhaajir Umm Qais' — sang muhajir demi Umm Qais. Sebagai cerminan keadilan Allah, nama asli lelaki ini tidak pernah tercatat dalam sejarah; hanya julukan yang mengandung kehinaan itulah yang dikenang sepanjang masa. Di sinilah Rasulullah ﷺ menyampaikan sabda agung ini — untuk membedakan antara amal yang tampak salih secara lahiriah dengan amal yang benar-benar bertolak dari niat yang tulus kepada Allah.",
+      "source": "Diriwayatkan oleh Sa'id ibn Mansur dan al-Thabarani, dari jalur 'Abdullah ibn Mas'ud radhiyallahu 'anhu. Ibn Hajar al-Asqalani dalam Fath al-Bari (Jilid 1) menyatakan bahwa sanad riwayat ini shahih.",
+      "scholarly_note": "Ibn Hajar al-Asqalani menyatakan dalam Fath al-Bari: 'Hadits niat ini mencakup kisah itu dan seluruh hal yang semakna dengannya.' Imam al-Nawawi dan Imam Ibn Rajab al-Hanbali keduanya menyebut latar belakang kisah ini dalam syarah mereka masing-masing."
+    },
+    "meaning": {
+      "overview": "Hadits ini — yang dikenal sebagai 'Induk Sunnah' (Umm al-Sunnah) — dianggap oleh para ulama sebagai salah satu sabda Nabi ﷺ yang paling padat dan paling mendasar dalam Islam.",
+      "key_points": [
+        "Kata 'innamā' (إِنَّمَا) dalam bahasa Arab adalah partikel pembatasan — ia menafikan semua kemungkinan lain.",
+        "Digunakan bentuk jamak 'niyyāt' (niat-niat), bukan tunggal — karena satu amal bisa lahir dari beberapa lapisan niat sekaligus.",
+        "Hijrah adalah amal paling agung di era itu. Nabi ﷺ menjadikannya sebagai contoh tertinggi.",
+        "Seseorang yang melakukan amal ibadah secara lahiriah namun batinnya ditujukan demi pujian manusia atau keuntungan duniawi, ia hanya akan mendapatkan apa yang ia niatkan itu.",
+        "Niat bukan sekadar lintasan pikiran sekilas — ia adalah orientasi hati yang kokoh dan disengaja (qaṣd al-qalb).",
+        "Hadits ini adalah fondasi ilmu tasawuf dan tazkiyatun nafs (pembersihan jiwa)."
+      ]
+    },
+    "tafsir": {
+      "scholars": [
+        {
+          "scholar": "Ibn Rajab al-Hanbali (wafat 795 H)",
+          "work": "Jāmiʿ al-ʿUlūm wa-al-Ḥikam",
+          "explanation": "Beliau mendedikasikan satu bahasan panjang khusus untuk hadits ini dan menulis: 'Hadits ini adalah kaidah yang sempurna dan mandiri bagi seluruh agama.'"
+        },
+        {
+          "scholar": "Ibn Hajar al-Asqalani (wafat 852 H)",
+          "work": "Fatḥ al-Bārī Sharḥ Ṣaḥīḥ al-Bukhārī",
+          "explanation": "Beliau menjelaskan secara panjang lebar mengapa Imam Bukhari meletakkan hadits ini tepat di awal seluruh kitabnya."
+        },
+        {
+          "scholar": "Imam al-Nawawi (wafat 676 H)",
+          "work": "Syarḥ Ṣaḥīḥ Muslim & Al-Arbaʿīn al-Nawawiyyah",
+          "explanation": "Imam al-Nawawi menempatkan hadits ini sebagai hadits pertama dalam koleksi Arba'in-nya yang masyhur."
+        }
+      ]
+    },
+    "relevant_ayat": [
+      {
+        "surah": "Al-Bayyinah",
+        "surah_number": 98,
+        "ayah_number": 5,
+        "arabic": "وَمَا أُمِرُوا إِلَّا لِيَعْبُدُوا اللَّهَ مُخْلِصِينَ لَهُ الدِّينَ حُنَفَاءَ",
+        "translation": "Padahal mereka tidak diperintahkan kecuali supaya menyembah Allah dengan memurnikan ketaatan kepada-Nya dalam menjalankan agama yang lurus.",
+        "relevance": "Ayat ini adalah landasan Al-Qur'an bagi prinsip yang sama — ikhlas adalah syarat yang membuat ibadah menjadi sah dan diterima."
+      },
+      {
+        "surah": "Az-Zumar",
+        "surah_number": 39,
+        "ayah_number": 11,
+        "arabic": "قُلْ إِنِّي أُمِرْتُ أَنْ أَعْبُدَ اللَّهَ مُخْلِصًا لَّهُ الدِّينَ",
+        "translation": "Katakanlah: Sesungguhnya aku diperintahkan supaya menyembah Allah dengan memurnikan ketaatan kepada-Nya dalam menjalankan agama.",
+        "relevance": "Allah memerintahkan Nabi-Nya sendiri untuk mendeklarasikan bahwa niat yang murni adalah inti dari seluruh peribadatan."
+      },
+      {
+        "surah": "An-Nisa",
+        "surah_number": 4,
+        "ayah_number": 100,
+        "arabic": "وَمَن يُهَاجِرْ فِي سَبِيلِ اللَّهِ يَجِدْ فِي الْأَرْضِ مُرَاغَمًا كَثِيرًا وَسَعَةً",
+        "translation": "Barangsiapa berhijrah di jalan Allah, niscaya mereka mendapati di muka bumi ini tempat hijrah yang luas dan rezeki yang banyak.",
+        "relevance": "Ganjaran hijrah yang dijanjikan dalam ayat ini disyaratkan dengan frasa 'fī sabīlillāh'."
+      },
+      {
+        "surah": "Al-Kahf",
+        "surah_number": 18,
+        "ayah_number": 110,
+        "arabic": "فَمَن كَانَ يَرْجُو لِقَاءَ رَبِّهِ فَلْيَعْمَلْ عَمَلًا صَالِحًا وَلَا يُشْرِكْ بِعِبَادَةِ رَبِّهِ أَحَدًا",
+        "translation": "Barangsiapa mengharap perjumpaan dengan Tuhannya, maka hendaklah ia mengerjakan amal yang saleh dan janganlah ia mempersekutukan seorang pun dalam beribadah kepada Tuhannya.",
+        "relevance": "Ayat ini secara tegas mengikat harapan bertemu Allah dengan dua syarat sekaligus: amal yang saleh DAN niat yang bersih tanpa riya'."
+      }
+    ]
+  },
 {
-  "id": "bukhari-001",
-  "number": 1,
-  "book": {
-    "name": "Ṣaḥīḥ al-Bukhārī",
-    "name_arabic": "الجامع المسند الصحيح المختصر من أمور رسول الله ﷺ وسننه وأيامه",
-    "name_short": "Shahih al-Bukhari",
-    "chapter_name": "Kitāb Bad' al-Waḥy",
-    "chapter_name_arabic": "كتاب بدء الوحى",
-    "chapter_name_translated": "Kitab Permulaan Turunnya Wahyu",
-    "chapter_number": 1,
-    "volume": 1,
-    "page": 9,
-    "page_note": "Mengacu pada edisi Dār al-Fikr, Beirut. Nomor halaman bisa sedikit berbeda tergantung edisi cetakan.",
-    "edition_reference": "Dār al-Fikr, Beirut — sesuai juga dengan penomoran dalam Fath al-Bārī karya Ibn Hajar al-Asqalani"
-  },
-  "author": {
-    "full_name": "Abū ʿAbdillāh Muḥammad ibn Ismāʿīl ibn Ibrāhīm ibn al-Mughīrah al-Bukhārī",
-    "full_name_arabic": "أبو عبد الله محمد بن إسماعيل بن إبراهيم بن المغيرة البخاري",
-    "known_as": "Imam al-Bukhari",
-    "born": "194 H / 810 M — Bukhara (sekarang wilayah Uzbekistan)",
-    "died": "256 H / 870 M — Khartank, dekat Samarkand"
-  },
-  "type": "Shahih",
-  "category": ["Niat / Niyyah", "Amal Perbuatan", "Ikhlas", "Hijrah", "Fiqh Hati"],
-  "arabic": "حَدَّثَنَا الْحُمَيْدِيُّ عَبْدُ اللَّهِ بْنُ الزُّبَيْرِ، قَالَ حَدَّثَنَا سُفْيَانُ، قَالَ حَدَّثَنَا يَحْيَى بْنُ سَعِيدٍ الأَنْصَارِيُّ، قَالَ أَخْبَرَنِي مُحَمَّدُ بْنُ إِبْرَاهِيمَ التَّيْمِيُّ، أَنَّهُ سَمِعَ عَلْقَمَةَ بْنَ وَقَّاصٍ اللَّيْثِيَّ، يَقُولُ سَمِعْتُ عُمَرَ بْنَ الْخَطَّابِ رَضِيَ اللَّهُ عَنْهُ عَلَى الْمِنْبَرِ قَالَ سَمِعْتُ رَسُولَ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ يَقُولُ إِنَّمَا الأَعْمَالُ بِالنِّيَّاتِ، وَإِنَّمَا لِكُلِّ امْرِئٍ مَا نَوَى، فَمَنْ كَانَتْ هِجْرَتُهُ إِلَى اللَّهِ وَرَسُولِهِ فَهِجْرَتُهُ إِلَى اللَّهِ وَرَسُولِهِ، وَمَنْ كَانَتْ هِجْرَتُهُ لِدُنْيَا يُصِيبُهَا أَوْ إِلَى امْرَأَةٍ يَنْكِحُهَا فَهِجْرَتُهُ إِلَى مَا هَاجَرَ إِلَيْهِ",
-  "latin": "Ḥaddathanā al-Ḥumaydī ʿAbdullāh ibn al-Zubayr, qāla ḥaddathanā Sufyān, qāla ḥaddathanā Yaḥyā ibn Saʿīd al-Anṣārī, qāla akhbaranī Muḥammad ibn Ibrāhīm al-Taymī, annahu samiʿa ʿAlqamata ibn Waqqāṣ al-Laythī, yaqūlu samiʿtu ʿUmara ibn al-Khaṭṭāb raḍiyallāhu ʿanhu ʿalā al-minbar, qāla samiʿtu Rasūlallāhi ṣallallāhu ʿalayhi wa sallam yaqūlu: Innamā al-aʿmālu bi-al-niyyāt, wa innamā li-kulli imriʾin mā nawā. Fa-man kānat hijratuhu ilā Allāh wa rasūlihi fa-hijratuhu ilā Allāh wa rasūlihi, wa man kānat hijratuhu li-dunyā yuṣībuhā aw ilā imraʾatin yankiḥuhā fa-hijratuhu ilā mā hājara ilayh.",
-  "translation": "Al-Humaidi Abdullah ibn al-Zubayr menceritakan kepada kami, ia berkata: Sufyan menceritakan kepada kami, ia berkata: Yahya ibn Sa'id al-Ansari menceritakan kepada kami, ia berkata: Muhammad ibn Ibrahim al-Taymi mengabarkan kepadaku bahwa ia mendengar 'Alqamah ibn Waqqas al-Laythi berkata: Aku mendengar Umar ibn al-Khattab radhiyallahu 'anhu di atas mimbar berkata: Aku mendengar Rasulullah shallallahu 'alaihi wa sallam bersabda: 'Sesungguhnya segala amal itu hanyalah tergantung niatnya, dan setiap orang hanya akan mendapatkan sesuai dengan apa yang ia niatkan. Maka barangsiapa yang hijrahnya karena Allah dan Rasul-Nya, maka hijrahnya itu kepada Allah dan Rasul-Nya. Dan barangsiapa yang hijrahnya karena dunia yang ingin ia raih atau karena wanita yang ingin ia nikahi, maka hijrahnya itu hanyalah kepada apa yang ia hijrah kepadanya.'",
-  "isnad": {
-    "chain_summary": "Al-Humaidi → Sufyan ibn ʿUyaynah → Yahya ibn Sa'id al-Ansari → Muhammad ibn Ibrahim al-Taymi → 'Alqamah ibn Waqqas al-Laythi → 'Umar ibn al-Khattab → Rasulullah ﷺ",
-    "chain_length": 5,
-    "narrators": [
-      {
-        "level": 1,
-        "name": "Al-Ḥumaydī — ʿAbdullāh ibn al-Zubayr al-Ḥumaydī",
-        "name_arabic": "الحميدي عبد الله بن الزبير",
-        "role": "Guru langsung Imam Bukhari",
-        "status": "Tsiqah (sangat terpercaya) — Imam al-Syafi'i menyebutnya sebagai orang yang paling menguasai hadits di antara penduduk Makkah",
-        "died": "219 H"
-      },
-      {
-        "level": 2,
-        "name": "Sufyān ibn ʿUyaynah",
-        "name_arabic": "سفيان بن عيينة",
-        "role": "Ulama hadits besar Makkah",
-        "status": "Tsiqah Tsabt (kokoh dan terpercaya) — salah satu otoritas hadits terbesar di zamannya",
-        "born": "107 H",
-        "died": "198 H"
-      },
-      {
-        "level": 3,
-        "name": "Yaḥyā ibn Saʿīd al-Anṣārī",
-        "name_arabic": "يحيى بن سعيد الأنصاري",
-        "role": "Tabi'in — mata rantai utama (common link) yang membuat hadits ini tersebar luas ke banyak jalur periwayatan",
-        "status": "Tsiqah Tsabt — meriwayatkan sekitar 300 hadits. Di antara murid-muridnya: Imam Malik, Syu'bah, dan Yahya al-Qatthan.",
-        "died": "143 H"
-      },
-      {
-        "level": 4,
-        "name": "Muḥammad ibn Ibrāhīm al-Taymī",
-        "name_arabic": "محمد بن إبراهيم التيمي",
-        "role": "Tabi'in — perawi perantara",
-        "status": "Tsiqah — tercatat dalam literatur ilmu rijal sebagai perawi yang dapat dipercaya",
-        "died": "sekitar 120 H"
-      },
-      {
-        "level": 5,
-        "name": "ʿAlqamah ibn Waqqāṣ al-Laythī",
-        "name_arabic": "علقمة بن وقاص الليثي",
-        "role": "Tabi'in — perawi yang mendengar langsung dari 'Umar ibn al-Khattab radhiyallahu 'anhu",
-        "status": "Tsiqah — salah satu tabi'in senior yang sempat bertemu langsung dengan para sahabat Nabi",
-        "died": "sekitar 80-an H"
-      },
-      {
-        "level": 6,
-        "name": "ʿUmar ibn al-Khaṭṭāb radhiyallahu ʿanhu",
-        "name_arabic": "عمر بن الخطاب رضي الله عنه",
-        "role": "Sahabat Nabi — Khalifah Islam kedua. Mendengar langsung sabda ini dari Rasulullah ﷺ lalu menyampaikannya dari atas mimbar di hadapan kaum Muslimin.",
-        "died": "23 H / 644 M — wafat syahid di Madinah"
-      }
-    ]
-  },
-  "asbab_al_wurud": {
-    "title": "Kisah Muhajir Umm Qais — Lelaki yang Berhijrah demi Seorang Wanita",
-    "summary": "Hadits ini berkaitan langsung dengan sebuah peristiwa nyata yang diriwayatkan oleh Ibnu Mas'ud radhiyallahu 'anhu, dicatat oleh Sa'id ibn Mansur dan al-Thabarani dengan sanad yang shahih.",
-    "narrative": "Pada masa ketika hijrah dari Makkah ke Madinah masih diwajibkan atas setiap Muslim, ada seorang laki-laki yang jatuh hati pada seorang wanita bernama Umm Qais. Ia melamar wanita tersebut, namun Umm Qais menetapkan satu syarat: ia tidak akan menerimanya sebagai suami kecuali jika lelaki itu ikut berhijrah ke Madinah bersama kaum Muslimin. Lelaki itu — bukan karena kerinduan kepada Allah dan Rasul-Nya, melainkan semata-mata karena ingin menikahi wanita tersebut — lalu mengemas seluruh barang bawaannya dan menempuh perjalanan jauh dari Makkah ke Madinah. Peristiwa ini pun menjadi buah bibir di kalangan para Sahabat. Lelaki itu dijuluki 'Muhaajir Umm Qais' — sang muhajir demi Umm Qais. Sebagai cerminan keadilan Allah, nama asli lelaki ini tidak pernah tercatat dalam sejarah; hanya julukan yang mengandung kehinaan itulah yang dikenang sepanjang masa. Di sinilah Rasulullah ﷺ menyampaikan sabda agung ini — untuk membedakan antara amal yang tampak salih secara lahiriah dengan amal yang benar-benar bertolak dari niat yang tulus kepada Allah.",
-    "source": "Diriwayatkan oleh Sa'id ibn Mansur dan al-Thabarani, dari jalur 'Abdullah ibn Mas'ud radhiyallahu 'anhu. Ibn Hajar al-Asqalani dalam Fath al-Bari (Jilid 1) menyatakan bahwa sanad riwayat ini shahih, meski beliau juga mengingatkan bahwa tidak ada teks eksplisit yang menyatakan peristiwa ini adalah satu-satunya sebab hadits diucapkan — hadits ini berlaku sempurna dan mencakup kasus tersebut beserta seluruh hal yang semakna.",
-    "scholarly_note": "Ibn Hajar al-Asqalani menyatakan dalam Fath al-Bari: 'Hadits niat ini mencakup kisah itu dan seluruh hal yang semakna dengannya.' Imam al-Nawawi dan Imam Ibn Rajab al-Hanbali keduanya menyebut latar belakang kisah ini dalam syarah mereka masing-masing atas Al-Arba'in dan Jami' al-'Ulum wa al-Hikam."
-  },
-  "meaning": {
-    "overview": "Hadits ini — yang dikenal sebagai 'Induk Sunnah' (Umm al-Sunnah) — dianggap oleh para ulama sebagai salah satu sabda Nabi ﷺ yang paling padat dan paling mendasar dalam Islam. Imam al-Syafi'i menyatakan hadits ini mencakup sepertiga dari seluruh ilmu agama. Imam Ahmad ibn Hanbal menyebutnya sebagai salah satu dari tiga hadits yang menjadi poros utama Islam.",
-    "key_points": [
-      "Kata 'innamā' (إِنَّمَا) dalam bahasa Arab adalah partikel pembatasan — ia menafikan semua kemungkinan lain. Artinya: amal HANYA dinilai berdasarkan niatnya, tidak ada ukuran lain.",
-      "Digunakan bentuk jamak 'niyyāt' (niat-niat), bukan tunggal — karena satu amal bisa lahir dari beberapa lapisan niat sekaligus, dan semuanya akan ditimbang.",
-      "Hijrah adalah amal paling agung di era itu. Nabi ﷺ menjadikannya sebagai contoh tertinggi: jika hijrah sekalipun — yang menuntut pengorbanan harta, keluarga, dan keselamatan jiwa — menjadi sia-sia ketika dilakukan demi dunia, maka bagaimana dengan amal-amal yang lebih rendah derajatnya?",
-      "Seseorang yang melakukan amal ibadah secara lahiriah (shalat, puasa, sedekah, hijrah) namun batinnya ditujukan demi pujian manusia atau keuntungan duniawi, ia hanya akan mendapatkan apa yang ia niatkan itu — tanpa pahala dari Allah sama sekali.",
-      "Niat bukan sekadar lintasan pikiran sekilas — ia adalah orientasi hati yang kokoh dan disengaja (qaṣd al-qalb) sebelum dan selama amal berlangsung.",
-      "Hadits ini adalah fondasi ilmu tasawuf dan tazkiyatun nafs (pembersihan jiwa): mustahil seseorang meningkat dalam keikhlasan tanpa menghayati prinsip ini secara mendalam."
-    ]
-  },
-  "tafsir": {
-    "scholars": [
-      {
-        "scholar": "Ibn Rajab al-Hanbali (wafat 795 H)",
-        "work": "Jāmiʿ al-ʿUlūm wa-al-Ḥikam",
-        "explanation": "Beliau mendedikasikan satu bahasan panjang khusus untuk hadits ini dan menulis: 'Hadits ini adalah kaidah yang sempurna dan mandiri bagi seluruh agama. Ia menegaskan bahwa setiap ibadah dan setiap ketaatan sepenuhnya bergantung pada niatnya — dan bahwa keikhlasan kepada Allah adalah ruh dari segala amal.' Beliau menjelaskan pula bahwa amal manusia terbagi tiga: (1) amal hati seperti iman, tawakkal, dan cinta kepada Allah; (2) amal lisan seperti dzikir dan tilawah Al-Qur'an; (3) amal anggota badan seperti shalat, puasa, dan jihad. Ketiga kategori ini seluruhnya diatur oleh kaidah hadits niat ini."
-      },
-      {
-        "scholar": "Ibn Hajar al-Asqalani (wafat 852 H)",
-        "work": "Fatḥ al-Bārī Sharḥ Ṣaḥīḥ al-Bukhārī",
-        "explanation": "Beliau menjelaskan secara panjang lebar mengapa Imam Bukhari meletakkan hadits ini tepat di awal seluruh kitabnya: 'Bukhari ingin memberi isyarat kepada pembacanya bahwa ilmu yang terkandung dalam kitab ini hanya akan memberi manfaat sejati bagi yang mencarinya dengan ikhlas karena Allah. Sebagaimana Muhajir Umm Qais tidak mendapat pahala hijrah, demikian pula penuntut ilmu yang mencari hadits demi ketenaran atau keuntungan dunia tidak akan memperoleh buah sejatinya.' Beliau juga mengupas keunikan sanad hadits ini yang bersifat gharib muttasil (satu jalur tunggal namun bersambung), yang tidak mengurangi keshahihannya karena seluruh perawinya adalah tsiqah."
-      },
-      {
-        "scholar": "Imam al-Nawawi (wafat 676 H)",
-        "work": "Syarḥ Ṣaḥīḥ Muslim & Al-Arbaʿīn al-Nawawiyyah",
-        "explanation": "Imam al-Nawawi menempatkan hadits ini sebagai hadits pertama dalam koleksi Arba'in-nya yang masyhur, seraya berkata: 'Ini adalah hadits yang agung dan penting, serta merupakan salah satu pilar Islam.' Beliau menjelaskan penerapannya dalam fiqih: apabila seseorang berwudhu dengan niat hanya ingin mendinginkan badan — bukan beribadah — maka wudhunya tidak sah. Apabila seseorang berpuasa tanpa berniat dari malam hari karena Allah, maka puasanya tidak diterima. Seluruh keabsahan amal ibadah dalam fiqih Islam bertolak dari hadits tunggal ini."
-      }
-    ]
-  },
-  "relevant_ayat": [
-    {
-      "surah": "Al-Bayyinah",
-      "surah_number": 98,
-      "ayah_number": 5,
-      "arabic": "وَمَا أُمِرُوا إِلَّا لِيَعْبُدُوا اللَّهَ مُخْلِصِينَ لَهُ الدِّينَ حُنَفَاءَ",
-      "translation": "Padahal mereka tidak diperintahkan kecuali supaya menyembah Allah dengan memurnikan ketaatan kepada-Nya dalam menjalankan agama yang lurus.",
-      "relevance": "Ayat ini adalah landasan Al-Qur'an bagi prinsip yang sama — ikhlas (ketulusan niat) adalah syarat yang membuat ibadah menjadi sah dan diterima. Hadits Nabi ﷺ merupakan penjabaran nabawi atas perintah Allah dalam ayat ini."
-    },
-    {
-      "surah": "Az-Zumar",
-      "surah_number": 39,
-      "ayah_number": 11,
-      "arabic": "قُلْ إِنِّي أُمِرْتُ أَنْ أَعْبُدَ اللَّهَ مُخْلِصًا لَّهُ الدِّينَ",
-      "translation": "Katakanlah: Sesungguhnya aku diperintahkan supaya menyembah Allah dengan memurnikan ketaatan kepada-Nya dalam menjalankan agama.",
-      "relevance": "Allah memerintahkan Nabi-Nya sendiri untuk mendeklarasikan bahwa niat yang murni adalah inti dari seluruh peribadatan — menegaskan bahwa tidak ada amal yang sampai kepada Allah tanpa keikhlasan di dalamnya."
-    },
-    {
-      "surah": "An-Nisa",
-      "surah_number": 4,
-      "ayah_number": 100,
-      "arabic": "وَمَن يُهَاجِرْ فِي سَبِيلِ اللَّهِ يَجِدْ فِي الْأَرْضِ مُرَاغَمًا كَثِيرًا وَسَعَةً",
-      "translation": "Barangsiapa berhijrah di jalan Allah, niscaya mereka mendapati di muka bumi ini tempat hijrah yang luas dan rezeki yang banyak.",
-      "relevance": "Ganjaran hijrah yang dijanjikan dalam ayat ini disyaratkan dengan frasa 'fī sabīlillāh' — di jalan Allah. Inilah yang diuraikan oleh hadits: hijrah yang dilakukan demi tujuan duniawi atau nafsu pribadi tidak berhak mendapatkan balasan ilahi ini."
-    },
-    {
-      "surah": "Al-Kahf",
-      "surah_number": 18,
-      "ayah_number": 110,
-      "arabic": "فَمَن كَانَ يَرْجُو لِقَاءَ رَبِّهِ فَلْيَعْمَلْ عَمَلًا صَالِحًا وَلَا يُشْرِكْ بِعِبَادَةِ رَبِّهِ أَحَدًا",
-      "translation": "Barangsiapa mengharap perjumpaan dengan Tuhannya, maka hendaklah ia mengerjakan amal yang saleh dan janganlah ia mempersekutukan seorang pun dalam beribadah kepada Tuhannya.",
-      "relevance": "Ayat ini secara tegas mengikat harapan bertemu Allah dengan dua syarat sekaligus: amal yang saleh DAN niat yang bersih tanpa riya'. Ibn Katsir menjelaskan bahwa larangan menyekutukan dalam ibadah di sini mencakup riya' (beramal demi dilihat orang lain) — persis apa yang diperingatkan oleh hadits ini."
-    }
-  ],
   "id": "bukhari-002",
   "number": 2,
   "book": {
@@ -302,8 +311,9 @@
       "translation": "Katakanlah: 'Barangsiapa menjadi musuh Jibril, maka sesungguhnya dia telah menurunkannya (Al-Qur'an) ke dalam hatimu dengan izin Allah.'",
       "relevance": "Menegaskan peran Jibril sebagai pembawa wahyu, sesuai dengan bentuk kedua yang disebutkan Nabi ﷺ."
     }
-  ],
-
+  ]
+},
+{
   "id": "bukhari-003",
   "number": 3,
   "book": {
@@ -448,142 +458,885 @@
       "translation": "Bulan Ramadhan, bulan yang di dalamnya diturunkan (permulaan) Al-Qur'an.",
       "relevance": "Menegaskan bahwa Al-Qur'an diturunkan secara bertahap, dimulai dari peristiwa di Gua Hira yang diceritakan dalam hadits ini."
     }
-  ],
-
-  "id": "bukhari-004",
-  "number": 4,
-  "book": {
-    "name": "Ṣaḥīḥ al-Bukhārī",
-    "name_arabic": "الجامع المسند الصحيح المختصر من أمور رسول الله ﷺ وسننه وأيامه",
-    "name_short": "Shahih al-Bukhari",
-    "chapter_name": "Kitāb Bad' al-Waḥy",
-    "chapter_name_arabic": "كتاب بدء الوحى",
-    "chapter_name_translated": "Kitab Permulaan Turunnya Wahyu",
-    "chapter_number": 1,
-    "volume": 1,
-    "page": 12,
-    "page_note": "Mengacu pada edisi Dār al-Fikr, Beirut. Nomor halaman bisa sedikit berbeda tergantung edisi cetakan.",
-    "edition_reference": "Dār al-Fikr, Beirut — sesuai juga dengan penomoran dalam Fath al-Bārī karya Ibn Hajar al-Asqalani"
-  },
-  "author": {
-    "full_name": "Abū ʿAbdillāh Muḥammad ibn Ismāʿīl ibn Ibrāhīm ibn al-Mughīrah al-Bukhārī",
-    "full_name_arabic": "أبو عبد الله محمد بن إسماعيل بن إبراهيم بن المغيرة البخاري",
-    "known_as": "Imam al-Bukhari",
-    "born": "194 H / 810 M — Bukhara (sekarang wilayah Uzbekistan)",
-    "died": "256 H / 870 M — Khartank, dekat Samarkand"
-  },
-  "type": "Shahih",
-  "category": ["Permulaan Wahyu", "Cara Wahyu Turun", "Gerakan Bibir Nabi ﷺ", "QS. Al-Qiyamah", "Jibril AS", "Penghapalan Quran"],
-  "arabic": "حَدَّثَنَا مُوسَى بْنُ إِسْمَاعِيلَ، حَدَّثَنَا أَبُو عَوَانَةَ، عَنْ مُوسَى بْنِ أَبِي عَائِشَةَ، عَنْ سَعِيدِ بْنِ جُبَيْرٍ، عَنِ ابْنِ عَبَّاسٍ رضى الله عنهما فِي قَوْلِهِ تَعَالَى {لاَ تُحَرِّكْ بِهِ لِسَانَكَ لِتَعْجَلَ بِهِ} قَالَ كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم يَلْقَاهُ وَضْعْرًا، فَيَجُرِي بِلِسَانِهِ حَتَّى يَسْتَعْمَلَهُ. فَقَالَ ابْنُ عَبَّاسٍ رَحِمَهُ اللَّهُ أَنَا أَجُورُ بِلِسَانِي كَمَا رَأَيْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَجُورُ بِهِ. فَقَالَ سَعِيدٌ أَنَا أَجُورُ بِلِسَانِي كَمَا رَأَيْتُ ابْنَ عَبَّاسٍ يَجُورُ بِهِ. قَالَ ابْنُ عَبَّاسٍ فَأَنْزَلَ اللَّهُ عَزَّ وَجَلَّ {لاَ تُحَرِّكْ بِهِ لِسَانَكَ لِتَعْجَلَ بِهِ إِنَّ عَلَيْنَا جَمْعَهُ وَقُرْآنَهُ فَإِذَا قَرَأْنَاهُ فَاتَّبِعْ قُرْآنَهُ ثُمَّ إِنَّ عَلَيْنَا بَيَانَهُ}. قَالَ أَيْ جَمْعَهُ فِي صَدْرِكَ وَقَرْآنَهُ لِتَقْرَأَ بِهِ، فَإِذَا قَرَأْنَاهُ فَاسْتَمِعْ لَهُ وَاصْمُتْ، ثُمَّ إِنَّ عَلَيْنَا بَيَانَهُ أَيْ قِرَاءَتَهُ. فَكَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم إِذَا جَاءَهُ جِبْرِيلُ صلى الله عليه وسلم اسْتَمَعَ لَهُ، فَإِذَا وَحَى إِلَيْهِ قَرَأَهُ كَمَا قَرَأَهُ جِبْرِيلُ.",
-  "latin": "Ḥaddathanā Mūsā ibn Ismāʿīl, ḥaddathanā Abū ʿAwanah, ʿan Mūsā ibn Abī ʿĀʾishata, ʿan Saʿīd ibn Jubayr, ʿan Ibn ʿAbbās raḍiyallāhu ʿanhumā fī qawlihi taʿālā {Lā tuḥarrik bihi lisānak lituʿjila bihi}. Qāla: Kāna Rasūlullāhi ṣallallāhu ʿalayhi wa sallam yalqāhu waḍran, fa-yajurī bilsānihi ḥattā yastaʿmilahu. Fa-qāla Ibn ʿAbbās raḥimahu Allāhu anā ajurū bilsānī kamā raʾaytu Rasūlallāhi ṣallallāhu ʿalayhi wa sallam yajurū bihi. Fa-qāla Saʿīd: Anā ajurū bilsānī kamā raʾaytu Ibn ʿAbbāsa yajurū bihi. Qāla Ibn ʿAbbās: Fa-anzala Allāhu ʿazza wa jalla {Lā tuḥarrik bihi lisānak lituʿjila bihi innā ʿalaynā jamʿahu wa Qurʾānah, fa-idhā qarʾnāhu fattabiʿ Qurʾānah, thumma innā ʿalaynā bayānah}. Qāla: Ayy jamʿahu fī ṣadrika wa Qurʾānah lituqraʾ bihi, fa-idhā qarʾnāhu fastaʿmilhu wasmut, thumma innā ʿalaynā bayānah ayy qirāʾatahu. Fa-kāna Rasūlullāhi ṣallallāhu ʿalayhi wa sallam idhā jāʾahu Jibrīlu ʿalayhi as-salam istamaʿa lahu, fa-idhā waḥyā ilayhi qaraʾahu kamā qaraʾahu Jibrīlu.",
-  "translation": "Telah menceritakan kepada kami Musa bin Isma'il, telah menceritakan kepada kami Abu Awanah, dari Musa bin Abi Aisyah, dari Sa'id bin Jubair, dari Ibnu Abbas radhiyallahu 'anhuma mengenai firman Allah Ta'ala: {Janganlah kamu gerakkan lidahmu untuk (membaca) Al-Qur'an karena hendak cepat-cepat ingin (menguasainya)} (QS. Al-Qiyamah: 16). Ibnu Abbas berkata: Rasulullah shallallahu 'alaihi wa sallam menerima wahyu itu dengan susah payah, lalu bibirnya bergerak cepat mengikutinya. Ibnu Abbas berkata: 'Aku menggerakkan bibirku seperti yang kulihat Rasulullah shallallahu 'alaihi wa sallam lakukan.' Sa'id berkata: 'Aku menggerakkan bibirku seperti yang kulihat Ibnu Abbas lakukan.' Ibnu Abbas melanjutkan: Maka Allah Ta'ala menurunkan {Janganlah kamu gerakkan lidahmu untuk (membaca) Al-Qur'an karena hendak cepat-cepat ingin (menguasainya). Sesungguhnya atas Kami (tugas) menyusun (Al-Qur'an) dan (setelah itu) membacakannya. Maka apabila Kami bacakan, maka ikutilah bacaan itu. Dan kemudian pasti Kami yang akan menjelaskan artinya} (QS. Al-Qiyamah: 16-19). Ibnu Abbas berkata: 'Yaitu menyusunnya di dadamu dan membacakannya agar kamu membacanya. Maka apabila Kami membacakannya, dengarkanlah dan diamlah. Kemudian pasti Kami yang akan menjelaskan bacaan itu.' Maka Rasulullah shallallahu 'alaihi wa sallam, ketika Jibril shallallahu 'alaihi wa sallam datang kepadanya, beliau mendengarkan. Apabila wahyu selesai, beliau membacakannya sebagaimana Jibril membacakannya.",
-  "isnad": {
-    "chain_summary": "Mūsā ibn Ismāʿīl → Abū ʿAwanah → Mūsā ibn Abī ʿĀʾishah → Saʿīd ibn Jubayr → Ibn ʿAbbās raḍiyallāhu ʿanhumā → Rasūlullāhi ﷺ",
-    "chain_length": 4,
-    "narrators": [
-      {
-        "level": 1,
-        "name": "Mūsā ibn Ismāʿīl",
-        "name_arabic": "موسى بن إسماعيل",
-        "role": "Guru langsung Imam Bukhari",
-        "status": "Tsiqah (sangat terpercaya)",
-        "died": "sekitar 200 H"
-      },
-      {
-        "level": 2,
-        "name": "Abū ʿAwanah",
-        "name_arabic": "أبو عوانة",
-        "role": "Imam hadits Basrah, perawi utama",
-        "status": "Tsiqah Tsabt (kokoh dan terpercaya)",
-        "died": "176 H"
-      },
-      {
-        "level": 3,
-        "name": "Mūsā ibn Abī ʿĀʾishah",
-        "name_arabic": "موسى بن أبي عائشة",
-        "role": "Tabi'ut tabi'in, perawi kuat",
-        "status": "Tsiqah",
-        "died": "sekitar 150 H"
-      },
-      {
-        "level": 4,
-        "name": "Saʿīd ibn Jubayr",
-        "name_arabic": "سعيد بن جبير",
-        "role": "Tabi'in besar, murid Ibnu Abbas",
-        "status": "Tsiqah — hafizh, ahli tafsir",
-        "died": "95 H"
-      },
-      {
-        "level": 5,
-        "name": "ʿAbdullāh ibn ʿAbbās raḍiyallāhu ʿanhumā",
-        "name_arabic": "عبد الله بن عباس رضي الله عنهما",
-        "role": "Sahabat Nabi, Hibrul Ummat, ahli tafsir",
-        "status": "Sahabi — periwayat utama ilmu tafsir",
-        "died": "68 H / 687 M"
-      }
-    ]
-  },
-  "asbab_al_wurud": {
-    "title": "Penjelasan Ibnu Abbas tentang Gerakan Bibir Nabi saat Wahyu",
-    "summary": "Hadits ini menjelaskan proses turunnya wahyu Al-Qur'an kepada Rasulullah ﷺ. Nabi menggerakkan bibirnya untuk menghafal wahyu yang berat, sehingga Allah menurunkan ayat QS. Al-Qiyamah: 16-19 yang memerintahkan kesabaran dan penyerahan diri kepada proses ilahi.",
-    "narrative": "Ibnu Abbas mendemonstrasikan bagaimana Rasulullah shallallahu 'alaihi wa sallam menggerakkan bibirnya saat menerima wahyu dari Jibril. Sa'id bin Jubair ikut mendemonstrasikan. Hadits ini menunjukkan betapa beratnya proses penerimaan wahyu dan bagaimana Allah menjamin hafalan serta pemahaman Al-Qur'an melalui proses ilahi yang teratur.",
-    "source": "Shahih al-Bukhari — hadits muttasil shahih yang menjelaskan tafsir QS. Al-Qiyamah.",
-    "scholarly_note": "Ibn Hajar dalam Fath al-Bari menyebut ini sebagai penjelasan sahih tentang proses hafalan wahyu. Ayat ini turun saat Surah Al-Qiyamah diturunkan, menunjukkan kasih sayang Allah kepada Nabi ﷺ."
-  },
-  "meaning": {
-    "overview": "Hadits ini mengungkap proses fisik dan spiritual penerimaan wahyu Al-Qur'an. Allah menjamin koleksi, hafalan, dan penjelasan Al-Qur'an, sehingga Nabi hanya perlu mendengar dan mengikuti bacaan Jibril.",
-    "key_points": [
-      "Rasulullah ﷺ menerima wahyu dengan susah payah (waḍran) dan menggerakkan bibir untuk menghafal.",
-      "Allah memerintahkan Nabi untuk tidak terburu-buru: {Inna ʿalaynā jamʿahu wa Qurʾānah} — Kami yang menyusun dan membacakannya.",
-      "Proses wahyu: dengar → diam → hafal → bacalah sebagaimana Jibril membaca.",
-      "Demonstrasi Ibnu Abbas dan Sa'id menunjukkan realitas historis proses ini.",
-      "Allah menjamin keabadian dan kejelasan Al-Qur'an melalui proses ilahi."
-    ]
-  },
-  "tafsir": {
-    "scholars": [
-      {
-        "scholar": "Ibn Hajar al-Asqalani (wafat 852 H)",
-        "work": "Fatḥ al-Bārī Sharḥ Ṣaḥīḥ al-Bukhārī",
-        "explanation": "Beliau menjelaskan bahwa hadits ini sahih dan menunjukkan proses turun wahyu. Nabi menggerakkan bibir karena beratnya wahyu, maka Allah menurunkan ayat ini untuk menghibur dan menjelaskan proses ilahi."
-      },
-      {
-        "scholar": "Imam al-Nawawi (wafat 676 H)",
-        "work": "Syarḥ Ṣaḥīḥ Muslim",
-        "explanation": "Ayat ini membuktikan kemaharan Al-Qur'an diturunkan secara bertahap melalui Jibril. Prosesnya teratur: Allah susun → Jibril bacakan → Nabi hafal → umat dapat pelajaran."
-      },
-      {
-        "scholar": "Ibn Kathir (wafat 774 H)",
-        "work": "Tafsir al-Qur'an al-ʿAẓīm",
-        "explanation": "Ibnu Abbas adalah tafsir paling sahih. Hadits ini menjelaskan makna QS. Al-Qiyamah 16-19 secara tekstual dan kontekstual."
-      }
-    ]
-  },
-  "relevant_ayat": [
-    {
-      "surah": "Al-Qiyamah",
-      "surah_number": 75,
-      "ayah_number": 16,
-      "arabic": "لاَ تُحَرِّكْ بِهِ لِسَانَكَ لِتَعْجَلَ بِهِ",
-      "translation": "Janganlah kamu gerakkan lidahmu untuk (membaca) Al-Qur'an karena hendak cepat-cepat ingin (menguasainya).",
-      "relevance": "Ayat yang langsung ditafsirkan dalam hadits ini."
-    },
-    {
-      "surah": "Al-Qiyamah",
-      "surah_number": 75,
-      "ayah_number": 17,
-      "arabic": "إِنَّ عَلَيْنَا جَمْعَهُ وَقُرْآنَهُ",
-      "translation": "Sesungguhnya atas Kami (tugas) menyusun (Al-Qur'an) dan (setelah itu) membacakannya.",
-      "relevance": "Allah menjamin proses hafalan Al-Qur'an."
-    },
-    {
-      "surah": "Al-Qiyamah",
-      "surah_number": 75,
-      "ayah_number": 18,
-      "arabic": "فَإِذَا قَرَأْنَاهُ فَاتَّبِعْ قُرْآنَهُ",
-      "translation": "Maka apabila Kami bacakan, maka ikutilah bacaan itu.",
-      "relevance": "Perintah mendengar dan menghafal wahyu Jibril."
-    }
   ]
-}
-
+},
+  {
+    "id": "bukhari-004",
+    "number": 4,
+    "book": {
+      "name": "Ṣaḥīḥ al-Bukhārī",
+      "name_arabic": "الجامع المسند الصحيح المختصر من أمور رسول الله ﷺ وسننه وأيامه",
+      "name_short": "Shahih al-Bukhari",
+      "chapter_name": "Kitāb Bad' al-Waḥy",
+      "chapter_name_arabic": "كتاب بدء الوحى",
+      "chapter_name_translated": "Kitab Permulaan Turunnya Wahyu",
+      "chapter_number": 1,
+      "volume": 1,
+      "page": 12,
+      "page_note": "Mengacu pada edisi Dār al-Fikr, Beirut. Nomor halaman bisa sedikit berbeda tergantung edisi cetakan.",
+      "edition_reference": "Dār al-Fikr, Beirut — sesuai juga dengan penomoran dalam Fath al-Bārī karya Ibn Hajar al-Asqalani"
+    },
+    "author": {
+      "full_name": "Abū ʿAbdillāh Muḥammad ibn Ismāʿīl ibn Ibrāhīm ibn al-Mughīrah al-Bukhārī",
+      "full_name_arabic": "أبو عبد الله محمد بن إسماعيل بن إبراهيم بن المغيرة البخاري",
+      "known_as": "Imam al-Bukhari",
+      "born": "194 H / 810 M — Bukhara (sekarang wilayah Uzbekistan)",
+      "died": "256 H / 870 M — Khartank, dekat Samarkand"
+    },
+    "type": "Shahih",
+    "category": [
+      "Permulaan Wahyu",
+      "Cara Wahyu Turun",
+      "Gerakan Bibir Nabi ﷺ",
+      "QS. Al-Qiyamah",
+      "Jibril AS",
+      "Penghapalan Quran"
+    ],
+    "arabic": "حَدَّثَنَا مُوسَى بْنُ إِسْمَاعِيلَ، حَدَّثَنَا أَبُو عَوَانَةَ، عَنْ مُوسَى بْنِ أَبِي عَائِشَةَ، عَنْ سَعِيدِ بْنِ جُبَيْرٍ، عَنِ ابْنِ عَبَّاسٍ",
+    "latin": "Ḥaddathanā Mūsā ibn Ismāʿīl, ḥaddathanā Abū ʿAwanah, ʿan Mūsā ibn Abī ʿĀʾishata, ʿan Saʿīd ibn Jubayr, ʿan Ibn ʿAbbās raḍiyallāhu ʿanhumā...",
+    "translation": "Telah menceritakan kepada kami Musa bin Isma'il... dari Ibnu Abbas radhiyallahu 'anhuma mengenai firman Allah Ta'ala: {Janganlah kamu gerakkan lidahmu untuk (membaca) Al-Qur'an karena hendak cepat-cepat ingin (menguasainya)}...",
+    "isnad": {
+      "chain_summary": "Mūsā ibn Ismāʿīl → Abū ʿAwanah → Mūsā ibn Abī ʿĀʾishah → Saʿīd ibn Jubayr → Ibn ʿAbbās raḍiyallāhu ʿanhumā → Rasūlullāhi ﷺ",
+      "chain_length": 4,
+      "narrators": [
+        {
+          "level": 1,
+          "name": "Mūsā ibn Ismāʿīl",
+          "name_arabic": "موسى بن إسماعيل",
+          "role": "Guru langsung Imam Bukhari",
+          "status": "Tsiqah",
+          "died": "sekitar 200 H"
+        },
+        {
+          "level": 2,
+          "name": "Abū ʿAwanah",
+          "name_arabic": "أبو عوانة",
+          "role": "Imam hadits Basrah",
+          "status": "Tsiqah Tsabt",
+          "died": "176 H"
+        },
+        {
+          "level": 3,
+          "name": "Mūsā ibn Abī ʿĀʾishah",
+          "name_arabic": "موسى بن أبي عائشة",
+          "role": "Tabi'ut tabi'in",
+          "status": "Tsiqah",
+          "died": "sekitar 150 H"
+        },
+        {
+          "level": 4,
+          "name": "Saʿīd ibn Jubayr",
+          "name_arabic": "سعيد بن جبير",
+          "role": "Tabi'in besar, murid Ibnu Abbas",
+          "status": "Tsiqah — hafizh, ahli tafsir",
+          "died": "95 H"
+        },
+        {
+          "level": 5,
+          "name": "ʿAbdullāh ibn ʿAbbās raḍiyallāhu ʿanhumā",
+          "name_arabic": "عبد الله بن عباس رضي الله عنهما",
+          "role": "Sahabat Nabi, Hibrul Ummat, ahli tafsir",
+          "status": "Sahabi",
+          "died": "68 H / 687 M"
+        }
+      ]
+    },
+    "asbab_al_wurud": {
+      "title": "Penjelasan Ibnu Abbas tentang Gerakan Bibir Nabi saat Wahyu",
+      "summary": "Hadits ini menjelaskan proses turunnya wahyu Al-Qur'an kepada Rasulullah ﷺ. Nabi menggerakkan bibirnya untuk menghafal wahyu yang berat.",
+      "narrative": "Ibnu Abbas mendemonstrasikan bagaimana Rasulullah shallallahu 'alaihi wa sallam menggerakkan bibirnya saat menerima wahyu dari Jibril. Sa'id bin Jubair ikut mendemonstrasikan.",
+      "source": "Shahih al-Bukhari — hadits muttasil shahih yang menjelaskan tafsir QS. Al-Qiyamah.",
+      "scholarly_note": "Ibn Hajar dalam Fath al-Bari menyebut ini sebagai penjelasan sahih tentang proses hafalan wahyu."
+    },
+    "meaning": {
+      "overview": "Hadits ini mengungkap proses fisik dan spiritual penerimaan wahyu Al-Qur'an. Allah menjamin koleksi, hafalan, dan penjelasan Al-Qur'an.",
+      "key_points": [
+        "Rasulullah ﷺ menerima wahyu dengan susah payah (waḍran) dan menggerakkan bibir untuk menghafal.",
+        "Allah memerintahkan Nabi untuk tidak terburu-buru: {Inna ʿalaynā jamʿahu wa Qurʾānah}.",
+        "Proses wahyu: dengar → diam → hafal → bacalah sebagaimana Jibril membaca.",
+        "Demonstrasi Ibnu Abbas dan Sa'id menunjukkan realitas historis proses ini.",
+        "Allah menjamin keabadian dan kejelasan Al-Qur'an melalui proses ilahi."
+      ]
+    },
+    "tafsir": {
+      "scholars": [
+        {
+          "scholar": "Ibn Hajar al-Asqalani (wafat 852 H)",
+          "work": "Fatḥ al-Bārī",
+          "explanation": "Beliau menjelaskan bahwa hadits ini sahih dan menunjukkan proses turun wahyu."
+        },
+        {
+          "scholar": "Imam al-Nawawi (wafat 676 H)",
+          "work": "Syarḥ Ṣaḥīḥ Muslim",
+          "explanation": "Ayat ini membuktikan Al-Qur'an diturunkan secara bertahap melalui Jibril."
+        },
+        {
+          "scholar": "Ibn Kathir (wafat 774 H)",
+          "work": "Tafsir al-Qur'an al-ʿAẓīm",
+          "explanation": "Ibnu Abbas adalah tafsir paling sahih untuk hadits dan ayat ini."
+        }
+      ]
+    },
+    "relevant_ayat": [
+      {
+        "surah": "Al-Qiyamah",
+        "surah_number": 75,
+        "ayah_number": 16,
+        "arabic": "لاَ تُحَرِّكْ بِهِ لِسَانَكَ لِتَعْجَلَ بِهِ",
+        "translation": "Janganlah kamu gerakkan lidahmu untuk (membaca) Al-Qur'an karena hendak cepat-cepat ingin (menguasainya).",
+        "relevance": "Ayat yang langsung ditafsirkan dalam hadits ini."
+      },
+      {
+        "surah": "Al-Qiyamah",
+        "surah_number": 75,
+        "ayah_number": 17,
+        "arabic": "إِنَّ عَلَيْنَا جَمْعَهُ وَقُرْآنَهُ",
+        "translation": "Sesungguhnya atas Kami (tugas) menyusun (Al-Qur'an) dan (setelah itu) membacakannya.",
+        "relevance": "Allah menjamin proses hafalan Al-Qur'an."
+      },
+      {
+        "surah": "Al-Qiyamah",
+        "surah_number": 75,
+        "ayah_number": 18,
+        "arabic": "فَإِذَا قَرَأْنَاهُ فَاتَّبِعْ قُرْآنَهُ",
+        "translation": "Maka apabila Kami bacakan, maka ikutilah bacaan itu.",
+        "relevance": "Perintah mendengar dan menghafal wahyu Jibril."
+      }
+    ]
+  },
+  {
+    "id": "bukhari-005",
+    "number": 5,
+    "book": {
+      "name": "Ṣaḥīḥ al-Bukhārī",
+      "name_arabic": "الجامع المسند الصحيح المختصر من أمور رسول الله ﷺ وسننه وأيامه",
+      "name_short": "Shahih al-Bukhari",
+      "chapter_name": "Kitāb Bad' al-Waḥy",
+      "chapter_name_arabic": "كتاب بدء الوحى",
+      "chapter_name_translated": "Kitab Permulaan Turunnya Wahyu",
+      "chapter_number": 1,
+      "volume": 1,
+      "page": 13,
+      "page_note": "Mengacu pada edisi Dār al-Fikr, Beirut. Nomor halaman bisa sedikit berbeda tergantung edisi cetakan.",
+      "edition_reference": "Dār al-Fikr, Beirut — sesuai juga dengan penomoran dalam Fath al-Bārī karya Ibn Hajar al-Asqalani"
+    },
+    "author": {
+      "full_name": "Abū ʿAbdillāh Muḥammad ibn Ismāʿīl ibn Ibrāhīm ibn al-Mughīrah al-Bukhārī",
+      "full_name_arabic": "أبو عبد الله محمد بن إسماعيل بن إبراهيم بن المغيرة البخاري",
+      "known_as": "Imam al-Bukhari",
+      "born": "194 H / 810 M — Bukhara (sekarang wilayah Uzbekistan)",
+      "died": "256 H / 870 M — Khartank, dekat Samarkand"
+    },
+    "type": "Shahih",
+    "category": [
+      "Kedermawanan Nabi",
+      "Bulan Ramadhan",
+      "Tadarus Al-Qur'an",
+      "Jibril alaihissalam",
+      "Akhlak Mulia Rasulullah"
+    ],
+    "arabic": "حَدَّثَنَا عَبْدَانُ قَالَ أَخْبَرَنَا عَبْدُ اللَّهِ قَالَ أَخْبَرَنَا يُونُسُ عَنْ الزُّهْرِيِّ ح و حَدَّثَنَا بِشْرُ بْنُ مُحَمَّدٍ قَالَ أَخْبَرَنَا عَبْدُ اللَّهِ قَالَ أَخْبَرَنَا يُونُسُ وَمَعْمَرٌ عَنْ الزُّهْرِيِّ نَحْوَهُ قَالَ أَخْبَرَنِي عُبَيْدُ اللَّهِ بْنُ عَبْدِ اللَّهِ عَنْ ابْنِ عَبَّاسٍ قَالَ كَانَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ أَجْوَدَ النَّاسِ وَكَانَ أَجْوَدُ مَا يَكُونُ فِي رَمَضَانَ حِينَ يَلْقَاهُ جِبْرِيلُ وَكَانَ يَلْقَاهُ فِي كُلِّ لَيْلَةٍ مِنْ رَمَضَانَ فَيُدَارِسُهُ الْقُرْآنَ فَلَرَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ أَجْوَدُ بِالْخَيْرِ مِنْ الرِّيحِ الْمُرْسَلَةِ",
+    "latin": "Ḥaddathanā ʿAbdān, qāla akhbaranā ʿAbdullāh, qāla akhbaranā Yūnus ʿan az-Zuhrī. Wa ḥaddathanā Bishr ibn Muḥammad, qāla akhbaranā ʿAbdullāh, qāla akhbaranā Yūnus wa Maʿmar ʿan az-Zuhrī naḥwahu, qāla akhbaranī ʿUbaydullāhi ibn ʿAbdillāhi ʿan Ibn ʿAbbās, qāla: Kāna Rasūlullāhi ṣallallāhu ʿalayhi wa sallam ajwada an-nāsi, wa kāna ajwadu mā yakūnu fī Ramaḍāna ḥīna yalqāhu Jibrīlu, wa kāna yalqāhu fī kulli laylatin min Ramaḍāna fa-yudārisuhu al-Qurʾāna, fa-la-Rasūlullāhi ṣallallāhu ʿalayhi wa sallam ajwadu bi-al-khayri min ar-rīḥi al-mursalati.",
+    "translation": "Telah menceritakan kepada kami [Abdan] dia berkata: telah mengabarkan kepada kami [Abdullah] telah mengabarkan kepada kami [Yunus] dari [Az Zuhri]. Dan dari jalur lain, telah menceritakan kepada kami [Bisyir bin Muhammad] berkata: telah mengabarkan kepada kami [Abdullah] berkata: telah mengabarkan kepada kami [Yunus] dan [Ma'mar] dari [Az Zuhri] seperti jalur sebelumnya, berkata: telah mengabarkan kepada kami [Ubaidullah bin Abdullah] dari [Ibnu 'Abbas] berkata: bahwa Rasulullah shallallahu 'alaihi wa sallam adalah manusia yang paling lembut terutama pada bulan Ramadlan ketika malaikat Jibril menemuinya, dan adalah Jibril mendatanginya setiap malam di bulan Ramadlan, dimana Jibril mengajarkan beliau Al Qur'an. Sungguh Rasulullah shallallahu 'alaihi wa sallam jauh lebih lembut dari pada angin yang berhembus.",
+    "isnad": {
+      "chain_summary": "ʿAbdān → ʿAbdullāh → Yūnus (dan jalur paralel: Bishr ibn Muḥammad → ʿAbdullāh → Yūnus & Maʿmar) → az-Zuhrī → ʿUbaydullāh ibn ʿAbdillāh → Ibn ʿAbbās raḍiyallāhu ʿanhumā → Rasūlullāhi ﷺ",
+      "chain_length": 5,
+      "narrators": [
+        {
+          "level": 1,
+          "name": "ʿAbdān ibn Aḥmad",
+          "name_arabic": "عبد ان",
+          "role": "Guru langsung Imam Bukhari",
+          "status": "Tsiqah (sangat terpercaya)",
+          "died": "sekitar 200 H"
+        },
+        {
+          "level": 2,
+          "name": "ʿAbdullāh",
+          "name_arabic": "عبد الله",
+          "role": "Perawi perantara",
+          "status": "Tsiqah Tsabt (kokoh dan terpercaya)",
+          "died": "sekitar 190 H"
+        },
+        {
+          "level": 3,
+          "name": "Yūnus ibn Yazīd",
+          "name_arabic": "يونس",
+          "role": "Perawi utama dari az-Zuhrī",
+          "status": "Tsiqah Tsabt",
+          "died": "sekitar 160 H"
+        },
+        {
+          "level": 4,
+          "name": "Muḥammad ibn Muslim ibn Shihāb az-Zuhrī",
+          "name_arabic": "الزهري",
+          "role": "Tabi'ut tabi'in besar — imam hadits Madinah",
+          "status": "Tsiqah Tsabt — hafizh besar",
+          "died": "124 H"
+        },
+        {
+          "level": 5,
+          "name": "ʿUbaydullāh ibn ʿAbdillāh ibn ʿUtbah",
+          "name_arabic": "عبيد الله بن عبد الله",
+          "role": "Tabi'in — perawi dari sahabat",
+          "status": "Tsiqah Tsabt",
+          "died": "sekitar 100 H"
+        },
+        {
+          "level": 6,
+          "name": "ʿAbdullāh ibn ʿAbbās raḍiyallāhu ʿanhumā",
+          "name_arabic": "ابن عباس رضي الله عنهما",
+          "role": "Sahabat Nabi — sepupu Rasulullah ﷺ dan ahli tafsir",
+          "status": "Sahabi — periwayat hadits yang sangat banyak dan terpercaya",
+          "died": "68 H / 687 M"
+        }
+      ]
+    },
+    "asbab_al_wurud": {
+      "title": "Kedermawanan Rasulullah ﷺ yang Paling Tinggi di Bulan Ramadhan",
+      "summary": "Hadits ini menerangkan sifat dermawan Rasulullah shallallahu 'alaihi wa sallam yang semakin bertambah pada bulan Ramadhan ketika Jibril alaihissalam mendatanginya setiap malam untuk mempelajari (mudarasah) Al-Qur'an.",
+      "narrative": "Ibnu Abbas radhiyallahu 'anhuma menggambarkan bahwa Rasulullah shallallahu 'alaihi wa sallam adalah manusia paling dermawan secara mutlak. Namun kedermawanan beliau mencapai puncaknya di bulan Ramadhan, tepat ketika Jibril alaihissalam menemuinya setiap malam. Pada saat itu Jibril mengajarkan dan mempelajari Al-Qur'an bersama beliau. Perumpamaan kedermawanan beliau adalah seperti angin yang berhembus — cepat, luas, dan membawa manfaat tanpa henti.",
+      "source": "Diriwayatkan langsung dalam Shahih al-Bukhari melalui dua jalur yang muttasil dan shahih dari az-Zuhrī dari ʿUbaydullāh ibn ʿAbdillāh dari Ibn ʿAbbās radhiyallahu 'anhuma.",
+      "scholarly_note": "Ibn Hajar al-Asqalani dalam Fath al-Bari menjelaskan bahwa hadits ini ditempatkan dalam Kitab Bad' al-Wahy untuk menunjukkan bagaimana proses turunnya wahyu (melalui Jibril) disertai dengan peningkatan akhlak mulia Rasulullah ﷺ, khususnya kedermawanan dan interaksi dengan Al-Qur'an di bulan Ramadhan."
+    },
+    "meaning": {
+      "overview": "Hadits ini merupakan salah satu bukti paling indah tentang akhlak mulia Rasulullah shallallahu 'alaihi wa sallam. Beliau adalah manusia paling dermawan, dan kedermawanan tersebut semakin sempurna di bulan Ramadhan karena interaksi langsung dengan Jibril alaihissalam dalam mempelajari Al-Qur'an.",
+      "key_points": [
+        "Rasulullah shallallahu 'alaihi wa sallam adalah manusia yang paling dermawan (ajwadu an-nas).",
+        "Kedermawanan beliau paling tinggi pada bulan Ramadhan ketika Jibril alaihissalam menemuinya.",
+        "Jibril mendatangi beliau setiap malam di bulan Ramadhan untuk mudarasah (saling mempelajari dan mengulang) Al-Qur'an.",
+        "Perumpamaan kedermawanan beliau adalah seperti angin yang berhembus — meluas, cepat, dan penuh manfaat bagi semua orang.",
+        "Hadits ini menunjukkan bahwa semakin dekat dengan Al-Qur'an, semakin bertambah pula kebaikan dan kedermawanan seorang hamba."
+      ]
+    },
+    "tafsir": {
+      "scholars": [
+        {
+          "scholar": "Ibn Hajar al-Asqalani (wafat 852 H)",
+          "work": "Fatḥ al-Bārī Sharḥ Ṣaḥīḥ al-Bukhārī",
+          "explanation": "Beliau menjelaskan bahwa Imam Bukhari meletakkan hadits ini di Kitab Bad' al-Wahy untuk mengaitkan proses wahyu dengan akhlak Nabi ﷺ. Mudarasah Al-Qur'an dengan Jibril di bulan Ramadhan menjadi sebab utama peningkatan kedermawanan beliau, sehingga menjadi teladan bagi umat dalam mengamalkan Al-Qur'an."
+        },
+        {
+          "scholar": "Imam al-Nawawi (wafat 676 H)",
+          "work": "Syarḥ Ṣaḥīḥ Muslim",
+          "explanation": "Imam al-Nawawi menyebut hadits ini sebagai bukti nyata keutamaan Ramadhan dan keagungan akhlak Nabi ﷺ. Beliau menegaskan bahwa mudarasah Al-Qur'an dengan Jibril adalah amalan yang paling utama di bulan suci tersebut."
+        },
+        {
+          "scholar": "Ibn Rajab al-Hanbali (wafat 795 H)",
+          "work": "Jāmiʿ al-ʿUlūm wa-al-Ḥikam",
+          "explanation": "Beliau mengaitkan hadits ini dengan keutamaan memperbanyak kebaikan di bulan Ramadhan. Kedermawanan Rasulullah ﷺ yang melebihi angin yang berhembus menunjukkan bahwa semakin banyak interaksi dengan Al-Qur'an, semakin luas pula manfaat yang diberikan kepada umat."
+        }
+      ]
+    },
+    "relevant_ayat": [
+      {
+        "surah": "Al-Baqarah",
+        "surah_number": 2,
+        "ayah_number": 185,
+        "arabic": "شَهْرُ رَمَضَانَ الَّذِي أُنزِلَ فِيهِ الْقُرْآنُ",
+        "translation": "Bulan Ramadhan, bulan yang di dalamnya diturunkan (permulaan) Al-Qur'an.",
+        "relevance": "Ayat ini menegaskan keutamaan bulan Ramadhan sebagai bulan turunnya Al-Qur'an, yang sesuai dengan hadits ini di mana Jibril mendatangi Nabi ﷺ setiap malam untuk mempelajari Al-Qur'an."
+      },
+      {
+        "surah": "Al-Baqarah",
+        "surah_number": 2,
+        "ayah_number": 195,
+        "arabic": "وَأَنفِقُوا فِي سَبِيلِ اللَّهِ وَلَا تُلْقُوا بِأَيْدِيكُمْ إِلَى التَّهْلُكَةِ",
+        "translation": "Dan belanjakanlah (harta bendamu) di jalan Allah, dan janganlah kamu menjatuhkan dirimu sendiri ke dalam kebinasaan.",
+        "relevance": "Ayat ini memerintahkan infak dan kedermawanan di jalan Allah, sebagaimana Rasulullah ﷺ menjadi teladan tertinggi dalam hal ini, terutama di bulan Ramadhan."
+      },
+      {
+        "surah": "Al-Isra",
+        "surah_number": 17,
+        "ayah_number": 26,
+        "arabic": "وَآتِ ذَا الْقُرْبَىٰ حَقَّهُ وَالْمِسْكِينَ وَابْنَ السَّبِيلِ وَلَا تُبَذِّرْ تَبْذِيرًا",
+        "translation": "Dan berikanlah kepada kerabat yang dekat haknya, juga kepada orang miskin dan orang yang dalam perjalanan, dan janganlah kamu berfoya-foya secara berlebihan.",
+        "relevance": "Ayat ini memerintahkan kedermawanan kepada kerabat, fakir miskin, dan musafir — sifat yang selalu dilakukan Rasulullah ﷺ dengan puncaknya di bulan Ramadhan."
+      }
+    ]
+  },
+  {
+    "id": "bukhari-006",
+    "number": 6,
+    "book": {
+      "name": "Ṣaḥīḥ al-Bukhārī",
+      "name_arabic": "الجامع المسند الصحيح المختصر من أمور رسول الله ﷺ وسننه وأيامه",
+      "name_short": "Shahih al-Bukhari",
+      "chapter_name": "Kitāb Bad' al-Waḥy",
+      "chapter_name_arabic": "كتاب بدء الوحى",
+      "chapter_name_translated": "Kitab Permulaan Turunnya Wahyu",
+      "chapter_number": 1,
+      "volume": 1,
+      "page": 14,
+      "page_note": "Mengacu pada edisi Dār al-Fikr, Beirut. Nomor halaman bisa sedikit berbeda tergantung edisi cetakan.",
+      "edition_reference": "Dār al-Fikr, Beirut — sesuai juga dengan penomoran dalam Fath al-Bārī karya Ibn Hajar al-Asqalani"
+    },
+    "author": {
+      "full_name": "Abū ʿAbdillāh Muḥammad ibn Ismāʿīl ibn Ibrāhīm ibn al-Mughīrah al-Bukhārī",
+      "full_name_arabic": "أبو عبد الله محمد بن إسماعيل بن إبراهيم بن المغيرة البخاري",
+      "known_as": "Imam al-Bukhari",
+      "born": "194 H / 810 M — Bukhara (sekarang wilayah Uzbekistan)",
+      "died": "256 H / 870 M — Khartank, dekat Samarkand"
+    },
+    "type": "Shahih",
+    "category": [
+      "Tanda-tanda Kenabian",
+      "Surat Rasulullah ﷺ kepada Heraklius",
+      "Dialog Abu Sufyan dengan Heraklius",
+      "Dakwah kepada Penguasa",
+      "Heraklius dan Pengakuan Kenabian",
+      "Akhlak dan Sifat Nabi ﷺ"
+    ],
+    "arabic": "حَدَّثَنَا أَبُو الْيَمَانِ الْحَكَمُ بْنُ نَافِعٍ قَالَ أَخْبَرَنَا شُعَيْبٌ عَنْ الزُّهْرِيِّ قَالَ أَخْبَرَنِي عُبَيْدُ اللَّهِ بْنُ عَبْدِ اللَّهِ بْنِ عُتْبَةَ بْنِ مَسْعُودٍ أَنَّ عَبْدَ اللَّهِ بْنَ عَبَّاسٍ أَخْبَرَهُ أَنَّ أَبَا سُفْيَانَ بْنَ حَرْبٍ أَخْبَرَهُ أَنَّ هِرَقْلَ أَرْسَلَ إِلَيْهِ فِي رَكْبٍ مِنْ قُرَيْشٍ وَكَانُوا تِجَارًا بِالشَّأْمِ فِي الْمُدَّةِ الَّتِي كَانَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ مَادَّ فِيهَا أَبَا سُفْيَانَ وَكُفَّارَ قُرَيْشٍ فَأَتَوْهُ وَهُمْ بِإِيلِيَاءَ فَدَعَاهُمْ فِي مَجْلِسِهِ وَحَوْلَهُ عُظَمَاءُ الرُّومِ ثُمَّ دَعَاهُمْ وَدَعَا بِتَرْجُمَانِهِ فَقَالَ أَيُّكُمْ أَقْرَبُ نَسَبًا بِهَذَا الرَّجُلِ الَّذِي يَزْعُمُ أَنَّهُ نَبِيٌّ فَقَالَ أَبُو سُفْيَانَ فَقُلْتُ أَنَا أَقْرَبُهُمْ نَسَبًا فَقَالَ أَدْنُوهُ مِنِّي وَقَرِّبُوا أَصْحَابَهُ فَاجْعَلُوهُمْ عِنْدَ ظَهْرِهِ ثُمَّ قَالَ لِتَرْجُمَانِهِ قُلْ لَهُمْ إِنِّي سَائِلٌ هَذَا عَنْ هَذَا الرَّجُلِ فَإِنْ كَذَبَنِي فَكَذِّبُوهُ فَوَاللَّهِ لَوْلَا الْحَيَاءُ مِنْ أَنْ يَأْثِرُوا عَلَيَّ كَذِبًا لَكَذَبْتُ عَنْهُ ثُمَّ كَانَ أَوَّلَ مَا سَأَلَنِي عَنْهُ أَنْ قَالَ كَيْفَ نَسَبُهُ فِيكُمْ قُلْتُ هُوَ فِينَا ذُو نَسَبٍ قَالَ فَهَلْ قَالَ هَذَا الْقَوْلَ مِنْكُمْ أَحَدٌ قَطُّ قَبْلَهُ قُلْتُ لَا قَالَ فَهَلْ كَانَ مِنْ آبَائِهِ مِنْ مَلِكٍ قُلْتُ لَا قَالَ فَأَشْرَافُ النَّاسِ يَتَّبِعُونَهُ أَمْ ضُعَفَاؤُهُمْ فَقُلْتُ بَلْ ضُعَفَاؤُهُمْ قَالَ أَيَزِيدُونَ أَمْ يَنْقُصُونَ قُلْتُ بَلْ يَزِيدُونَ قَالَ فَهَلْ يَرْتَدُّ أَحَدٌ مِنْهُمْ سَخْطَةً لِدِينِهِ بَعْدَ أَنْ يَدْخُلَ فِيهِ قُلْتُ لَا قَالَ فَهَلْ كُنْتُمْ تَتَّهِمُونَهُ بِالْكَذِبِ قَبْلَ أَنْ يَقُولَ مَا قَالَ قُلْتُ لَا قَالَ فَهَلْ يَغْدِرُ قُلْتُ لَا وَنَحْنُ مِنْهُ فِي مُدَّةٍ لَا نَدْرِي مَا هُوَ فَاعِلٌ فِيهَا قَالَ وَلَمْ تُمْكِنِّي كَلِمَةٌ أُدْخِلُ فِيهَا شَيْئًا غَيْرُ هَذِهِ الْكَلِمَةِ قَالَ فَهَلْ قَاتَلْتُمُوهُ قُلْتُ نَعَمْ قَالَ فَكَيْفَ كَانَ قِتَالُكُمْ إِيَّاهُ قُلْتُ الْحَرْبُ بَيْنَنَا وَبَيْنَهُ سِجَالٌ يَنَالُ مِنَّا وَنَنَالُ مِنْهُ قَالَ مَاذَا يَأْمُرُكُمْ قُلْتُ يَقُولُ اعْبُدُوا اللَّهَ وَحْدَهُ وَلَا تُشْرِكُوا بِهِ شَيْئًا وَاتْرُكُوا مَا يَقُولُ آبَاؤُكُمْ وَيَأْمُرُنَا بِالصَّلَاةِ وَالزَّكَاةِ وَالصِّدْقِ وَالْعَفَافِ وَالصِّلَةِ فَقَالَ لِلتَّرْجُمَانِ قُلْ لَهُ سَأَلْتُكَ عَنْ نَسَبِهِ فَذَكَرْتَ أَنَّهُ فِيكُمْ ذُو نَسَبٍ فَكَذَلِكَ الرُّسُلُ تُبْعَثُ فِي نَسَبِ قَوْمِهَا وَسَأَلْتُكَ هَلْ قَالَ أَحَدٌ مِنْكُمْ هَذَا الْقَوْلَ فَذَكَرْتَ أَنْ لَا فَقُلْتُ لَوْ كَانَ أَحَدٌ قَالَ هَذَا الْقَوْلَ قَبْلَهُ لَقُلْتُ رَجُلٌ يَأْتَسِي بِقَوْلٍ قِيلَ قَبْلَهُ وَسَأَلْتُكَ هَلْ كَانَ مِنْ آبَائِهِ مِنْ مَلِكٍ فَذَكَرْتَ أَنْ لَا قُلْتُ فَلَوْ كَانَ مِنْ آبَائِهِ مِنْ مَلِكٍ قُلْتُ رَجُلٌ يَطْلُبُ مُلْكَ أَبِيهِ وَسَأَلْتُكَ هَلْ كُنْتُمْ تَتَّهِمُونَهُ بِالْكَذِبِ قَبْلَ أَنْ يَقُولَ مَا قَالَ فَذَكَرْتَ أَنْ لَا فَقَدْ أَعْرِفُ أَنَّهُ لَمْ يَكُنْ لِيَذَرَ الْكَذِبَ عَلَى النَّاسِ وَيَكْذِبَ عَلَى اللَّهِ وَسَأَلْتُكَ أَشْرَافُ النَّاسِ اتَّبَعُوهُ أَمْ ضُعَفَاؤُهُمْ فَذَكَرْتَ أَنَّ ضُعَفَاءَهُمْ اتَّبَعُوهُ وَهُمْ أَتْبَاعُ الرُّسُلِ وَسَأَلْتُكَ أَيَزِيدُونَ أَمْ يَنْقُصُونَ فَذَكَرْتَ أَنَّهُمْ يَزِيدُونَ وَكَذَلِكَ أَمْرُ الْإِيمَانِ حَتَّى يَتِمَّ وَسَأَلْتُكَ أَيَرْتَدُّ أَحَدٌ سَخْطَةً لِدِينِهِ بَعْدَ أَنْ يَدْخُلَ فِيهِ فَذَكَرْتَ أَنْ لَا وَكَذَلِكَ الْإِيمَانُ حِينَ تُخَالِطُ بَشَاشَتُهُ الْقُلُوبَ وَسَأَلْتُكَ هَلْ يَغْدِرُ فَذَكَرْتَ أَنْ لَا وَكَذَلِكَ الرُّسُلُ لَا تَغْدِرُ وَسَأَلْتُكَ بِمَا يَأْمُرُكُمْ فَذَكَرْتَ أَنَّهُ يَأْمُرُكُمْ أَنْ تَعْبُدُوا اللَّهَ وَلَا تُشْرِكُوا بِهِ شَيْئًا وَيَنْهَاكُمْ عَنْ عِبَادَةِ الْأَوْثَانِ وَيَأْمُرُكُمْ بِالصَّلَاةِ وَالصِّدْقِ وَالْعَفَافِ فَإِنْ كَانَ مَا تَقُولُ حَقًّا فَسَيَمْلِكُ مَوْضِعَ قَدَمَيَّ هَاتَيْنِ وَقَدْ كُنْتُ أَعْلَمُ أَنَّهُ خَارِجٌ لَمْ أَكُنْ أَظُنُّ أَنَّهُ مِنْكُمْ فَلَوْ أَنِّي أَعْلَمُ أَنِّي أَخْلُصُ إِلَيْهِ لَتَجَشَّمْتُ لِقَاءَهُ وَلَوْ كُنْتُ عِنْدَهُ لَغَسَلْتُ عَنْ قَدَمِهِ ثُمَّ دَعَا بِكِتَابِ رَسُولِ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ الَّذِي بَعَثَ بِهِ دِحْيَةُ إِلَى عَظِيمِ بُصْرَى فَدَفَعَهُ إِلَى هِرَقْلَ فَقَرَأَهُ فَإِذَا فِيهِ بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ مِنْ مُحَمَّدٍ عَبْدِ اللَّهِ وَرَسُولِهِ إِلَى هِرَقْلَ عَظِيمِ الرُّومِ سَلَامٌ عَلَى مَنْ اتَّبَعَ الْهُدَى أَمَّا بَعْدُ فَإِنِّي أَدْعُوكَ بِدِعَايَةِ الْإِسْلَامِ أَسْلِمْ تَسْلَمْ يُؤْتِكَ اللَّهُ أَجْرَكَ مَرَّتَيْنِ فَإِنْ تَوَلَّيْتَ فَإِنَّ عَلَيْكَ إِثْمَ الْأَرِيسِيِّينَ وَ { يَا أَهْلَ الْكِتَابِ تَعَالَوْا إِلَى كَلِمَةٍ سَوَاءٍ بَيْنَنَا وَبَيْنَكُمْ أَنْ لَا نَعْبُدَ إِلَّا اللَّهَ وَلَا نُشْرِكَ بِهِ شَيْئًا وَلَا يَتَّخِذَ بَعْضُنَا بَعْضًا أَرْبَابًا مِنْ دُونِ اللَّهِ فَإِنْ تَوَلَّوْا فَقُولُوا اشْهَدُوا بِأَنَّا مُسْلِمُونَ } قَالَ أَبُو سُفْيَانَ فَلَمَّا قَالَ مَا قَالَ وَفَرَغَ مِنْ قِرَاءَةِ الْكِتَابِ كَثُرَ عِنْدَهُ الصَّخَبُ وَارْتَفَعَتْ الْأَصْوَاتُ وَأُخْرِجْنَا فَقُلْتُ لِأَصْحَابِي حِينَ أُخْرِجْنَا لَقَدْ أَمِرَ أَمْرُ ابْنِ أَبِي كَبْشَةَ إِنَّهُ يَخَافُهُ مَلِكُ بَنِي الْأَصْفَرِ فَمَا زِلْتُ مُوقِنًا أَنَّهُ سَيَظْهَرُ حَتَّى أَدْخَلَ اللَّهُ عَلَيَّ الْإِسْلَامَ وَكَانَ ابْنُ النَّاظُورِ صَاحِبُ إِيلِيَاءَ وَهِرَقْلَ سُقُفًّا عَلَى نَصَارَى الشَّأْمِ يُحَدِّثُ أَنَّ هِرَقْلَ حِينَ قَدِمَ إِيلِيَاءَ أَصْبَحَ يَوْمًا خَبِيثَ النَّفْسِ فَقَالَ بَعْضُ بَطَارِقَتِهِ قَدْ اسْتَنْكَرْنَا هَيْئَتَكَ قَالَ ابْنُ النَّاظُورِ وَكَانَ هِرَقْلُ حَزَّاءً يَنْظُرُ فِي النُّجُومِ فَقَالَ لَهُمْ حِينَ سَأَلُوهُ إِنِّي رَأَيْتُ اللَّيْلَةَ حِينَ نَظَرْتُ فِي النُّجُومِ مَلِكَ الْخِتَانِ قَدْ ظَهَرَ فَمَنْ يَخْتَتِنُ مِنْ هَذِهِ الْأُمَّةِ قَالُوا لَيْسَ يَخْتَتِنُ إِلَّا الْيَهُودُ فَلَا يُهِمَّنَّكَ شَأْنُهُمْ وَاكْتُبْ إِلَى مَدَايِنِ مُلْكِكَ فَيَقْتُلُوا مَنْ فِيهِمْ مِنْ الْيَهُودِ فَبَيْنَمَا هُمْ عَلَى أَمْرِهِمْ أُتِيَ هِرَقْلُ بِرَجُلٍ أَرْسَلَ بِهِ مَلِكُ غَسَّانَ يُخْبِرُ عَنْ خَبَرِ رَسُولِ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ فَلَمَّا اسْتَخْبَرَهُ هِرَقْلُ قَالَ اذْهَبُوا فَانْظُرُوا أَمُخْتَتِنٌ هُوَ أَمْ لَا فَنَظَرُوا إِلَيْهِ فَحَدَّثُوهُ أَنَّهُ مُخْتَتِنٌ وَسَأَلَهُ عَنْ الْعَرَبِ فَقَالَ هُمْ يَخْتَتِنُونَ فَقَالَ هِرَقْلُ هَذَا مُلْكُ هَذِهِ الْأُمَّةِ قَدْ ظَهَرَ ثُمَّ كَتَبَ هِرَقْلُ إِلَى صَاحِبٍ لَهُ بِرُومِيَةَ وَكَانَ نَظِيرَهُ فِي الْعِلْمِ وَسَارَ هِرَقْلُ إِلَى حِمْصَ فَلَمْ يَرِمْ حِمْصَ حَتَّى أَتَاهُ كِتَابٌ مِنْ صَاحِبِهِ يُوَافِقُ رَأْيَ هِرَقْلَ عَلَى خُرُوجِ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ وَأَنَّهُ نَبِيٌّ فَأَذِنَ هِرَقْلُ لِعُظَمَاءِ الرُّومِ فِي دَسْكَرَةٍ لَهُ بِحِمْصَ ثُمَّ أَمَرَ بِأَبْوَابِهَا فَغُلِّقَتْ ثُمَّ اطَّلَعَ فَقَالَ يَا مَعْشَرَ الرُّومِ هَلْ لَكُمْ فِي الْفَلَاحِ وَالرُّشْدِ وَأَنْ يَثْبُتَ مُلْكُكُمْ فَتُبَايِعُوا هَذَا النَّبِيَّ فَحَاصُوا حَيْصَةَ حُمُرِ الْوَحْشِ إِلَى الْأَبْوَابِ فَوَجَدُوهَا قَدْ غُلِّقَتْ فَلَمَّا رَأَى هِرَقْلُ نَفْرَتَهُمْ وَأَيِسَ مِنْ الْإِيمَانِ قَالَ رُدُّوهُمْ عَلَيَّ وَقَالَ إِنِّي قُلْتُ مَقَالَتِي آنِفًا أَخْتَبِرُ بِهَا شِدَّتَكُمْ عَلَى دِينِكُمْ فَقَدْ رَأَيْتُ فَسَجَدُوا لَهُ وَرَضُوا عَنْهُ فَكَانَ ذَلِكَ آخِرَ شَأْنِ هِرَقْلَ رَوَاهُ صَالِحُ بْنُ كَيْسَانَ وَيُونُسُ وَمَعْمَرٌ عَنْ الزُّهْرِيِّ",
+    "latin": "Ḥaddathanā Abū al-Yamān al-Ḥakam ibn Nāfiʿ, qāla akhbaranā Shuʿayb ʿan az-Zuhrī, qāla akhbaranī ʿUbaydullāhi ibn ʿAbdillāhi ibn ʿUtbata ibn Masʿūd, anna ʿAbdallāhi ibn ʿAbbās akhbarahu, anna Abā Sufyāna ibn Ḥarb akhbarahu, anna Hiraqla arsala ilayhi fī rakbin min Qurayshin wa kānū tijāran bi-ash-Shāmi fī al-muddati allatī kāna Rasūlullāhi ṣallallāhu ʿalayhi wa sallam mādda fīhā Abā Sufyāna wa kuffāra Qurayshin, fa-atawhu wa hum bi-Īliyāʾa fa-daʿāhum fī majlisihi wa ḥawlahu ʿuẓamāʾu ar-Rūmi, thumma daʿāhum wa daʿā bi-tarjumānihi fa-qāla: Ayyukum aqrabu nasaban bi-hādhā ar-rajuli alladhī yazʿumu annahu nabiyyun? Fa-qāla Abū Sufyān: Fa-qultu anā aqrabuhum nasaban. Fa-qāla: Adnūhu minnī wa qarribū aṣḥābahu fa-ajʿalūhum ʿinda ẓahrihi. Thumma qāla li-tarjumānihi: Qul lahum innī sāʾilun hādhā ʿan hādhā ar-rajuli, fa-in kadhabanī fa-kadhdhibūhu. Fa-wallāhi lawlā al-ḥayāʾu min an yaʾthurū ʿalayya kadhiban lakadhabtu ʿanhu...",
+    "translation": "Telah menceritakan kepada kami [Abu Al Yaman Al Hakam bin Nafi'] dia berkata: telah mengabarkan kepada kami [Syu'aib] dari [Az Zuhri] telah mengabarkan kepadaku [Ubaidullah bin Abdullah bin 'Utbah bin Mas'ud] bahwa [Abdullah bin 'Abbas] telah mengabarkan kepadanya bahwa [Abu Sufyan bin Harb] telah mengabarkan kepadanya: bahwa Heraclius menerima rombongan dagang Quraisy, yang sedang mengadakan ekspedisi dagang ke Negeri Syam pada saat berlakunya perjanjian antara Nabi shallallahu 'alaihi wa sallam dengan Abu Sufyan dan orang-orang kafir Quraisy. Saat singgah di Iliya' mereka menemui Heraclius atas undangan Heraclius untuk diajak dialog di majelisnya, yang saat itu Heraclius bersama dengan para pembesar-pembesar Negeri Romawi. Heraclius berbicara dengan mereka melalui penerjemah. Heraclius berkata: \"Siapa diantara kalian yang paling dekat hubungan keluarganya dengan orang yang mengaku sebagai Nabi itu?\" Abu Sufyan berkata: maka aku menjawab: \"Akulah yang paling dekat hubungan kekeluargaannya dengan dia.\" Heraclius berkata: \"Dekatkanlah dia denganku dan juga sahabat-sahabatnya.\" Maka mereka meletakkan orang-orang Quraisy berada di belakang Abu Sufyan. Lalu Heraclius berkata melalui penerjemahnya: \"Katakan kepadanya, bahwa aku bertanya kepadanya tentang lelaki yang mengaku sebagai Nabi. Jika ia berdusta kepadaku maka kalian harus mendustakannya.\" Demi Allah, kalau bukan rasa malu akibat tudingan pendusta yang akan mereka lontarkan kepadaku niscaya aku berdusta kepadanya. Abu Sufyan berkata: Maka yang pertama ditanyakannya kepadaku tentangnya (Nabi shallallahu 'alaihi wa sallam) adalah: \"bagaimana kedudukan nasabnya ditengah-tengah kalian?\" Aku jawab: \"Dia adalah dari keturunan baik-baik (bangsawan).\" Tanyanya lagi: \"Apakah ada orang lain yang pernah mengatakannya sebelum dia?\" Aku jawab: \"Tidak ada\". Tanyanya lagi: \"Apakah bapaknya seorang raja?\" Jawabku: \"Bukan\". Apakah yang mengikuti dia orang-orang yang terpandang atau orang-orang yang rendah?\" Jawabku: \"Bahkan yang mengikutinya adalah orang-orang yang rendah\". Dia bertanya lagi: \"Apakah bertambah pengikutnya atau berkurang?\" Aku jawab: \"Bertambah\". Dia bertanya lagi: \"Apakah ada yang murtad disebabkan dongkol terhadap agamanya?\" Aku jawab: \"Tidak ada\". Dia bertanya lagi: \"Apakah kalian pernah mendapatkannya dia berdusta sebelum dia menyampaikan apa yang dikatakannya itu?\" Aku jawab: \"Tidak pernah\". Dia bertanya lagi: \"Apakah dia pernah berlaku curang?\" Aku jawab: \"Tidak pernah. Ketika kami bergaul dengannya, dia tidak pernah melakukan itu\". Berkata Abu Sufyan: \"Aku tidak mungkin menyampaikan selain ucapan seperti ini\". Dia bertanya lagi: \"Apakah kalian memeranginya?\" Aku jawab: \"Iya\". Dia bertanya lagi: \"Bagaimana kesudahan perang tersebut?\" Aku jawab: \"Perang antara kami dan dia sangat banyak. Terkadang dia mengalahkan kami terkadang kami yang mengalahkan dia\". Dia bertanya lagi: \"Apa yang diperintahkannya kepada kalian?\" Aku jawab: \"Dia menyuruh kami: 'Sembahlah Allah dengan tidak menyekutukannya dengan sesuatu apapun, dan tinggalkan apa yang dikatakan oleh nenek moyang kalian.' Dia juga memerintahkan kami untuk menegakkan shalat, menunaikan zakat, berkata jujur, saling memaafkan dan menyambung silaturrahim.\" Maka Heraclius berkata kepada penerjemahnya: \"Katakan kepadanya, bahwa aku telah bertanya kepadamu tentang keturunan orang itu, kamu ceritakan bahwa orang itu dari keturunan bangsawan. Begitu juga laki-laki itu dibangkitkan di tengah keturunan kaumnya. Dan aku tanya kepadamu apakah pernah ada orang sebelumnya yang mengatakan seperti yang dikatakannya, kamu jawab tidak. Seandainya dikatakan ada orang sebelumnya yang mengatakannya tentu kuanggap orang ini meniru orang sebelumnya yang pernah mengatakan hal serupa. Aku tanyakan juga kepadamu apakah bapaknya ada yang dari keturunan raja, maka kamu jawab tidak. Aku katakan seandainya bapaknya dari keturunan raja, tentu orang ini sedang menuntut kerajaan bapaknya. Dan aku tanyakan juga kepadamu apakah kalian pernah mendapatkan dia berdusta sebelum dia menyampaikan apa yang dikatakannya, kamu menjawabnya tidak. Sungguh aku memahami, kalau kepada manusia saja dia tidak berani berdusta apalagi berdusta kepada Allah. Dan aku juga telah bertanya kepadamu, apakah yang mengikuti dia orang-orang yang terpandang atau orang-orang yang rendah?\" Kamu menjawab orang-orang yang rendah yang mengikutinya. Memang mereka itulah yang menjadi para pengikut Rasul. Aku juga sudah bertanya kepadamu apakah bertambah pengikutnya atau berkurang, kamu menjawabnya bertambah. Dan memang begitulah perkara iman hingga menjadi sempurna. Aku juga sudah bertanya kepadamu apakah ada yang murtad disebabkan marah terhadap agamanya. Kamu menjawab tidak ada. Dan memang begitulah iman bila telah masuk tumbuh bersemi di dalam hati. Aku juga sudah bertanya kepadamu apakah dia pernah berlaku curang, kamu jawab tidak pernah. Dan memang begitulah para Rasul tidak mungkin curang. Dan aku juga sudah bertanya kepadamu apa yang diperintahkannya kepada kalian, kamu jawab dia memerintahkan kalian untuk menyembah Allah dengan tidak menyekutukannya dengan sesuatu apapun, dan melarang kalian menyembah berhala, dia juga memerintahkan kalian untuk menegakkan shalat, menunaikan zakat, berkata jujur, saling memaafkan dan menyambung silaturrahim. Seandainya semua apa yang kamu katakan ini benar, pasti dia akan menguasai kerajaan yang ada di bawah kakiku ini. Sungguh aku telah menduga bahwa dia tidak ada diantara kalian sekarang ini, seandainya aku tahu jalan untuk bisa menemuinya, tentu aku akan berusaha keras menemuinya hingga bila aku sudah berada di sisinya pasti aku akan basuh kedua kakinya. Kemudian Heraclius meminta surat Rasulullah shallallahu 'alaihi wa sallam yang dibawa oleh Dihyah untuk para Penguasa Negeri Bashrah, Maka diberikannya surat itu kepada Heraclius, maka dibacanya dan isinya berbunyi: \"Bismillahir rahmanir rahim. Dari Muhammad, hamba Allah dan Rasul-Nya untuk Heraclius. Penguasa Romawi, Keselamatan bagi siapa yang mengikuti petunjuk. Kemudian daripada itu, aku mengajakmu dengan seruan Islam: masuk Islamlah kamu, maka kamu akan selamat, Allah akan memberi pahala kepadamu dua kali. Namun jika kamu berpaling, maka kamu menanggung dosa rakyat kamu, dan: {Hai ahli kitab, marilah (berpegang) kepada suatu kalimat (ketetapan) yang tidak ada perselisihan antara kami dan kamu, bahwa tidak kita sembah kecuali Allah dan tidak kita persekutukan dia dengan sesuatupun dan tidak (pula) sebagian kita menjadikan sebagian yang lain sebagai Rabb selain Allah. Jika mereka berpaling, maka katakanlah kepada mereka: \"Saksikanlah, bahwa kami adalah orang-orang yang berserah diri (kepada Allah)}\" Abu Sufyan menuturkan: \"Setelah Heraclius menyampaikan apa yang dikatakannya dan selesai membaca surat tersebut, terjadilah hiruk pikuk dan suara-suara ribut, sehingga mengusir kami. Aku berkata kepada teman-temanku setelah kami diusir keluar: \"Sungguh dia telah diajak kepada urusan Anak Abu Kabsyah. Heraclius mengkhawatirkan kerajaan Romawi.\" Pada masa itupun aku juga khawatir bahwa Muhammad akan berjaya, sampai akhirnya (perasaan itu hilang setelah) Allah memasukkan aku ke dalam Islam. Dan adalah Ibnu An Nazhur, seorang Pembesar Iliya' dan Heraclius adalah seorang uskup agama Nashrani, dia menceritakan bahwa pada suatu hari ketika Heraclius mengunjungi Iliya' dia sangat gelisah, berkata sebagian komandan perangnya: \"Sungguh kami mengingkari keadaanmu. Selanjutnya kata Ibnu Nazhhur: \"Heraclius adalah seorang ahli nujum yang selalu memperhatikan perjalanan bintang-bintang. Dia pernah menjawab pertanyaan para pendeta yang bertanya kepadanya: \"Pada suatu malam ketika saya mengamati perjalanan bintang-bintang, saya melihat raja Khitan telah lahir, siapakah di antara ummat ini yang di khitan?\" Jawab para pendeta: \"Yang berkhitan hanyalah orang-orang Yahudi, janganlah anda risau karena orang-orang Yahudi itu. Perintahkan saja keseluruh negeri dalam kerajaan anda, supaya orang-orang Yahudi di negeri tersebut di bunuh.\" Ketika itu di hadapkan kepada Heraclius seorang utusan raja Bani Ghasssan untuk menceritakan perihal Rasulullah shallallahu 'alaihi wa sallam, setelah orang itu selesai bercerita, lalu Heraclius memerintahkan agar dia diperiksa, apakah dia berkhitan ataukah tidak. Seusai di periksa, ternyata memang dia berkhitam. Lalu di beritahukan orang kepada Heraclius. Heraclius bertanya kepada orang tersebut tentang orang-orang Arab yang lainnya, di khitankah mereka ataukah tidak?\" Dia menjawab: \"Orang Arab itu di khitan semuanya.\" Heraclius berkata: 'inilah raja ummat, sesungguhnya dia telah terlahir.\" Kemudian heraclius berkirim surat kepada seorang sahabatnya di Roma yang ilmunya setara dengan Heraclius (untuk menceritakan perihal kelahiran Nabi Muhammad shallallahu 'alaihi wa sallam). Sementara itu, ia meneruskan perjalanannya ke negeri Himsha, tetapi sebelum tiba di Himsha, balasan surat dari sahabatnya itu telah tiba terlebih dahulu. Sahabatnya itu menyetujui pendapat Heraclius bahwa Muhammad telah lahir dan bahwa beliau memang seorang Nabi. Heraclius lalu mengundang para pembesar Roma supaya datang ke tempatnya di Himsha, setelah semuanya hadir dalam majlisnya, Heraclius memerintahkan supaya mengunci semua pintu. Kemudian dia berkata: 'Wahai bangsa rum, maukah anda semua beroleh kemenangan dan kemajuan yang gilang gemilang, sedangkan kerajaan tetap utuh di tangan kita? Kalau mau, akuilah Muhammad sebagai Nabi!.\" Mendengar ucapan itu, mereka lari bagaikan keledai liar, padahal semua pintu telah terkunci. Melihat keadaan yang demikian, Heraclius jadi putus harapan yang mereka akan beriman (percaya kepada kenabian Muhammad). Lalu di perintahkannya semuanya untuk kembali ke tempatnya masing-masing seraya berkata: \"Sesungguhnya saya mengucapkan perkataan saya tadi hanyalah sekedar menguji keteguhan hati anda semua. Kini saya telah melihat keteguhan itu.\" Lalu mereka sujud di hadapan Heraclius dan mereka senang kepadanya. Demikianlah akhir kisah Heraclius. Telah di riwayatkan oleh [Shalih bin Kaisan] dan [Yunus] dan [Ma'mar] dari [Az Zuhri].",
+    "isnad": {
+      "chain_summary": "Abū al-Yamān al-Ḥakam ibn Nāfiʿ → Shuʿayb ibn Abī Ḥamzah → Muḥammad ibn Muslim ibn Shihāb az-Zuhrī → ʿUbaydullāh ibn ʿAbdillāh ibn ʿUtbah ibn Masʿūd → ʿAbdullāh ibn ʿAbbās raḍiyallāhu ʿanhumā → Abū Sufyān ibn Ḥarb (langsung menyaksikan dialog dengan Heraklius) → Rasūlullāhi ﷺ (melalui surat dan peristiwa)",
+      "chain_length": 5,
+      "narrators": [
+        {
+          "level": 1,
+          "name": "Abū al-Yamān al-Ḥakam ibn Nāfiʿ",
+          "name_arabic": "أبو اليمان الحكم بن نافع",
+          "role": "Guru langsung Imam Bukhari",
+          "status": "Tsiqah Tsabt (kokoh dan terpercaya)",
+          "died": "sekitar 220 H"
+        },
+        {
+          "level": 2,
+          "name": "Shuʿayb ibn Abī Ḥamzah",
+          "name_arabic": "شعيب بن أبي حمزة",
+          "role": "Perawi utama dari az-Zuhri",
+          "status": "Tsiqah Tsabt",
+          "died": "sekitar 160 H"
+        },
+        {
+          "level": 3,
+          "name": "Muḥammad ibn Muslim ibn Shihāb az-Zuhrī",
+          "name_arabic": "محمد بن مسلم بن شهاب الزهري",
+          "role": "Tabi'ut tabi'in besar — imam hadits Madinah",
+          "status": "Tsiqah Tsabt — hafizh besar",
+          "died": "124 H"
+        },
+        {
+          "level": 4,
+          "name": "ʿUbaydullāh ibn ʿAbdillāh ibn ʿUtbah ibn Masʿūd",
+          "name_arabic": "عبيد الله بن عبد الله بن عتبة بن مسعود",
+          "role": "Tabi'in — perawi dari sahabat",
+          "status": "Tsiqah Tsabt",
+          "died": "sekitar 100 H"
+        },
+        {
+          "level": 5,
+          "name": "ʿAbdullāh ibn ʿAbbās raḍiyallāhu ʿanhumā",
+          "name_arabic": "عبد الله بن عباس رضي الله عنهما",
+          "role": "Sahabat Nabi — sepupu Rasulullah ﷺ dan ahli tafsir",
+          "status": "Sahabi — periwayat hadits yang sangat banyak dan terpercaya",
+          "died": "68 H / 687 M"
+        },
+        {
+          "level": 6,
+          "name": "Abū Sufyān ibn Ḥarb raḍiyallāhu ʿanhu",
+          "name_arabic": "أبو سفيان بن حرب رضي الله عنه",
+          "role": "Sahabat Nabi — pemimpin Quraysh sebelum masuk Islam, saksi langsung peristiwa",
+          "status": "Sahabi — masuk Islam setelah Fath Makkah",
+          "died": "sekitar 31 H / 652 M"
+        }
+      ]
+    },
+    "asbab_al_wurud": {
+      "title": "Dialog Abu Sufyan dengan Kaisar Romawi Heraklius tentang Kenabian Rasulullah ﷺ",
+      "summary": "Hadits ini menceritakan pertemuan rombongan dagang Quraysh (dipimpin Abu Sufyan) dengan Heraklius di Iliya' (Yerusalem) pada masa gencatan senjata (truce) antara Nabi ﷺ dan Quraysh, di mana Heraklius menguji kebenaran kenabian melalui serangkaian pertanyaan yang tepat.",
+      "narrative": "Ketika rombongan Quraysh sedang berdagang di Syam, Heraklius mengundang mereka ke majelisnya yang dihadiri para pembesar Romawi. Melalui penerjemah, ia menanyai Abu Sufyan (yang paling dekat nasabnya dengan Nabi ﷺ) tentang sifat-sifat Nabi ﷺ. Abu Sufyan, saat itu masih musyrik, menjawab jujur meski enggan. Heraklius menganalisis jawaban tersebut dan menyimpulkan bahwa Muhammad ﷺ adalah nabi yang dijanjikan, sebagaimana nabi-nabi sebelumnya. Ia juga membaca surat Nabi ﷺ yang dibawa Dihyah al-Kalbi. Meski mengakui kebenaran, Heraklius tidak masuk Islam karena takut kehilangan kekuasaan.",
+      "source": "Diriwayatkan langsung dalam Shahih al-Bukhari melalui sanad muttasil yang shahih dari az-Zuhri. Para ulama seperti Ibn Hajar al-Asqalani dalam Fath al-Bari menjadikannya sebagai bukti kuat tanda-tanda kenabian.",
+      "scholarly_note": "Ibn Hajar al-Asqalani dalam Fath al-Bari menjelaskan bahwa hadits ini ditempatkan dalam Kitab Bad' al-Wahy untuk menunjukkan bagaimana wahyu dan kenabian diakui oleh ahli kitab dan penguasa non-Muslim melalui bukti-bukti rasional, sekaligus menjadi pelajaran tentang pentingnya kejujuran dalam dakwah."
+    },
+    "meaning": {
+      "overview": "Hadits ini merupakan bukti nyata keagungan kenabian Rasulullah ﷺ melalui analisis cerdas seorang raja besar yang bukan Muslim. Heraklius menggunakan logika dan pengetahuan kitab suci untuk mengenali tanda-tanda nabi, meskipun akhirnya ia memilih duniawi daripada iman.",
+      "key_points": [
+        "Heraklius mengajukan 7 pertanyaan kunci yang menjadi standar pengenalan nabi sejati: nasab, kebaruan dakwah, latar belakang kerajaan, pengikut, kestabilan iman, kejujuran sebelum kenabian, dan sifat amanah.",
+        "Jawaban Abu Sufyan (meski dari musuh) justru memperkuat bukti kenabian.",
+        "Heraklius mengakui bahwa Muhammad ﷺ memenuhi semua ciri nabi, termasuk surat dakwah yang isinya sesuai ajaran tauhid.",
+        "Meski mengakui kebenaran, Heraklius tidak beriman karena takut kehilangan kekuasaan dan rakyatnya menolak.",
+        "Hadits ini menegaskan bahwa kenabian Muhammad ﷺ sesuai dengan pola nabi-nabi sebelumnya dan menjadi pelajaran tentang ujian iman bagi penguasa."
+      ]
+    },
+    "tafsir": {
+      "scholars": [
+        {
+          "scholar": "Ibn Hajar al-Asqalani (wafat 852 H)",
+          "work": "Fatḥ al-Bārī Sharḥ Ṣaḥīḥ al-Bukhārī",
+          "explanation": "Beliau menjelaskan bahwa hadits ini menunjukkan kebijaksanaan Heraklius dalam menguji kenabian melalui pertanyaan-pertanyaan yang tepat sesuai ilmu agama dan sejarah nabi-nabi. Imam Bukhari meletakkannya di Kitab Bad' al-Wahy untuk menegaskan bahwa wahyu datang dengan bukti-bukti yang jelas, dan bahwa dakwah Nabi ﷺ mencapai penguasa besar dunia."
+        },
+        {
+          "scholar": "Imam al-Nawawi (wafat 676 H)",
+          "work": "Syarḥ Ṣaḥīḥ Muslim",
+          "explanation": "Imam al-Nawawi menyebut hadits ini sebagai salah satu bukti terkuat kenabian melalui pengakuan musuh. Beliau menekankan bahwa kejujuran Abu Sufyan (musuh Nabi) justru menjadi saksi terbaik, dan Heraklius sebagai ahli kitab mengenali pola yang sama dengan nabi-nabi Bani Israil."
+        },
+        {
+          "scholar": "Ibn Rajab al-Hanbali (wafat 795 H)",
+          "work": "Jāmiʿ al-ʿUlūm wa-al-Ḥikam",
+          "explanation": "Beliau mengaitkan hadits ini dengan keutamaan dakwah yang bijaksana. Heraklius mewakili orang yang mengenal kebenaran namun tertahan oleh hawa nafsu dan kekuasaan, menjadi pelajaran bagi umat agar tidak meniru sikap tersebut."
+        }
+      ]
+    },
+    "relevant_ayat": [
+      {
+        "surah": "Āli ʿImrān",
+        "surah_number": 3,
+        "ayah_number": 64,
+        "arabic": "يَا أَهْلَ الْكِتَابِ تَعَالَوْا إِلَىٰ كَلِمَةٍ سَوَاءٍ بَيْنَنَا وَبَيْنَكُمْ أَلَّا نَعْبُدَ إِلَّا اللَّهَ وَلَا نُشْرِكَ بِهِ شَيْئًا وَلَا يَتَّخِذَ بَعْضُنَا بَعْضًا أَرْبَابًا مِّن دُونِ اللَّهِ",
+        "translation": "Wahai Ahli Kitab! Marilah (berpegang) kepada suatu kalimat (ketetapan) yang tidak ada perselisihan antara kami dan kamu, bahwa tidak kita sembah kecuali Allah dan tidak kita persekutukan Dia dengan sesuatupun dan tidak (pula) sebagian kita menjadikan sebagian yang lain sebagai tuhan selain Allah.",
+        "relevance": "Ayat ini dikutip langsung dalam surat Rasulullah ﷺ kepada Heraklius, sebagaimana disebutkan dalam hadits ini, sebagai inti dakwah tauhid."
+      },
+      {
+        "surah": "Al-Baqarah",
+        "surah_number": 2,
+        "ayah_number": 146,
+        "arabic": "الَّذِينَ آتَيْنَاهُمُ الْكِتَابَ يَعْرِفُونَهُ كَمَا يَعْرِفُونَ أَبْنَاءَهُمْ",
+        "translation": "Orang-orang yang telah Kami berikan Kitab kepadanya, mereka mengenalnya (Muhammad) sebagaimana mereka mengenal anak-anaknya sendiri.",
+        "relevance": "Heraklius sebagai ahli kitab mengenali tanda-tanda Nabi ﷺ dengan jelas, sesuai ayat ini."
+      },
+      {
+        "surah": "Al-Māʾidah",
+        "surah_number": 5,
+        "ayah_number": 83,
+        "arabic": "وَإِذَا سَمِعُوا مَا أُنزِلَ إِلَى الرَّسُولِ تَرَىٰ أَعْيُنَهُمْ تَفِيضُ مِنَ الدَّمْعِ مِمَّا عَرَفُوا مِنَ الْحَقِّ",
+        "translation": "Dan apabila mereka mendengarkan apa yang diturunkan kepada Rasul, kamu lihat mata mereka mencucurkan air mata karena mereka mengenal kebenaran.",
+        "relevance": "Heraklius mengakui kebenaran namun tidak beriman, berbeda dengan sikap sebagian ahli kitab yang menangis karena mengenal kebenaran."
+      }
+    ]
+  },
+  {
+    "id": "bukhari-007",
+    "number": 7,
+    "book": {
+      "name": "Ṣaḥīḥ al-Bukhārī",
+      "name_arabic": "الجامع المسند الصحيح المختصر من أمور رسول الله ﷺ وسننه وأيامه",
+      "name_short": "Shahih al-Bukhari",
+      "chapter_name": "Kitāb Bad' al-Waḥy",
+      "chapter_name_arabic": "كتاب بدء الوحى",
+      "chapter_name_translated": "Kitab Permulaan Turunnya Wahyu",
+      "chapter_number": 1,
+      "volume": 1,
+      "page": 15,
+      "page_note": "Mengacu pada edisi Dār al-Fikr, Beirut. Nomor halaman bisa sedikit berbeda tergantung edisi cetakan.",
+      "edition_reference": "Dār al-Fikr, Beirut — sesuai juga dengan penomoran dalam Fath al-Bārī karya Ibn Hajar al-Asqalani"
+    },
+    "author": {
+      "full_name": "Abū ʿAbdillāh Muḥammad ibn Ismāʿīl ibn Ibrāhīm ibn al-Mughīrah al-Bukhārī",
+      "full_name_arabic": "أبو عبد الله محمد بن إسماعيل بن إبراهيم بن المغيرة البخاري",
+      "known_as": "Imam al-Bukhari",
+      "born": "194 H / 810 M — Bukhara (sekarang wilayah Uzbekistan)",
+      "died": "256 H / 870 M — Khartank, dekat Samarkand"
+    },
+    "type": "Shahih",
+    "category": [
+      "Rukun Islam",
+      "Lima Pilar Islam",
+      "Fondasi Agama",
+      "Tauhid",
+      "Ibadah Fardhu",
+      "Syariat Islam"
+    ],
+    "arabic": "حَدَّثَنَا عُبَيْدُ اللَّهِ بْنُ مُوسَى قَالَ أَخْبَرَنَا حَنْظَلَةُ بْنُ أَبِي سُفْيَانَ عَنْ عِكْرِمَةَ بْنِ خَالِدٍ عَنْ ابْنِ عُمَرَ رَضِيَ اللَّهُ عَنْهُمَا قَالَ قَالَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ بُنِيَ الْإِسْلَامُ عَلَى خَمْسٍ شَهَادَةِ أَنْ لَا إِلَهَ إِلَّا اللَّهُ وَأَنَّ مُحَمَّدًا رَسُولُ اللَّهِ وَإِقَامِ الصَّلَاةِ وَإِيتَاءِ الزَّكَاةِ وَالْحَجِّ وَصَوْمِ رَمَضَانَ",
+    "latin": "Ḥaddathanā ʿUbaydullāhi ibn Mūsā, qāla akhbaranā Ḥanẓalatu ibn Abī Sufyān, ʿan ʿIkrimata ibn Khālid, ʿan Ibn ʿUmara raḍiyallāhu ʿanhumā, qāla: Qāla Rasūlullāhi ṣallallāhu ʿalayhi wa sallam: Buniya al-Islāmu ʿalā khamsin: shahādati an lā ilāha illā Allāhu wa anna Muḥammadan Rasūlullāhi, wa iqāmi aṣ-ṣalāti, wa ītāʾi az-zakāti, wa al-ḥajji, wa ṣawmi Ramaḍāna.",
+    "translation": "Telah menceritakan kepada kami [Ubaidullah bin Musa] dia berkata: telah mengabarkan kepada kami [Hanzhalah bin Abu Sufyan] dari ['Ikrimah bin Khalid] dari [Ibnu 'Umar] radliyallahu 'anhuma berkata: Rasulullah shallallahu 'alaihi wa sallam bersabda: 'Islam dibangun di atas lima (landasan): persaksian tidak ada ilah selain Allah dan sesungguhnya Muhammad utusan Allah, mendirikan shalat, menunaikan zakat, haji dan puasa Ramadlan'.",
+    "isnad": {
+      "chain_summary": "ʿUbaydullāh ibn Mūsā → Ḥanẓalah ibn Abī Sufyān → ʿIkrimah ibn Khālid → ʿAbdullāh ibn ʿUmar raḍiyallāhu ʿanhumā → Rasūlullāhi ﷺ",
+      "chain_length": 4,
+      "narrators": [
+        {
+          "level": 1,
+          "name": "ʿUbaydullāh ibn Mūsā al-Qurashī",
+          "name_arabic": "عبيد الله بن موسى",
+          "role": "Guru langsung Imam Bukhari",
+          "status": "Tsiqah Tsabt (kokoh dan terpercaya) — hafizh besar dari Kufah",
+          "died": "213 H"
+        },
+        {
+          "level": 2,
+          "name": "Ḥanẓalah ibn Abī Sufyān al-Jumahī",
+          "name_arabic": "حنظلة بن أبي سفيان",
+          "role": "Perawi dari Makkah",
+          "status": "Tsiqah (terpercaya) — termasuk dalam perawi Bukhari dan Muslim",
+          "died": "sekitar 170 H"
+        },
+        {
+          "level": 3,
+          "name": "ʿIkrimah ibn Khālid al-Makhzūmī",
+          "name_arabic": "عكرمة بن خالد",
+          "role": "Tabi'in — perawi dari sahabat",
+          "status": "Tsiqah (terpercaya) — diterima oleh para imam hadits",
+          "died": "sekitar 110 H"
+        },
+        {
+          "level": 4,
+          "name": "ʿAbdullāh ibn ʿUmar raḍiyallāhu ʿanhumā",
+          "name_arabic": "عبد الله بن عمر رضي الله عنهما",
+          "role": "Sahabat Nabi — putra Khalifah Umar ibn al-Khattab",
+          "status": "Sahabi — periwayat hadits yang sangat banyak dan teliti",
+          "died": "73 H / 693 M"
+        }
+      ]
+    },
+    "asbab_al_wurud": {
+      "title": "Pernyataan Umum tentang Fondasi Islam",
+      "summary": "Hadits ini merupakan penjelasan pokok Rasulullah ﷺ mengenai lima rukun utama yang menjadi landasan berdirinya agama Islam, tanpa dikaitkan dengan peristiwa khusus tertentu.",
+      "narrative": "Rasulullah ﷺ menyampaikan hadits ini sebagai kaidah dasar (qāʿidah) yang menjelaskan struktur Islam secara ringkas dan menyeluruh. Para sahabat meriwayatkannya sebagai pengajaran umum kepada umat, menekankan bahwa Islam tegak di atas lima pilar utama ini. Hadits ini termasuk dalam bab permulaan wahyu karena menunjukkan esensi ajaran yang dibawa oleh wahyu.",
+      "source": "Diriwayatkan langsung dalam Shahih al-Bukhari melalui sanad muttasil dan shahih. Hadits ini juga diriwayatkan dalam Shahih Muslim dan menjadi dasar penjelasan para ulama tentang rukun Islam.",
+      "scholarly_note": "Ibn Hajar al-Asqalani dalam Fath al-Bari menjelaskan bahwa Imam Bukhari menempatkan hadits ini di Kitab Bad' al-Wahy untuk menegaskan bahwa setelah penjelasan wahyu dan akhlak Nabi ﷺ, Islam memiliki fondasi yang jelas dan kokoh berupa lima rukun ini."
+    },
+    "meaning": {
+      "overview": "Hadits ini adalah salah satu hadits paling mendasar dalam Islam yang dikenal sebagai 'Hadits Lima Rukun Islam'. Ia menjelaskan bahwa seluruh bangunan agama Islam berdiri di atas lima pilar utama yang wajib dilaksanakan.",
+      "key_points": [
+        "Islam 'dibangun' (buniya) di atas lima landasan, seperti sebuah bangunan yang kokoh hanya jika fondasinya kuat.",
+        "Rukun pertama adalah syahadatain (persaksian tauhid dan kerasulan), yang merupakan dasar akidah.",
+        "Empat rukun berikutnya adalah ibadah fisik: shalat, zakat, haji, dan puasa Ramadhan.",
+        "Hadits ini mencakup seluruh aspek agama: akidah, ibadah, dan muamalah.",
+        "Para ulama menyatakan bahwa hadits ini mencakup seluruh ajaran Islam secara ringkas, dan pelaksanaan kelima rukun ini adalah syarat minimal keislaman seseorang."
+      ]
+    },
+    "tafsir": {
+      "scholars": [
+        {
+          "scholar": "Ibn Hajar al-Asqalani (wafat 852 H)",
+          "work": "Fatḥ al-Bārī Sharḥ Ṣaḥīḥ al-Bukhārī",
+          "explanation": "Beliau menjelaskan bahwa hadits ini merupakan kaidah agung yang mencakup seluruh syariat Islam. Imam Bukhari meletakkannya di awal kitab untuk menunjukkan bahwa wahyu membawa fondasi yang jelas berupa lima rukun ini. Beliau juga menyebutkan bahwa 'haji' di sini mencakup haji ke Baitullah, dan hadits ini selaras dengan ayat-ayat Al-Qur'an tentang rukun-rukun tersebut."
+        },
+        {
+          "scholar": "Imam al-Nawawi (wafat 676 H)",
+          "work": "Syarḥ al-Arbaʿīn an-Nawawiyyah",
+          "explanation": "Imam al-Nawawi menjadikan hadits ini sebagai hadits ketiga dalam koleksi Arba'in-nya dan menjelaskan bahwa lima rukun ini adalah pokok-pokok Islam yang wajib. Beliau menegaskan bahwa syahadat adalah rukun akidah, sedangkan empat lainnya adalah rukun amaliah, dan kelima-duanya harus dilaksanakan dengan ikhlas."
+        },
+        {
+          "scholar": "Ibn Rajab al-Hanbali (wafat 795 H)",
+          "work": "Jāmiʿ al-ʿUlūm wa-al-Ḥikam",
+          "explanation": "Beliau mendedikasikan penjelasan panjang dan menyatakan bahwa hadits ini adalah 'umm al-ahadith' (induk hadits) tentang syariat. Setiap rukun memiliki hikmah mendalam: syahadat membersihkan tauhid, shalat membersihkan jiwa, zakat membersihkan harta, puasa membersihkan nafsu, dan haji membersihkan duniawi."
+        }
+      ]
+    },
+    "relevant_ayat": [
+      {
+        "surah": "Al-Baqarah",
+        "surah_number": 2,
+        "ayah_number": 163,
+        "arabic": "وَإِلَٰهُكُمْ إِلَٰهٌ وَاحِدٌ ۖ لَّا إِلَٰهَ إِلَّا هُوَ الرَّحْمَٰنُ الرَّحِيمُ",
+        "translation": "Dan Tuhanmu adalah Tuhan Yang Maha Esa. Tidak ada Tuhan selain Dia, Yang Maha Pengasih, Maha Penyayang.",
+        "relevance": "Ayat ini menjadi dasar syahadat pertama dalam rukun Islam yang disebutkan dalam hadits."
+      },
+      {
+        "surah": "Al-Baqarah",
+        "surah_number": 2,
+        "ayah_number": 183,
+        "arabic": "يَا أَيُّهَا الَّذِينَ آمَنُوا كُتِبَ عَلَيْكُمُ الصِّيَامُ كَمَا كُتِبَ عَلَى الَّذِينَ مِن قَبْلِكُمْ",
+        "translation": "Hai orang-orang yang beriman, diwajibkan atas kamu berpuasa sebagaimana diwajibkan atas orang-orang sebelum kamu.",
+        "relevance": "Ayat ini mewajibkan puasa Ramadhan, salah satu rukun yang disebutkan dalam hadits."
+      },
+      {
+        "surah": "Al-Baqarah",
+        "surah_number": 2,
+        "ayah_number": 197,
+        "arabic": "الْحَجُّ أَشْهُرٌ مَّعْلُومَاتٌ ۚ فَمَن فَرَضَ فِيهِنَّ الْحَجَّ فَلَا رَفَثَ وَلَا فُسُوقَ وَلَا جِدَالَ فِي الْحَجِّ",
+        "translation": "Haji itu adalah beberapa bulan yang dimaklumi. Barangsiapa yang menetapkan niatnya dalam bulan itu akan mengerjakan haji, maka tidak boleh rafats, berbuat fasik dan berbantah-bantahan di dalam masa mengerjakan haji.",
+        "relevance": "Ayat ini menegaskan kewajiban haji, rukun keempat dalam hadits ini."
+      },
+      {
+        "surah": "At-Tawbah",
+        "surah_number": 9,
+        "ayah_number": 103,
+        "arabic": "خُذْ مِنْ أَمْوَالِهِمْ صَدَقَةً تُطَهِّرُهُمْ وَتُزَكِّيهِم بِهَا",
+        "translation": "Ambillah zakat dari sebagian harta mereka untuk membersihkan dan menyucikan mereka.",
+        "relevance": "Ayat ini memerintahkan zakat, salah satu rukun utama yang disebutkan dalam hadits."
+      }
+    ]
+  },
+  {
+    "id": "bukhari-009",
+    "number": 9,
+    "book": {
+      "name": "Ṣaḥīḥ al-Bukhārī",
+      "name_arabic": "الجامع المسند الصحيح المختصر من أمور رسول الله ﷺ وسننه وأيامه",
+      "name_short": "Shahih al-Bukhari",
+      "chapter_name": "Kitāb al-Īmān",
+      "chapter_name_arabic": "كتاب الإيمان",
+      "chapter_name_translated": "Kitab Iman",
+      "chapter_number": 2,
+      "volume": 1,
+      "page": 16,
+      "page_note": "Mengacu pada edisi Dār al-Fikr, Beirut. Nomor halaman bisa sedikit berbeda tergantung edisi cetakan.",
+      "edition_reference": "Dār al-Fikr, Beirut — sesuai juga dengan penomoran dalam Fath al-Bārī karya Ibn Hajar al-Asqalani"
+    },
+    "author": {
+      "full_name": "Abū ʿAbdillāh Muḥammad ibn Ismāʿīl ibn Ibrāhīm ibn al-Mughīrah al-Bukhārī",
+      "full_name_arabic": "أبو عبد الله محمد بن إسماعيل بن إبراهيم بن المغيرة البخاري",
+      "known_as": "Imam al-Bukhari",
+      "born": "194 H / 810 M — Bukhara (sekarang wilayah Uzbekistan)",
+      "died": "256 H / 870 M — Khartank, dekat Samarkand"
+    },
+    "type": "Shahih",
+    "category": [
+      "Definisi Muslim",
+      "Akhlak Muslim",
+      "Hijrah Maknawi",
+      "Keamanan Umat",
+      "Lisan dan Tangan",
+      "Iman dan Amal"
+    ],
+    "arabic": "حَدَّثَنَا آدَمُ بْنُ أَبِي إِيَاسٍ قَالَ حَدَّثَنَا شُعْبَةُ عَنْ عَبْدِ اللَّهِ بْنِ أَبِي السَّفَرِ وَإِسْمَاعِيلَ بْنِ أَبِي خَالِدٍ عَنْ الشَّعْبِيِّ عَنْ عَبْدِ اللَّهِ بْنِ عَمْرٍو رَضِيَ اللَّهُ عَنْهُمَا عَنْ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ قَالَ الْمُسْلِمُ مَنْ سَلِمَ الْمُسْلِمُونَ مِنْ لِسَانِهِ وَيَدِهِ وَالْمُهَاجِرُ مَنْ هَجَرَ مَا نَهَى اللَّهُ عَنْهُ قَالَ أَبُو عَبْد اللَّهِ وَقَالَ أَبُو مُعَاوِيَةَ حَدَّثَنَا دَاوُدُ هُوَ ابْنُ أَبِي هِنْدٍ عَنْ عَامِرٍ قَالَ سَمِعْتُ عَبْدَ اللَّهِ يَعْنِي ابْنَ عَمْرٍو عَنْ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ وَقَالَ عَبْدُ الْأَعْلَى عَنْ دَاوُدَ عَنْ عَامِرٍ عَنْ عَبْدِ اللَّهِ عَنْ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ",
+    "latin": "Ḥaddathanā Ādamu ibn Abī Iyās, qāla ḥaddathanā Shuʿbah, ʿan ʿAbdillāhi ibn Abī as-Safar wa Ismāʿīla ibn Abī Khālid, ʿan ash-Shaʿbī, ʿan ʿAbdillāhi ibn ʿAmr raḍiyallāhu ʿanhumā, ʿan an-Nabiyyi ṣallallāhu ʿalayhi wa sallam qāla: Al-Muslimu man salima al-Muslimūna min lisānihi wa yadihi, wa al-muhājiru man hajara mā nahā Allāhu ʿanhu. Qāla Abū ʿAbdillāh: Wa qāla Abū Muʿāwiyata ḥaddathanā Dāwudu — huwa ibn Abī Hind — ʿan ʿĀmir, qāla: Samiʿtu ʿAbdallāha yaʿnī ibn ʿAmr ʿan an-Nabiyyi ṣallallāhu ʿalayhi wa sallam. Wa qāla ʿAbd al-Aʿlā ʿan Dāwuda ʿan ʿĀmir ʿan ʿAbdillāhi ʿan an-Nabiyyi ṣallallāhu ʿalayhi wa sallam.",
+    "translation": "Telah menceritakan kepada kami [Adam bin Abu Iyas] berkata: Telah menceritakan kepada kami [Syu'bah] dari [Abdullah bin Abu As Safar] dan [Isma'il bin Abu Khalid] dari [Asy Sya'bi] dari [Abdullah bin 'Amru] radliyallahu 'anhuma dari Nabi shallallahu 'alaihi wa sallam, bersabda: 'Seorang muslim adalah orang yang Kaum Muslimin selamat dari lisan dan tangannya, dan seorang Muhajir adalah orang yang meninggalkan apa yang dilarang oleh Allah.' Abu Abdullah berkata: Dan [Abu Mu'awiyyah] berkata: Telah menceritakan kepada kami [Daud], dia adalah anak Ibnu Hind, dari ['Amir] berkata: aku mendengar [Abdullah], maksudnya Ibnu 'Amru, dari Nabi shallallahu 'alaihi wa sallam. Dan [Abdul A'la] berkata: Dari [Daud] dari ['Amir] dari [Abdullah] dari Nabi shallallahu 'alaihi wa sallam.",
+    "isnad": {
+      "chain_summary": "Ādam ibn Abī Iyās → Shuʿbah ibn al-Ḥajjāj → ʿAbdullāh ibn Abī as-Safar & Ismāʿīl ibn Abī Khālid → ʿĀmir ash-Shaʿbī → ʿAbdullāh ibn ʿAmr raḍiyallāhu ʿanhumā → Rasūlullāhi ﷺ (dengan jalur paralel dari Abū Muʿāwiyah → Dāwud ibn Abī Hind → ʿĀmir ash-Shaʿbī)",
+      "chain_length": 4,
+      "narrators": [
+        {
+          "level": 1,
+          "name": "Ādam ibn Abī Iyās",
+          "name_arabic": "آدم بن أبي إياس",
+          "role": "Guru langsung Imam Bukhari",
+          "status": "Tsiqah Tsabt (kokoh dan terpercaya)",
+          "died": "sekitar 220 H"
+        },
+        {
+          "level": 2,
+          "name": "Shuʿbah ibn al-Ḥajjāj",
+          "name_arabic": "شعبة بن الحجاج",
+          "role": "Imam besar hadits, hafizh Kufah",
+          "status": "Tsiqah Tsabt — salah satu imam periwayatan hadits terkemuka",
+          "born": "82 H",
+          "died": "160 H"
+        },
+        {
+          "level": 3,
+          "name": "ʿAbdullāh ibn Abī as-Safar & Ismāʿīl ibn Abī Khālid",
+          "name_arabic": "عبد الله بن أبي السفر وإسماعيل بن أبي خالد",
+          "role": "Tabi'ut tabi'in — perawi dari ash-Sha'bi",
+          "status": "Tsiqah Tsabt",
+          "died": "sekitar 130-140 H"
+        },
+        {
+          "level": 4,
+          "name": "ʿĀmir ibn Sharāḥīl ash-Shaʿbī",
+          "name_arabic": "عامر بن شراحيل الشعبي",
+          "role": "Tabi'in besar — ahli fiqih dan hadits Kufah",
+          "status": "Tsiqah Tsabt — salah satu tabi'in paling terpercaya",
+          "died": "103 H"
+        },
+        {
+          "level": 5,
+          "name": "ʿAbdullāh ibn ʿAmr ibn al-ʿĀṣ raḍiyallāhu ʿanhumā",
+          "name_arabic": "عبد الله بن عمرو بن العاص رضي الله عنهما",
+          "role": "Sahabat Nabi — putra Amr ibn al-As",
+          "status": "Sahabi — periwayat hadits yang sangat banyak dan teliti",
+          "died": "65 H / 685 M"
+        }
+      ]
+    },
+    "asbab_al_wurud": {
+      "title": "Definisi Muslim dan Muhajir yang Sempurna",
+      "summary": "Hadits ini merupakan penjelasan langsung dari Rasulullah ﷺ tentang hakikat seorang Muslim dan Muhajir secara maknawi, tanpa dikaitkan dengan peristiwa khusus tertentu melainkan sebagai kaidah umum tentang akhlak dan hijrah batin.",
+      "narrative": "Rasulullah ﷺ memberikan definisi yang ringkas namun mendalam mengenai siapa yang disebut Muslim sejati (yang menjamin keamanan sesama Muslim dari lisan dan tangannya) serta Muhajir sejati (yang meninggalkan segala yang dilarang Allah). Hadits ini menjadi dasar pemahaman bahwa keislaman bukan hanya label, melainkan tercermin dalam perilaku yang menjaga keamanan dan keselamatan umat.",
+      "source": "Diriwayatkan langsung dalam Shahih al-Bukhari melalui sanad muttasil dan shahih. Hadits ini juga memiliki jalur paralel yang disebutkan Imam Bukhari sendiri, serta diriwayatkan dalam Shahih Muslim dan sunan lainnya.",
+      "scholarly_note": "Ibn Hajar al-Asqalani dalam Fath al-Bari menjelaskan bahwa hadith ini ditempatkan di Kitab al-Iman untuk menunjukkan bahwa iman yang sempurna tercermin dalam akhlak dan menjauhi larangan Allah, bukan sekadar pengakuan lisan."
+    },
+    "meaning": {
+      "overview": "Hadits ini memberikan dua definisi yang sangat penting dan ringkas tentang hakikat seorang Muslim dan Muhajir. Ia menegaskan bahwa keislaman yang sejati harus membawa manfaat dan keamanan bagi orang lain, serta hijrah yang hakiki adalah meninggalkan segala bentuk kemaksiatan.",
+      "key_points": [
+        "Muslim yang sempurna adalah orang yang kaum Muslimin selamat dari lisan (tidak menyakiti dengan kata-kata, ghibah, namimah, dll.) dan tangannya (tidak menyakiti fisik atau harta).",
+        "Muhajir yang sejati adalah orang yang meninggalkan (hajara) segala yang dilarang Allah, baik lahir maupun batin — ini adalah hijrah maknawi yang terus berlangsung.",
+        "Hadits ini menunjukkan bahwa iman bukan hanya keyakinan hati, melainkan tercermin dalam perilaku yang melindungi dan tidak membahayakan sesama.",
+        "Definisi ini menjadi ukuran akhlak Muslim dan menjadi dasar tazkiyatun nafs serta muamalah sosial dalam Islam."
+      ]
+    },
+    "tafsir": {
+      "scholars": [
+        {
+          "scholar": "Ibn Hajar al-Asqalani (wafat 852 H)",
+          "work": "Fatḥ al-Bārī Sharḥ Ṣaḥīḥ al-Bukhārī",
+          "explanation": "Beliau menjelaskan bahwa hadits ini merupakan definisi sempurna tentang Muslim dan Muhajir. Imam Bukhari meletakkannya di awal Kitab al-Iman untuk menunjukkan bahwa iman yang benar menghasilkan akhlak mulia. 'Selamat dari lisan dan tangan' mencakup seluruh bentuk kezaliman, baik verbal maupun fisik."
+        },
+        {
+          "scholar": "Imam al-Nawawi (wafat 676 H)",
+          "work": "Syarḥ Ṣaḥīḥ Muslim",
+          "explanation": "Imam al-Nawawi menyebut hadits ini sebagai salah satu hadits pokok tentang akhlak dan iman. Beliau menegaskan bahwa 'Muhajir' di sini bukan hanya hijrah fisik ke Madinah, melainkan hijrah batin dari dosa dan maksiat, yang merupakan hijrah abadi bagi setiap Muslim."
+        },
+        {
+          "scholar": "Ibn Rajab al-Hanbali (wafat 795 H)",
+          "work": "Jāmiʿ al-ʿUlūm wa-al-Ḥikam",
+          "explanation": "Beliau mendedikasikan penjelasan mendalam dan menyatakan bahwa hadits ini adalah kaidah besar dalam agama. Seorang Muslim yang hakiki adalah yang tidak membahayakan saudaranya, dan hijrah yang sempurna adalah menjauhi segala larangan Allah dengan sepenuh hati."
+        }
+      ]
+    },
+    "relevant_ayat": [
+      {
+        "surah": "Al-Ḥujurāt",
+        "surah_number": 49,
+        "ayah_number": 12,
+        "arabic": "يَا أَيُّهَا الَّذِينَ آمَنُوا اجْتَنِبُوا كَثِيرًا مِّنَ الظَّنِّ إِنَّ بَعْضَ الظَّنِّ إِثْمٌ ۖ وَلَا تَجَسَّسُوا وَلَا يَغْتَب بَّعْضُكُم بَعْضًا",
+        "translation": "Hai orang-orang yang beriman, jauhilah kebanyakan prasangka, sesungguhnya sebagian prasangka itu dosa. Dan janganlah mencari-cari keburukan orang lain dan janganlah menggunjingkan satu sama lain.",
+        "relevance": "Ayat ini melarang menyakiti sesama Muslim dengan lisan (ghibah, namimah), sesuai definisi Muslim dalam hadits."
+      },
+      {
+        "surah": "Al-Baqarah",
+        "surah_number": 2,
+        "ayah_number": 177,
+        "arabic": "لَيْسَ الْبِرَّ أَن تُوَلُّوا وُجُوهَكُمْ قِبَلَ الْمَشْرِقِ وَالْمَغْرِبِ وَلَٰكِنَّ الْبِرَّ مَنْ آمَنَ بِاللَّهِ وَالْيَوْمِ الْآخِرِ وَالْمَلَائِكَةِ وَالْكِتَابِ وَالنَّبِيِّينَ وَآتَى الْمَالَ عَلَىٰ حُبِّهِ ذَوِي الْقُرْبَىٰ وَالْيَتَامَىٰ وَالْمَسَاكِينَ وَابْنَ السَّبِيلِ وَالسَّائِلِينَ وَفِي الرِّقَابِ وَأَقَامَ الصَّلَاةَ وَآتَى الزَّكَاةَ وَالْمُوفُونَ بِعَهْدِهِمْ إِذَا عَاهَدُوا ۖ وَالصَّابِرِينَ فِي الْبَأْسَاءِ وَالضَّرَّاءِ وَحِينَ الْبَأْسِ ۗ أُولَٰئِكَ الَّذِينَ صَدَقُوا ۖ وَأُولَٰئِكَ هُمُ الْمُتَّقُونَ",
+        "translation": "Bukanlah menghadapkan wajahmu ke arah timur dan barat itu suatu kebajikan, akan tetapi sesungguhnya kebajikan itu ialah beriman kepada Allah, hari kemudian, malaikat-malaikat, kitab-kitab, dan nabi-nabi dan memberikan harta yang dicintainya kepada kerabatnya, anak-anak yatim, orang-orang miskin, musafir (yang memerlukan pertolongan) dan orang-orang yang meminta-minta; dan (memerdekakan) hamba sahaya, mendirikan shalat, dan menunaikan zakat; dan orang-orang yang menepati janjinya apabila ia berjanji, dan orang-orang yang sabar dalam kesempitan, penderitaan dan dalam peperangan. Mereka itulah orang-orang yang benar (imannya); dan mereka itulah orang-orang yang bertakwa.",
+        "relevance": "Ayat ini menjelaskan bahwa keimanan yang sempurna tercermin dalam akhlak dan menjauhi kemaksiatan, sesuai dengan definisi Muhajir dalam hadits."
+      },
+      {
+        "surah": "An-Nisāʾ",
+        "surah_number": 4,
+        "ayah_number": 148,
+        "arabic": "لَّا يُحِبُّ اللَّهُ الْجَهْرَ بِالسُّوءِ مِنَ الْقَوْلِ إِلَّا مَن ظُلِمَ ۚ وَكَانَ اللَّهُ سَمِيعًا عَلِيمًا",
+        "translation": "Allah tidak menyukai ucapan buruk (yang diucapkan) dengan terus terang, kecuali oleh orang yang dizalimi.",
+        "relevance": "Ayat ini melarang menyakiti dengan lisan, sesuai penjelasan hadits tentang Muslim yang menjaga lisan."
+      }
+    ]
+  },
+  {
+    "id": "bukhari-010",
+    "number": 10,
+    "book": {
+      "name": "Ṣaḥīḥ al-Bukhārī",
+      "name_arabic": "الجامع المسند الصحيح المختصر من أمور رسول الله ﷺ وسننه وأيامه",
+      "name_short": "Shahih al-Bukhari",
+      "chapter_name": "Kitāb al-Īmān",
+      "chapter_name_arabic": "كتاب الإيمان",
+      "chapter_name_translated": "Kitab Iman",
+      "chapter_number": 2,
+      "volume": 1,
+      "page": 17,
+      "page_note": "Mengacu pada edisi Dār al-Fikr, Beirut. Nomor halaman bisa sedikit berbeda tergantung edisi cetakan.",
+      "edition_reference": "Dār al-Fikr, Beirut — sesuai juga dengan penomoran dalam Fath al-Bārī karya Ibn Hajar al-Asqalani"
+    },
+    "author": {
+      "full_name": "Abū ʿAbdillāh Muḥammad ibn Ismāʿīl ibn Ibrāhīm ibn al-Mughīrah al-Bukhārī",
+      "full_name_arabic": "أبو عبد الله محمد بن إسماعيل بن إبراهيم بن المغيرة البخاري",
+      "known_as": "Imam al-Bukhari",
+      "born": "194 H / 810 M — Bukhara (sekarang wilayah Uzbekistan)",
+      "died": "256 H / 870 M — Khartank, dekat Samarkand"
+    },
+    "type": "Shahih",
+    "category": [
+      "Akhlak Muslim",
+      "Keutamaan Islam",
+      "Keamanan Umat",
+      "Lisan dan Tangan",
+      "Iman yang Sempurna",
+      "Definisi Muslim yang Utama"
+    ],
+    "arabic": "حَدَّثَنَا سَعِيدُ بْنُ يَحْيَى بْنِ سَعِيدٍ الْقُرَشِيُّ قَالَ حَدَّثَنَا أَبِي قَالَ حَدَّثَنَا أَبُو بُرْدَةَ بْنُ عَبْدِ اللَّهِ بْنِ أَبِي بُرْدَةَ عَنْ أَبِي بُرْدَةَ عَنْ أَبِي مُوسَى رَضِيَ اللَّهُ عَنْهُ قَالَ قَالُوا يَا رَسُولَ اللَّهِ أَيُّ الْإِسْلَامِ أَفْضَلُ قَالَ مَنْ سَلِمَ الْمُسْلِمُونَ مِنْ لِسَانِهِ وَيَدِهِ",
+    "latin": "Ḥaddathanā Saʿīdu ibn Yaḥyā ibn Saʿīdin al-Qurashī, qāla ḥaddathanā abī, qāla ḥaddathanā Abū Burdata ibn ʿAbdillāhi ibn Abī Burdata, ʿan Abī Burdata, ʿan Abī Mūsā raḍiyallāhu ʿanhu, qāla: Qālū: Yā Rasūlallāhi, ayyu al-Islāmi afḍalu? Qāla: Man salima al-Muslimūna min lisānihi wa yadihi.",
+    "translation": "Telah menceritakan kepada kami [Sa'id bin Yahya bin Sa'id Al Qurasyi] dia berkata: Telah menceritakan kepada kami [Bapakku] berkata: bahwa Telah menceritakan kepada kami [Abu Burdah bin Abdullah bin Abu Burdah] dari [Abu Burdah] dari [Abu Musa] radliyallahu 'anhu berkata: Mereka berkata: 'Wahai Rasulullah, Islam manakah yang paling utama?' Rasulullah shallallahu 'alaihi wa sallam menjawab: 'Siapa yang Kaum Muslimin selamat dari lisan dan tangannya.'",
+    "isnad": {
+      "chain_summary": "Saʿīd ibn Yaḥyā ibn Saʿīd al-Qurashī → Yaḥyā ibn Saʿīd al-Qurashī → Abū Burdah ibn ʿAbdillāh ibn Abī Burdah → Abū Burdah al-Ashʿarī → Abū Mūsā al-Ashʿarī raḍiyallāhu ʿanhu → Rasūlullāhi ﷺ",
+      "chain_length": 5,
+      "narrators": [
+        {
+          "level": 1,
+          "name": "Saʿīd ibn Yaḥyā ibn Saʿīd al-Qurashī",
+          "name_arabic": "سعيد بن يحيى بن سعيد القرشي",
+          "role": "Guru langsung Imam Bukhari",
+          "status": "Tsiqah (terpercaya)",
+          "died": "sekitar 200 H"
+        },
+        {
+          "level": 2,
+          "name": "Yaḥyā ibn Saʿīd al-Qurashī",
+          "name_arabic": "يحيى بن سعيد القرشي",
+          "role": "Ayah perawi, perawi hadits",
+          "status": "Tsiqah Tsabt (kokoh dan terpercaya)",
+          "died": "sekitar 190 H"
+        },
+        {
+          "level": 3,
+          "name": "Abū Burdah ibn ʿAbdillāh ibn Abī Burdah",
+          "name_arabic": "أبو بردة بن عبد الله بن أبي بردة",
+          "role": "Cucu Abū Mūsā al-Ashʿarī",
+          "status": "Tsiqah (terpercaya) — perawi dari ayahnya",
+          "died": "sekitar 110 H"
+        },
+        {
+          "level": 4,
+          "name": "Abū Burdah al-Ashʿarī",
+          "name_arabic": "أبو بردة الأشعري",
+          "role": "Putra Abū Mūsā al-Ashʿarī, tabi'in",
+          "status": "Tsiqah Tsabt",
+          "died": "sekitar 100 H"
+        },
+        {
+          "level": 5,
+          "name": "Abū Mūsā al-Ashʿarī raḍiyallāhu ʿanhu",
+          "name_arabic": "أبو موسى الأشعري رضي الله عنه",
+          "role": "Sahabat Nabi — pemimpin suku Ashʿarī, gubernur",
+          "status": "Sahabi — periwayat hadits yang terpercaya",
+          "died": "44 H / 664 M"
+        }
+      ]
+    },
+    "asbab_al_wurud": {
+      "title": "Pertanyaan Sahabat tentang Islam yang Paling Utama",
+      "summary": "Hadits ini muncul sebagai jawaban Rasulullah ﷺ atas pertanyaan para sahabat mengenai bentuk Islam yang paling utama (afdhal), menekankan aspek akhlak dan perlindungan terhadap sesama Muslim.",
+      "narrative": "Para sahabat bertanya kepada Rasulullah ﷺ: 'Islam manakah yang paling utama?' Beliau menjawab dengan definisi yang ringkas namun mendalam: seorang Muslim yang paling utama adalah yang menjamin keamanan kaum Muslimin dari lisan dan tangannya. Hadits ini menjadi penjelasan praktis tentang keutamaan iman yang tercermin dalam perilaku sehari-hari.",
+      "source": "Diriwayatkan langsung dalam Shahih al-Bukhari melalui sanad muttasil dan shahih. Hadits ini merupakan varian dari hadits serupa sebelumnya dan menjadi dasar pemahaman akhlak Islam.",
+      "scholarly_note": "Ibn Hajar al-Asqalani dalam Fath al-Bari menjelaskan bahwa hadits ini ditempatkan di Kitab al-Iman untuk menegaskan bahwa keutamaan iman bukan hanya pada keyakinan, melainkan pada akhlak yang melindungi umat dari segala bentuk kezaliman lisan maupun fisik."
+    },
+    "meaning": {
+      "overview": "Hadits ini memberikan definisi praktis tentang Islam yang paling utama: yaitu keislaman yang membawa keamanan dan kesejahteraan bagi sesama Muslim melalui pengendalian lisan dan tangan.",
+      "key_points": [
+        "Pertanyaan sahabat tentang 'Islam yang paling utama' dijawab dengan ukuran akhlak, bukan ritual semata.",
+        "Lisan mencakup segala ucapan yang menyakiti (ghibah, namimah, cercaan, dll.).",
+        "Tangan mencakup segala perbuatan yang membahayakan (pukulan, penganiayaan, perampasan harta, dll.).",
+        "Hadits ini melengkapi definisi Muslim sebelumnya dengan penekanan pada keutamaan (afdhal).",
+        "Keislaman yang sempurna adalah yang tidak membahayakan orang lain, baik secara lahir maupun batin."
+      ]
+    },
+    "tafsir": {
+      "scholars": [
+        {
+          "scholar": "Ibn Hajar al-Asqalani (wafat 852 H)",
+          "work": "Fatḥ al-Bārī Sharḥ Ṣaḥīḥ al-Bukhārī",
+          "explanation": "Beliau menjelaskan bahwa hadits ini menunjukkan keutamaan iman yang tercermin dalam akhlak sosial. Imam Bukhari meletakkannya setelah hadits serupa untuk memperkuat konsep bahwa Muslim terbaik adalah yang menjaga keselamatan umat dari segala bentuk gangguan."
+        },
+        {
+          "scholar": "Imam al-Nawawi (wafat 676 H)",
+          "work": "Syarḥ Ṣaḥīḥ Muslim",
+          "explanation": "Imam al-Nawawi menyebut hadits ini sebagai penjelasan praktis tentang keutamaan iman. Beliau menegaskan bahwa 'selamat dari lisan dan tangan' adalah ukuran tertinggi keislaman seseorang di tengah masyarakat."
+        },
+        {
+          "scholar": "Ibn Rajab al-Hanbali (wafat 795 H)",
+          "work": "Jāmiʿ al-ʿUlūm wa-al-Ḥikam",
+          "explanation": "Beliau menyatakan bahwa hadits ini adalah kaidah penting dalam tazkiyatun nafs. Keutamaan Islam bukan pada banyaknya amal lahiriah, melainkan pada kemampuan menahan diri dari menyakiti saudara seiman."
+        }
+      ]
+    },
+    "relevant_ayat": [
+      {
+        "surah": "Al-Ḥujurāt",
+        "surah_number": 49,
+        "ayah_number": 12,
+        "arabic": "يَا أَيُّهَا الَّذِينَ آمَنُوا اجْتَنِبُوا كَثِيرًا مِّنَ الظَّنِّ إِنَّ بَعْضَ الظَّنِّ إِثْمٌ ۖ وَلَا تَجَسَّسُوا وَلَا يَغْتَب بَّعْضُكُم بَعْضًا",
+        "translation": "Hai orang-orang yang beriman, jauhilah kebanyakan prasangka, sesungguhnya sebagian prasangka itu dosa. Dan janganlah mencari-cari keburukan orang lain dan janganlah menggunjingkan satu sama lain.",
+        "relevance": "Ayat ini melarang menyakiti sesama dengan lisan (ghibah dan namimah), sesuai dengan definisi Islam yang paling utama dalam hadits."
+      },
+      {
+        "surah": "Al-Baqarah",
+        "surah_number": 2,
+        "ayah_number": 177,
+        "arabic": "لَيْسَ الْبِرَّ أَن تُوَلُّوا وُجُوهَكُمْ قِبَلَ الْمَشْرِقِ وَالْمَغْرِبِ وَلَٰكِنَّ الْبِرَّ مَنْ آمَنَ بِاللَّهِ ... وَالْمُوفُونَ بِعَهْدِهِمْ إِذَا عَاهَدُوا",
+        "translation": "Bukanlah menghadapkan wajahmu ke arah timur dan barat itu suatu kebajikan, akan tetapi sesungguhnya kebajikan itu ialah beriman kepada Allah ... dan orang-orang yang menepati janjinya apabila ia berjanji.",
+        "relevance": "Ayat ini menegaskan bahwa kebajikan (keutamaan iman) tercermin dalam akhlak dan menjauhi kezaliman, bukan hanya ritual."
+      },
+      {
+        "surah": "An-Nisāʾ",
+        "surah_number": 4,
+        "ayah_number": 148,
+        "arabic": "لَّا يُحِبُّ اللَّهُ الْجَهْرَ بِالسُّوءِ مِنَ الْقَوْلِ إِلَّا مَن ظُلِمَ",
+        "translation": "Allah tidak menyukai ucapan buruk (yang diucapkan) dengan terus terang, kecuali oleh orang yang dizalimi.",
+        "relevance": "Ayat ini melarang ucapan buruk dengan lisan, sesuai penekanan hadits tentang keutamaan menjaga lisan."
+      }
+    ]
+  }
+]

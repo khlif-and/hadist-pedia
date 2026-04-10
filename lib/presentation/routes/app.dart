@@ -22,7 +22,10 @@ final GoRouter appRouter = GoRouter(
     ),
     GoRoute(
       path: '/hadist',
-      builder: (context, state) => const HadistPage(),
+      builder: (context, state) {
+        final int index = state.extra as int? ?? 0;
+        return HadistPage(index: index);
+      },
     ),
     GoRoute(
       path: '/book',
