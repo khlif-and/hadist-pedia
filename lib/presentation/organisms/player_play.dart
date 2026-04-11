@@ -2,11 +2,11 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:hadist_pedia/presentation/atom/button_player_button.dart';
-import 'package:hadist_pedia/presentation/atom/head_title_and_total.dart';
-import 'package:hadist_pedia/presentation/atom/headline_player.dart';
-import 'package:hadist_pedia/presentation/atom/line_stamp_player.dart';
-import 'package:hadist_pedia/presentation/atom/time_stamp_player.dart';
+import 'package:hadist_pedia/presentation/atom/dzikr/button_player_button.dart';
+import 'package:hadist_pedia/presentation/atom/dzikr/head_title_and_total.dart';
+import 'package:hadist_pedia/presentation/atom/hadist/headline_player.dart';
+import 'package:hadist_pedia/presentation/atom/dzikr/line_stamp_player.dart';
+import 'package:hadist_pedia/presentation/atom/dzikr/time_stamp_player.dart';
 
 class PlayerPlay extends StatelessWidget {
   const PlayerPlay({Key? key}) : super(key: key);

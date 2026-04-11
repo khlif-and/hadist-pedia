@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:hadist_pedia/presentation/molecules/card_container_card.dart';
+import 'package:hadist_pedia/presentation/molecules/home/card_container_card.dart';
 
 class CardGroupCard extends StatelessWidget {
   const CardGroupCard({Key? key}) : super(key: key);

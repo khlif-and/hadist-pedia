@@ -1,11 +1,15 @@
 import 'package:flutter/material.dart';
-import 'package:hadist_pedia/presentation/organisms/bottom_sheet.dart';
+import 'package:hadist_pedia/presentation/organisms/home/bottom_sheet.dart';
 import 'package:hadist_pedia/presentation/templates/hadist_template.dart';
 
 class HadistPage extends StatelessWidget {
   final int index;
   final String jsonPath;
-  const HadistPage({Key? key, this.index = 0, this.jsonPath = 'lib/json/hadist_bukhari.json'}) : super(key: key);
+  const HadistPage({
+    Key? key,
+    this.index = 0,
+    this.jsonPath = 'lib/json/hadist_bukhari.json',
+  }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

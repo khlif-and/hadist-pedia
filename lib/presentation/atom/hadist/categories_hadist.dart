@@ -7,7 +7,11 @@ import 'info_card.dart';
 class CategoriesHadist extends StatelessWidget {
   final int index;
   final String jsonPath;
-  const CategoriesHadist({Key? key, this.index = 0, this.jsonPath = 'lib/json/hadist_bukhari.json'}) : super(key: key);
+  const CategoriesHadist({
+    Key? key,
+    this.index = 0,
+    this.jsonPath = 'lib/json/hadist_bukhari.json',
+  }) : super(key: key);
 
   Future<Map<String, dynamic>> _loadData() async {
     try {
@@ -27,7 +31,9 @@ class CategoriesHadist extends StatelessWidget {
       builder: (context, snapshot) {
         List<Widget> children = [];
 
-        if (snapshot.connectionState == ConnectionState.done && snapshot.hasData && snapshot.data!.isNotEmpty) {
+        if (snapshot.connectionState == ConnectionState.done &&
+            snapshot.hasData &&
+            snapshot.data!.isNotEmpty) {
           final data = snapshot.data!;
           final book = data['book'];
           final categories = data['category'] as List<dynamic>? ?? [];

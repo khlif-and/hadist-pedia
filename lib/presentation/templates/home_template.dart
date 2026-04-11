@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:hadist_pedia/presentation/atom/background_home.dart';
+import 'package:hadist_pedia/presentation/atom/home/background_home.dart';
 import 'package:hadist_pedia/presentation/common/utils/constant/style.dart';
-import 'package:hadist_pedia/presentation/molecules/chips_and_button.dart';
-import 'package:hadist_pedia/presentation/organisms/card_group_card.dart';
-import 'package:hadist_pedia/presentation/organisms/bottom_bar.dart';
-import 'package:hadist_pedia/presentation/organisms/header.dart';
-import 'package:hadist_pedia/presentation/organisms/trending_card_available.dart';
-import 'package:hadist_pedia/presentation/molecules/card_grid_big_card.dart';
+import 'package:hadist_pedia/presentation/molecules/home/chips_and_button.dart';
+import 'package:hadist_pedia/presentation/organisms/home/card_group_card.dart';
+import 'package:hadist_pedia/presentation/organisms/home/bottom_bar.dart';
+import 'package:hadist_pedia/presentation/organisms/home/header.dart';
+import 'package:hadist_pedia/presentation/organisms/home/trending_card_available.dart';
+import 'package:hadist_pedia/presentation/molecules/home/card_grid_big_card.dart';
 
 class HomeTemplate extends StatelessWidget {
   const HomeTemplate({Key? key}) : super(key: key);

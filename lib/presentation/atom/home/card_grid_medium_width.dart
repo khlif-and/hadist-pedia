@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:go_router/go_router.dart';
-import 'badges.dart';
+import '../shared/badges.dart';
 import 'headline_content.dart';
 
 class CardGridMediumWidth extends StatelessWidget {
@@ -27,9 +27,7 @@ class CardGridMediumWidth extends StatelessWidget {
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(24.r),
                 color: Colors.white.withOpacity(0.1),
-                border: Border.all(
-                  color: Colors.white.withOpacity(0.15),
-                ),
+                border: Border.all(color: Colors.white.withOpacity(0.15)),
               ),
               child: Stack(
                 children: [
