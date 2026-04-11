@@ -1,0 +1,61 @@
+{
+  "section_title": "✨ Hadist Buat Kamu ✨",
+  "cards": [
+    {
+      "card_title": "Senyum Itu Sedekah",
+      "badge_text": "Shahih Bukhari",
+      "card_subtitle": "Jangan remehkan kebaikan sekecil apapun, meski hanya dengan senyuman tulus.",
+      "target_file": "lib/json/hadist_kudsi.json",
+      "target_index": 0
+    },
+    {
+      "card_title": "Jaga Lisan Jaga Hati",
+      "badge_text": "Shahih Muslim",
+      "card_subtitle": "Barangsiapa beriman kepada Allah dan hari akhir, hendaklah berkata baik atau diam.",
+      "target_file": "lib/json/hadist_kudsi.json",
+      "target_index": 1
+    },
+    {
+      "card_title": "Kesabaran Tiada Batas",
+      "badge_text": "Hadits Qudsi",
+      "card_subtitle": "Sabar itu menolong dalam segala masalah. Jadikan doa dan sabar sebagai penolongmu.",
+      "target_file": "lib/json/hadist_kudsi.json",
+      "target_index": 2
+    },
+    {
+      "card_title": "Menuntut Ilmu Itu Wajib",
+      "badge_text": "Shahih Bukhari",
+      "card_subtitle": "Pelajari satu bab dari ilmu itu lebih baik daripada shalat sunnah beratus rakaat.",
+      "target_file": "lib/json/hadist_kudsi.json",
+      "target_index": 3
+    },
+    {
+      "card_title": "Kekuatan Cinta Sesama",
+      "badge_text": "Muttafaq 'Alaih",
+      "card_subtitle": "Bukanlah mukmin sejati jika belum mencintai saudaranya seperti mencintai dirinya sendiri.",
+      "target_file": "lib/json/hadist_kudsi.json",
+      "target_index": 4
+    },
+    {
+      "card_title": "Pemaaf itu Mulia",
+      "badge_text": "Tirmidzi",
+      "card_subtitle": "Orang yang kuat bukanlah yang jago gulat, tapi yang bisa mengontrol emosinya.",
+      "target_file": "lib/json/hadist_kudsi.json",
+      "target_index": 5
+    },
+    {
+      "card_title": "Sedekah Melancarkan Rezeki",
+      "badge_text": "Shahih Muslim",
+      "card_subtitle": "Tidak akan berkurang harta karena sedekah, justru akan terus bertambah dan berkah.",
+      "target_file": "lib/json/hadist_bukhari.json",
+      "target_index": 2
+    },
+    {
+      "card_title": "Ikhlas dalam Beramal",
+      "badge_text": "Hadits Qudsi",
+      "card_subtitle": "Ketahuilah, amalan yang paling dicintai Allah adalah amalan yang dilakukan terus-menerus.",
+      "target_file": "lib/json/hadist_kudsi.json",
+      "target_index": 1
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "section_title": "📖 Hadist For Today",
+  "cards": [
+    {
+      "card_title": "Keutamaan Al-Quran",
+      "badge_text": "Tirmidzi",
+      "card_subtitle": "Sebaik-baik kalian adalah yang mempelajari Al-Quran dan mengajarkannya.",
+      "target_file": "lib/json/hadist_bukhari.json",
+      "target_index": 0
+    },
+    {
+      "card_title": "Doa di Sepertiga Malam",
+      "badge_text": "Shahih Bukhari",
+      "card_subtitle": "Allah turun ke langit dunia saat sepertiga malam terakhir untuk mengabulkan doa.",
+      "target_file": "lib/json/hadist_kudsi.json",
+      "target_index": 0
+    },
+    {
+      "card_title": "Sayangi yang di Bumi",
+      "badge_text": "Abu Dawud",
+      "card_subtitle": "Sayangilah yang ada di bumi, niscaya yang di langit akan menyayangimu.",
+      "target_file": "lib/json/hadist_bukhari.json",
+      "target_index": 1
+    },
+    {
+      "card_title": "Jauhi Prasangka",
+      "badge_text": "Muttafaq 'Alaih",
+      "card_subtitle": "Jauhilah oleh kalian buruk sangka, karena ia adalah perkataan yang paling dusta.",
+      "target_file": "lib/json/hadist_bukhari.json",
+      "target_index": 2
+    },
+    {
+      "card_title": "Adab Makan",
+      "badge_text": "Shahih Muslim",
+      "card_subtitle": "Sebutlah nama Allah sebelum makan, dan makanlah dengan tangan kananmu.",
+      "target_file": "lib/json/hadist_bukhari.json",
+      "target_index": 0
+    },
+    {
+      "card_title": "Berbakti Kepada Ibu",
+      "badge_text": "Nasa'i",
+      "card_subtitle": "Surga terletak di bawah telapak kaki ibu. Muliakanlah ibumu sebelum terlambat.",
+      "target_file": "lib/json/hadist_kudsi.json",
+      "target_index": 0
+    },
+    {
+      "card_title": "Hak Seorang Tetangga",
+      "badge_text": "Shahih Bukhari",
+      "card_subtitle": "Malaikat Jibril terus berwasiat tentang tetangga hingga aku mengira ia akan mendapat warisan.",
+      "target_file": "lib/json/hadist_bukhari.json",
+      "target_index": 1
+    },
+    {
+      "card_title": "Bahaya Riba",
+      "badge_text": "Shahih Muslim",
+      "card_subtitle": "Allah melaknat pemakan riba, yang memberinya, pencatatnya, dan saksi-saksinya.",
+      "target_file": "lib/json/hadist_bukhari.json",
+      "target_index": 2
+    }
+  ]
+}
