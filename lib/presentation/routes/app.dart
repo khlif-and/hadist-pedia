@@ -4,6 +4,7 @@ import 'package:hadist_pedia/presentation/pages/splash/splash_screen.dart';
 import 'package:hadist_pedia/presentation/pages/home/home_pages.dart';
 import 'package:hadist_pedia/presentation/pages/player/player_pages.dart';
 import 'package:hadist_pedia/presentation/pages/book/book_page.dart';
+import 'package:hadist_pedia/presentation/pages/book/stories_book.dart';
 
 final GoRouter appRouter = GoRouter(
   initialLocation: '/',
@@ -32,6 +33,10 @@ final GoRouter appRouter = GoRouter(
     GoRoute(
       path: '/book',
       builder: (context, state) => const BookPage(),
+    ),
+    GoRoute(
+      path: '/stories_book',
+      builder: (context, state) => const StoriesBookPage(),
     ),
   ],
 );
