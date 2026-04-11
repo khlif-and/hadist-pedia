@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:hadist_pedia/presentation/atom/hadist/categories_hadist.dart';
-import 'package:hadist_pedia/presentation/atom/hadist/headline_hadist.dart';
+import 'package:hadist_pedia/presentation/molecules/hadist/categories_section.dart';
+import 'package:hadist_pedia/presentation/molecules/hadist/headline_section.dart';
 import 'package:hadist_pedia/presentation/atom/hadist/related_hadist_card.dart';
 import 'package:hadist_pedia/presentation/organisms/hadist/hadist_content.dart';
 import '../../molecules/hadist/author_section.dart';
@@ -20,15 +20,15 @@ class HadistBottomSheet extends StatelessWidget {
   Widget build(BuildContext context) {
     return AppBottomSheet(
       children: [
-        HeadlineHadist(
-          title: 'Keutamaan Menuntut Ilmu',
+        HeadlineSection(
+          defaultTitle: 'Keutamaan Menuntut Ilmu',
           index: index,
           jsonPath: jsonPath,
         ),
         SizedBox(height: 16.h),
         AuthorSection(index: index, jsonPath: jsonPath),
         SizedBox(height: 24.h),
-        CategoriesHadist(index: index, jsonPath: jsonPath),
+        CategoriesSection(index: index, jsonPath: jsonPath),
         SizedBox(height: 32.h),
         HadistContent(index: index, jsonPath: jsonPath),
         SizedBox(height: 40.h),

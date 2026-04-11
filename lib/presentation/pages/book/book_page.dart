@@ -1,6 +1,7 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
+import 'package:go_router/go_router.dart';
 import 'package:hadist_pedia/presentation/templates/book_stories_template.dart';
 
 class BookPage extends StatelessWidget {
@@ -63,7 +64,9 @@ class BookPage extends StatelessWidget {
           categoryFirst: categoryFirst,
           pageNote: pageNote,
           editionRef: editionRef,
-          onReadPressed: () {},
+          onReadPressed: () {
+            context.push('/stories_book');
+          },
         );
       },
     );
