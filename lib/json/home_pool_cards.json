@@ -1,0 +1,107 @@
+[
+  {
+    "card_title": "Niat Lurus, Hasil Mulus",
+    "badge_text": "Shahih Bukhari",
+    "card_subtitle": "Semua amal perbuatan tergantung niatnya. Pastikan niatmu ikhlas.",
+    "target_file": "lib/json/hadist_bukhari.json",
+    "target_index": 0
+  },
+  {
+    "card_title": "Pertolongan Jalur Langit",
+    "badge_text": "Hadits Qudsi",
+    "card_subtitle": "Sebesar apapun masalahmu, rahmat Allah jauh lebih luas.",
+    "target_file": "lib/json/hadist_kudsi.json",
+    "target_index": 0
+  },
+  {
+    "card_title": "Ilmu Dulu Baru Action",
+    "badge_text": "Shahih Bukhari",
+    "card_subtitle": "Lebih baik menuntut ilmu sebelum beramal supaya pondasinya kuat.",
+    "target_file": "lib/json/hadist_bukhari.json",
+    "target_index": 2
+  },
+  {
+    "card_title": "Kekuatan Doa Harian",
+    "badge_text": "Abu Dawud",
+    "card_subtitle": "Doa adalah senjata setiap mukmin, jangan remehkan kekuatannya.",
+    "target_file": "lib/json/hadist_bukhari.json",
+    "target_index": 1
+  },
+  {
+    "card_title": "Lebih Baik Diam",
+    "badge_text": "Muttafaq 'Alaih",
+    "card_subtitle": "Barangsiapa beriman kepada Allah dan hari akhir, hendaklah ia berkata baik atau diam.",
+    "target_file": "lib/json/hadist_bukhari.json",
+    "target_index": 0
+  },
+  {
+    "card_title": "Sayangi Sesama Makhluk",
+    "badge_text": "Tirmidzi",
+    "card_subtitle": "Sayangilah yang ada di bumi, niscaya yang di langit menyayangimu.",
+    "target_file": "lib/json/hadist_kudsi.json",
+    "target_index": 0
+  },
+  {
+    "card_title": "Sabar Tanpa Batas",
+    "badge_text": "Shahih Muslim",
+    "card_subtitle": "Sabar itu menolong segala hal. Sabar adalah kunci kehidupan damai.",
+    "target_file": "lib/json/hadist_bukhari.json",
+    "target_index": 1
+  },
+  {
+    "card_title": "Menjadi Pemaaf",
+    "badge_text": "Nasa'i",
+    "card_subtitle": "Memberi maaf kepada yang menzalimimu menaikkan derajatmu di sisi-Nya.",
+    "target_file": "lib/json/hadist_bukhari.json",
+    "target_index": 2
+  },
+  {
+    "card_title": "Ketenangan Shalat Malam",
+    "badge_text": "Hadits Qudsi",
+    "card_subtitle": "Tuhan kita turun ke langit terendah di sepertiga malam meminta doa.",
+    "target_file": "lib/json/hadist_kudsi.json",
+    "target_index": 0
+  },
+  {
+    "card_title": "Tetangga adalah Saudara",
+    "badge_text": "Khulashah",
+    "card_subtitle": "Jangan menyakiti tetanggamu, bagikan apa yang kau masak.",
+    "target_file": "lib/json/hadist_bukhari.json",
+    "target_index": 0
+  },
+  {
+    "card_title": "Senyum Itu Sedekah",
+    "badge_text": "Shahih Muslim",
+    "card_subtitle": "Senyum di wajahmu ketika menyapa saudaramu adalah ibadah bagimu.",
+    "target_file": "lib/json/hadist_bukhari.json",
+    "target_index": 1
+  },
+  {
+    "card_title": "Rahasia Hati Tenang",
+    "badge_text": "Bukhari",
+    "card_subtitle": "Hati yang mengingat Allah tak akan gelisah.",
+    "target_file": "lib/json/hadist_bukhari.json",
+    "target_index": 2
+  },
+  {
+    "card_title": "Berbakti Kepada Orang Tua",
+    "badge_text": "Hadits Qudsi",
+    "card_subtitle": "Ridha Allah terletak pada ridha kedua orang tua kalian.",
+    "target_file": "lib/json/hadist_kudsi.json",
+    "target_index": 0
+  },
+  {
+    "card_title": "Jauhi Prasangka Buruk",
+    "badge_text": "Muttafaq 'Alaih",
+    "card_subtitle": "Prasangka buruk adalah seburuk-buruk ucapan hati.",
+    "target_file": "lib/json/hadist_bukhari.json",
+    "target_index": 1
+  },
+  {
+    "card_title": "Kebajikan dan Etika",
+    "badge_text": "Thabrani",
+    "card_subtitle": "Agama adalah nasihat dan budi pekerti yang luhur.",
+    "target_file": "lib/json/hadist_bukhari.json",
+    "target_index": 0
+  }
+]

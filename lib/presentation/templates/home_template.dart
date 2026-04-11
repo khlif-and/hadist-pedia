@@ -7,7 +7,7 @@ import 'package:hadist_pedia/presentation/organisms/home/card_group_card.dart';
 import 'package:hadist_pedia/presentation/organisms/home/bottom_bar.dart';
 import 'package:hadist_pedia/presentation/organisms/home/header.dart';
 import 'package:hadist_pedia/presentation/organisms/home/trending_card_available.dart';
-import 'package:hadist_pedia/presentation/molecules/home/card_grid_big_card.dart';
+import 'package:hadist_pedia/presentation/organisms/home/dynamic_home_feed.dart';
 
 class HomeTemplate extends StatelessWidget {
   const HomeTemplate({Key? key}) : super(key: key);
@@ -59,9 +59,7 @@ class HomeTemplate extends StatelessWidget {
                       SizedBox(height: 20.h),
                       const TrendingCardAvailable(),
                       SizedBox(height: 20.h),
-                      const CardGridBigCard(
-                        jsonPath: 'lib/json/daily_picks.json',
-                      ),
+                      const DynamicHomeFeed(),
                       SizedBox(height: 120.h),
                     ]),
                   ),
