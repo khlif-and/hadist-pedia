@@ -3,15 +3,13 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:go_router/go_router.dart';
-import 'package:hadist_pedia/presentation/atom/dot_card.dart';
+import 'package:hadist_pedia/presentation/atom/home/dot_card.dart';
 
 class CardGridBigCard extends StatelessWidget {
   final String jsonPath;
 
-  const CardGridBigCard({
-    Key? key,
-    this.jsonPath = 'lib/json/daily_picks.json',
-  }) : super(key: key);
+  const CardGridBigCard({Key? key, this.jsonPath = 'lib/json/daily_picks.json'})
+    : super(key: key);
 
   Future<Map<String, dynamic>> _loadData() async {
     try {
@@ -28,7 +26,8 @@ class CardGridBigCard extends StatelessWidget {
       future: _loadData(),
       builder: (context, snapshot) {
         Map<String, dynamic> data = {};
-        if (snapshot.connectionState == ConnectionState.done && snapshot.hasData) {
+        if (snapshot.connectionState == ConnectionState.done &&
+            snapshot.hasData) {
           data = snapshot.data!;
         }
 
@@ -72,7 +71,11 @@ class CardGridBigCard extends StatelessWidget {
             SizedBox(
               height: 380.h,
               child: items.isEmpty
-                  ? Center(child: CircularProgressIndicator(color: const Color(0xFFD4E99C)))
+                  ? Center(
+                      child: CircularProgressIndicator(
+                        color: const Color(0xFFD4E99C),
+                      ),
+                    )
                   : ListView.builder(
                       scrollDirection: Axis.horizontal,
                       padding: EdgeInsets.symmetric(horizontal: 24.w),
@@ -82,13 +85,21 @@ class CardGridBigCard extends StatelessWidget {
                         final badgeText = item['badge_text'] ?? 'Hadist';
                         final cardTitle = item['card_title'] ?? '';
                         final cardSubtitle = item['card_subtitle'] ?? '';
-                        final targetFile = item['target_file'] ?? 'lib/json/hadist_bukhari.json';
+                        final targetFile =
+                            item['target_file'] ??
+                            'lib/json/hadist_bukhari.json';
                         final targetIndex = item['target_index'] ?? 0;
 
                         return GestureDetector(
                           onTap: () {
                             // Arahkan ke route halaman HadistPage dengan pointer spesifik
-                            context.push('/hadist', extra: {'index': targetIndex, 'jsonPath': targetFile});
+                            context.push(
+                              '/hadist',
+                              extra: {
+                                'index': targetIndex,
+                                'jsonPath': targetFile,
+                              },
+                            );
                           },
                           child: Container(
                             width: 260.w,
@@ -123,15 +134,24 @@ class CardGridBigCard extends StatelessWidget {
                                     top: 16.h,
                                     right: 16.w,
                                     child: Container(
-                                      padding: EdgeInsets.symmetric(horizontal: 10.w, vertical: 6.h),
+                                      padding: EdgeInsets.symmetric(
+                                        horizontal: 10.w,
+                                        vertical: 6.h,
+                                      ),
                                       decoration: BoxDecoration(
                                         color: Colors.white,
-                                        borderRadius: BorderRadius.circular(12.r),
+                                        borderRadius: BorderRadius.circular(
+                                          12.r,
+                                        ),
                                       ),
                                       child: Row(
                                         mainAxisSize: MainAxisSize.min,
                                         children: [
-                                          Icon(Icons.verified_outlined, size: 16.sp, color: Colors.black),
+                                          Icon(
+                                            Icons.verified_outlined,
+                                            size: 16.sp,
+                                            color: Colors.black,
+                                          ),
                                           SizedBox(width: 4.w),
                                           Text(
                                             badgeText.toString(),
@@ -150,7 +170,8 @@ class CardGridBigCard extends StatelessWidget {
                                     right: 16.w,
                                     bottom: 16.h,
                                     child: Column(
-                                      crossAxisAlignment: CrossAxisAlignment.start,
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.start,
                                       children: [
                                         Text(
                                           'HIGHLIGHT HARI INI',
@@ -177,7 +198,9 @@ class CardGridBigCard extends StatelessWidget {
                                         Text(
                                           cardSubtitle.toString(),
                                           style: TextStyle(
-                                            color: Colors.white.withOpacity(0.9),
+                                            color: Colors.white.withOpacity(
+                                              0.9,
+                                            ),
                                             fontSize: 13.sp,
                                             height: 1.4,
                                           ),
@@ -198,9 +221,7 @@ class CardGridBigCard extends StatelessWidget {
             SizedBox(height: 16.h),
             Padding(
               padding: EdgeInsets.symmetric(horizontal: 24.w),
-              child: const DotCard(
-                alignment: MainAxisAlignment.start,
-              ),
+              child: const DotCard(alignment: MainAxisAlignment.start),
             ),
           ],
         );

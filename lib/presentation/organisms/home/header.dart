@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:hadist_pedia/presentation/atom/profile_header.dart';
-import 'package:hadist_pedia/presentation/atom/search_header_circle.dart';
-import 'package:hadist_pedia/presentation/atom/headline_header.dart';
+import 'package:hadist_pedia/presentation/atom/home/profile_header.dart';
+import 'package:hadist_pedia/presentation/atom/home/search_header_circle.dart';
+import 'package:hadist_pedia/presentation/atom/hadist/headline_header.dart';
 
 class Header extends StatelessWidget {
   const Header({Key? key}) : super(key: key);
@@ -13,10 +13,7 @@ class Header extends StatelessWidget {
       children: [
         Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
-          children: [
-            ProfileHeader(),
-            SearchHeaderCircle(),
-          ],
+          children: [ProfileHeader(), SearchHeaderCircle()],
         ),
         HeadlineHeader(),
       ],

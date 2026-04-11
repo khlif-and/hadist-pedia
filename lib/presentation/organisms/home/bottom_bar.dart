@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:hadist_pedia/presentation/molecules/bottom_icons_button_bar.dart';
+import 'package:hadist_pedia/presentation/molecules/home/bottom_icons_button_bar.dart';
 
 class BottomBar extends StatelessWidget {
   const BottomBar({Key? key}) : super(key: key);
@@ -8,9 +8,7 @@ class BottomBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Theme(
-      data: Theme.of(context).copyWith(
-        canvasColor: Colors.transparent,
-      ),
+      data: Theme.of(context).copyWith(canvasColor: Colors.transparent),
       child: BottomNavigationBar(
         backgroundColor: Colors.transparent,
         elevation: 0,
