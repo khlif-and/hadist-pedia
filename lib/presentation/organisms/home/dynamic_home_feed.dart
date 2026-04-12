@@ -17,40 +17,37 @@ class DynamicHomeFeed extends StatelessWidget {
     }
   }
 
-  // Membuat daftar judul unik berdasarkan jam dan hari
-  List<String> _generateDynamicTitles(int dayOfYear, DateTime now) {
+List<String> _generateDynamicTitles(int dayOfYear, DateTime now) {
     List<String> titles = [];
     
-    // 1. Label Waktu (Pagi/Siang/Sore/Malam)
     if (now.hour >= 3 && now.hour < 11) {
-      titles.add("☀️ Semangat Pagi!");
+      titles.add("Semangat Pagi");
     } else if (now.hour >= 11 && now.hour < 15) {
-      titles.add("🕌 Pengingat Siang");
+      titles.add("Pengingat Siang");
     } else if (now.hour >= 15 && now.hour < 18) {
-      titles.add("☕ Sore Penuh Berkah");
+      titles.add("Sore Penuh Berkah");
     } else {
-      titles.add("🌙 Renungan Malam");
+      titles.add("Renungan Malam");
     }
 
-    // 2. Label Tema Hari 
     if (now.weekday == DateTime.friday) {
       titles.add("✨ Jumat Berkah");
     } else if (now.weekday == DateTime.monday) {
       titles.add("🔥 Semangat Senin");
     } else {
-      // Rotasi title untuk hari biasa berdasarkan dayOfYear 
       final randomTitles = [
-        "📖 Hadist Buat Kamu",
-        "💡 Pilihan Hari Ini",
-        "❤️ Kisah Penyejuk Hati",
-        "🔥 Top Highlight",
-        "📚 Inspirasi Tabi'in"
+        "Hadist Buat Kamu",
+        "Pilihan Hari Ini",
+        "Kisah Penyejuk Hati",
+        "Top Highlight",
+        "Inspirasi Tabi'in"
       ];
       titles.add(randomTitles[dayOfYear % randomTitles.length]);
     }
 
-    // 3. Rekomendasi Umum
-    titles.add("🧭 Mungkin Kamu Suka");
+    titles.add("Mungkin Kamu Suka");
+    titles.add("Hadits Pilihan Minggu Ini");
+    titles.add("Untuk Ketenangan Hati");
     
     return titles;
   }
