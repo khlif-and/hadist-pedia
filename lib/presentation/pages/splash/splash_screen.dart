@@ -1,9 +1,32 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:go_router/go_router.dart';
+import 'package:hadist_pedia/data/cache_manager.dart';
+import 'package:hadist_pedia/data/app_database.dart';
 
-class SplashScreen extends StatelessWidget {
-  const SplashScreen({Key? key}) : super(key: key);
+class SplashScreen extends StatefulWidget {
+  const SplashScreen({super.key});
+
+  @override
+  State<SplashScreen> createState() => _SplashScreenState();
+}
+
+class _SplashScreenState extends State<SplashScreen> {
+  @override
+  void initState() {
+    super.initState();
+    _preloadAndNavigate();
+  }
+
+  Future<void> _preloadAndNavigate() async {
+    await Future.wait([
+      CacheManager().preloadPools(),
+      Future(() => AppDatabase.instance),
+    ]);
+    if (mounted) {
+      context.go('/home');
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -12,7 +35,7 @@ class SplashScreen extends StatelessWidget {
         children: [
           Positioned.fill(
             child: Image.asset(
-              'assets/images/gradient_night.webp', 
+              'assets/images/gradient_night.webp',
               fit: BoxFit.cover,
             ),
           ),
@@ -27,8 +50,8 @@ class SplashScreen extends StatelessWidget {
                   begin: Alignment.bottomCenter,
                   end: Alignment.topCenter,
                   colors: [
-                    Colors.black.withOpacity(0.95),
-                    Colors.black.withOpacity(0.0),
+                    Colors.black.withValues(alpha: 0.95),
+                    Colors.black.withValues(alpha: 0.0),
                   ],
                 ),
               ),
@@ -110,7 +133,7 @@ class SplashScreen extends StatelessWidget {
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(30.r),
                         ),
-                        backgroundColor: const Color(0xFF1A1A1A).withOpacity(0.6),
+                        backgroundColor: const Color(0xFF1A1A1A).withValues(alpha: 0.6),
                       ),
                       child: Text(
                         "Let's start",

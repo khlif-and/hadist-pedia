@@ -5,27 +5,29 @@ import 'package:hadist_pedia/presentation/atom/home/card_grid_medium_width.dart'
 import 'package:hadist_pedia/presentation/atom/home/headline_card_without_card.dart';
 
 class CardGridContentWithoutCard extends StatelessWidget {
-  const CardGridContentWithoutCard({Key? key}) : super(key: key);
+  final String title;
+  final String subtitle;
+  final List<dynamic> items;
+
+  const CardGridContentWithoutCard({
+    Key? key,
+    required this.title,
+    required this.subtitle,
+    required this.items,
+  }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        // Atom Headline
-        const HeadlineCardWithoutCard(
-          title: 'Trending Now',
-          subtitle: 'Most popular topics this week',
+        HeadlineCardWithoutCard(
+          title: title,
+          subtitle: subtitle,
         ),
-
         SizedBox(height: 20.h),
-
-        // Atom Grid List
-        const CardGridMediumWidth(),
-
+        CardGridMediumWidth(items: items),
         SizedBox(height: 16.h),
-
-        // Atom DotCard (Posisi Start)
         Padding(
           padding: EdgeInsets.symmetric(horizontal: 24.w),
           child: const DotCard(alignment: MainAxisAlignment.start),

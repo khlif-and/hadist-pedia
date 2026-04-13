@@ -1,0 +1,58 @@
+[
+  {
+    "card_title": "Cerita Hari Ini",
+    "badge_text": "Kisah Tabi'in",
+    "card_subtitle": "Keteguhan Sa'id bin al-Musayyib menghadapi penguasa zalim",
+    "target_file": "lib/json/story_tabiin.json",
+    "target_index": 0,
+    "target_type": "book"
+  },
+  {
+    "card_title": "Boost Keimanan Kamu",
+    "badge_text": "Riwayat Tabi'in",
+    "card_subtitle": "Kisah inspiratif yang memperkuat imanmu hari ini",
+    "target_file": "lib/json/story_tabiin.json",
+    "target_index": 0,
+    "target_type": "book"
+  },
+  {
+    "card_title": "Renungan Sebelum Tidur",
+    "badge_text": "Kisah Islami",
+    "card_subtitle": "Penghulu Tabi'in menolak lamaran penguasa demi agama",
+    "target_file": "lib/json/story_tabiin.json",
+    "target_index": 0,
+    "target_type": "book"
+  },
+  {
+    "card_title": "Teladan Para Ulama",
+    "badge_text": "Sejarah Islam",
+    "card_subtitle": "Pelajaran berharga dari keteguhan ulama terdahulu",
+    "target_file": "lib/json/story_tabiin.json",
+    "target_index": 0,
+    "target_type": "book"
+  },
+  {
+    "card_title": "Kisah yang Terlupakan",
+    "badge_text": "Riwayat Klasik",
+    "card_subtitle": "Cerita indah dari generasi terbaik umat ini",
+    "target_file": "lib/json/story_tabiin.json",
+    "target_index": 0,
+    "target_type": "book"
+  },
+  {
+    "card_title": "Inspirasi Tabi'in",
+    "badge_text": "Hilyat al-Awliya",
+    "card_subtitle": "Zuhud dan keberanian yang jarang ditemui di zaman ini",
+    "target_file": "lib/json/story_tabiin.json",
+    "target_index": 0,
+    "target_type": "book"
+  },
+  {
+    "card_title": "Penyejuk Hati",
+    "badge_text": "Thabaqat Ibn Sa'd",
+    "card_subtitle": "Kisah mengharukan tentang ketakwaan dan keberanian iman",
+    "target_file": "lib/json/story_tabiin.json",
+    "target_index": 0,
+    "target_type": "book"
+  }
+]

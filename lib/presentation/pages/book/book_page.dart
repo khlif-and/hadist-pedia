@@ -1,7 +1,6 @@
-import 'dart:convert';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart' show rootBundle;
 import 'package:go_router/go_router.dart';
+import 'package:hadist_pedia/data/cache_manager.dart';
 import 'package:hadist_pedia/presentation/templates/book_stories_template.dart';
 
 class BookPage extends StatelessWidget {
@@ -9,20 +8,13 @@ class BookPage extends StatelessWidget {
   final String jsonPath;
 
   const BookPage({
-    Key? key,
+    super.key,
     this.index = 0,
     this.jsonPath = 'lib/json/story_tabiin.json',
-  }) : super(key: key);
+  });
 
   Future<Map<String, dynamic>> _loadData() async {
-    try {
-      final String response = await rootBundle.loadString(jsonPath);
-      final List<dynamic> data = json.decode(response);
-      if (data.length > index) return data[index] as Map<String, dynamic>;
-      return data[0] as Map<String, dynamic>;
-    } catch (e) {
-      return {};
-    }
+    return CacheManager().loadListItem(jsonPath, index);
   }
 
   @override
@@ -65,7 +57,10 @@ class BookPage extends StatelessWidget {
           pageNote: pageNote,
           editionRef: editionRef,
           onReadPressed: () {
-            context.push('/stories_book');
+            context.push('/stories_book', extra: {
+              'index': index,
+              'jsonPath': jsonPath,
+            });
           },
         );
       },

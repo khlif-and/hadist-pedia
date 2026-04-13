@@ -1,0 +1,43 @@
+{
+  "sections": [
+    {
+      "id": "trending_book",
+      "pool": "story",
+      "max_cards": 7,
+      "rotate_hours": 4
+    },
+    {
+      "id": "time_based_1",
+      "pool": "hadist",
+      "max_cards": 5,
+      "rotate_hours": 4,
+      "title_source": "section_titles"
+    },
+    {
+      "id": "time_based_2",
+      "pool": "mixed",
+      "max_cards": 5,
+      "rotate_hours": 4,
+      "title_source": "section_titles"
+    },
+    {
+      "id": "time_based_3",
+      "pool": "hadist",
+      "max_cards": 5,
+      "rotate_hours": 4,
+      "title_source": "section_titles"
+    },
+    {
+      "id": "liked",
+      "pool": "dynamic",
+      "max_cards": 7,
+      "title": "Disukai Kamu 💖"
+    }
+  ],
+  "time_slots": {
+    "pagi": {"start": 4, "end": 11},
+    "siang": {"start": 11, "end": 15},
+    "sore": {"start": 15, "end": 18},
+    "malam": {"start": 18, "end": 4}
+  }
+}

@@ -3,7 +3,7 @@
     "card_title": "Niat Lurus, Hasil Mulus",
     "badge_text": "Shahih Bukhari",
     "card_subtitle": "Semua amal perbuatan tergantung niatnya. Pastikan niatmu ikhlas.",
-    "target_file": "lib/json/hadist_kudsi.json",
+    "target_file": "lib/json/hadist_bukhari.json",
     "target_index": 0,
     "target_type": "hadist"
   },
@@ -19,7 +19,7 @@
     "card_title": "Ilmu Dulu Baru Action",
     "badge_text": "Shahih Bukhari",
     "card_subtitle": "Lebih baik menuntut ilmu sebelum beramal supaya pondasinya kuat.",
-    "target_file": "lib/json/hadist_kudsi.json",
+    "target_file": "lib/json/hadist_bukhari.json",
     "target_index": 2,
     "target_type": "hadist"
   },
@@ -52,15 +52,15 @@
     "badge_text": "Shahih Muslim",
     "card_subtitle": "Sabar itu menolong segala hal. Sabar adalah kunci kehidupan damai.",
     "target_file": "lib/json/hadist_bukhari.json",
-    "target_index": 6,
+    "target_index": 3,
     "target_type": "hadist"
   },
   {
     "card_title": "Menjadi Pemaaf",
     "badge_text": "Nasa'i",
     "card_subtitle": "Memberi maaf kepada yang menzalimimu menaikkan derajatmu di sisi-Nya.",
-    "target_file": "lib/json/hadist_bukhari.json",
-    "target_index": 7,
+    "target_file": "lib/json/hadist_kudsi.json",
+    "target_index": 6,
     "target_type": "hadist"
   },
   {
@@ -68,7 +68,7 @@
     "badge_text": "Hadits Qudsi",
     "card_subtitle": "Tuhan kita turun ke langit terendah di sepertiga malam meminta doa.",
     "target_file": "lib/json/hadist_kudsi.json",
-    "target_index": 8,
+    "target_index": 0,
     "target_type": "hadist"
   },
   {
@@ -76,15 +76,15 @@
     "badge_text": "Khulashah",
     "card_subtitle": "Jangan menyakiti tetanggamu, bagikan apa yang kau masak.",
     "target_file": "lib/json/hadist_bukhari.json",
-    "target_index": 9,
+    "target_index": 1,
     "target_type": "hadist"
   },
   {
     "card_title": "Senyum Itu Sedekah",
     "badge_text": "Shahih Muslim",
     "card_subtitle": "Senyum di wajahmu ketika menyapa saudaramu adalah ibadah bagimu.",
-    "target_file": "lib/json/hadist_bukhari.json",
-    "target_index": 10,
+    "target_file": "lib/json/hadist_kudsi.json",
+    "target_index": 3,
     "target_type": "hadist"
   },
   {
@@ -92,7 +92,7 @@
     "badge_text": "Bukhari",
     "card_subtitle": "Hati yang mengingat Allah tak akan gelisah.",
     "target_file": "lib/json/hadist_bukhari.json",
-    "target_index": 11,
+    "target_index": 4,
     "target_type": "hadist"
   },
   {
@@ -100,15 +100,15 @@
     "badge_text": "Hadits Qudsi",
     "card_subtitle": "Ridha Allah terletak pada ridha kedua orang tua kalian.",
     "target_file": "lib/json/hadist_kudsi.json",
-    "target_index": 12,
+    "target_index": 2,
     "target_type": "hadist"
   },
   {
     "card_title": "Jauhi Prasangka Buruk",
     "badge_text": "Muttafaq 'Alaih",
     "card_subtitle": "Prasangka buruk adalah seburuk-buruk ucapan hati.",
-    "target_file": "lib/json/hadist_kudsi.json",
-    "target_index": 13,
+    "target_file": "lib/json/hadist_bukhari.json",
+    "target_index": 2,
     "target_type": "hadist"
   },
   {
@@ -120,60 +120,51 @@
     "target_type": "hadist"
   },
   {
-    "card_title": "Cerita Hari Ini",
-    "badge_text": "Kisah Tabi'in",
-    "card_subtitle": "Keteguhan Sa'id bin al-Musayyib menghadapi penguasa zalim",
-    "target_file": "lib/json/story_tabiin.json",
+    "card_title": "Keutamaan Al-Quran",
+    "badge_text": "Tirmidzi",
+    "card_subtitle": "Sebaik-baik kalian adalah yang mempelajari Al-Quran dan mengajarkannya.",
+    "target_file": "lib/json/hadist_bukhari.json",
     "target_index": 0,
-    "target_type": "book"
+    "target_type": "hadist"
   },
   {
-    "card_title": "Boost Keimanan Kamu",
-    "badge_text": "Riwayat Tabi'in",
-    "card_subtitle": "Kisah inspiratif yang memperkuat imanmu hari ini",
-    "target_file": "lib/json/story_tabiin.json",
-    "target_index": 0,
-    "target_type": "book"
+    "card_title": "Sedekah Melancarkan Rezeki",
+    "badge_text": "Shahih Muslim",
+    "card_subtitle": "Tidak akan berkurang harta karena sedekah, justru bertambah dan berkah.",
+    "target_file": "lib/json/hadist_bukhari.json",
+    "target_index": 4,
+    "target_type": "hadist"
   },
   {
-    "card_title": "Renungan Sebelum Tidur",
-    "badge_text": "Kisah Islami",
-    "card_subtitle": "Penghulu Tabi'in menolak lamaran penguasa demi agama",
-    "target_file": "lib/json/story_tabiin.json",
-    "target_index": 0,
-    "target_type": "book"
+    "card_title": "Ikhlas dalam Beramal",
+    "badge_text": "Hadits Qudsi",
+    "card_subtitle": "Amalan yang paling dicintai Allah adalah yang dilakukan terus-menerus.",
+    "target_file": "lib/json/hadist_kudsi.json",
+    "target_index": 1,
+    "target_type": "hadist"
   },
   {
-    "card_title": "Teladan Para Ulama",
-    "badge_text": "Sejarah Islam",
-    "card_subtitle": "Pelajaran berharga dari keteguhan ulama terdahulu",
-    "target_file": "lib/json/story_tabiin.json",
-    "target_index": 0,
-    "target_type": "book"
+    "card_title": "Kekuatan Cinta Sesama",
+    "badge_text": "Muttafaq 'Alaih",
+    "card_subtitle": "Bukanlah mukmin sejati jika belum mencintai saudaranya seperti dirinya.",
+    "target_file": "lib/json/hadist_kudsi.json",
+    "target_index": 5,
+    "target_type": "hadist"
   },
   {
-    "card_title": "Kisah yang Terlupakan",
-    "badge_text": "Riwayat Klasik",
-    "card_subtitle": "Cerita indah dari generasi terbaik umat ini",
-    "target_file": "lib/json/story_tabiin.json",
+    "card_title": "Adab Makan Islami",
+    "badge_text": "Shahih Muslim",
+    "card_subtitle": "Sebutlah nama Allah sebelum makan, dan makanlah dengan tangan kanan.",
+    "target_file": "lib/json/hadist_bukhari.json",
     "target_index": 0,
-    "target_type": "book"
+    "target_type": "hadist"
   },
   {
-    "card_title": "Inspirasi Tabi'in",
-    "badge_text": "Hilyat al-Awliya",
-    "card_subtitle": "Zuhud dan keberanian yang jarang ditemui di zaman ini",
-    "target_file": "lib/json/story_tabiin.json",
-    "target_index": 0,
-    "target_type": "book"
-  },
-  {
-    "card_title": "Penyejuk Hati",
-    "badge_text": "Thabaqat Ibn Sa'd",
-    "card_subtitle": "Kisah mengharukan tentang ketakwaan dan keberanian iman",
-    "target_file": "lib/json/story_tabiin.json",
-    "target_index": 0,
-    "target_type": "book"
+    "card_title": "Bahaya Riba",
+    "badge_text": "Shahih Muslim",
+    "card_subtitle": "Allah melaknat pemakan riba, yang memberinya, pencatatnya, dan saksinya.",
+    "target_file": "lib/json/hadist_bukhari.json",
+    "target_index": 2,
+    "target_type": "hadist"
   }
 ]
-
