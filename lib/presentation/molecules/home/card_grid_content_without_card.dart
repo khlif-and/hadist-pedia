@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:hadist_pedia/presentation/atom/home/dot_card.dart';
+import 'package:hadist_pedia/presentation/atom/shared/dot_card.dart';
 import 'package:hadist_pedia/presentation/atom/home/card_grid_medium_width.dart';
 import 'package:hadist_pedia/presentation/atom/home/headline_card_without_card.dart';
 
@@ -21,10 +21,7 @@ class CardGridContentWithoutCard extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        HeadlineCardWithoutCard(
-          title: title,
-          subtitle: subtitle,
-        ),
+        HeadlineCardWithoutCard(title: title, subtitle: subtitle),
         SizedBox(height: 20.h),
         CardGridMediumWidth(items: items),
         SizedBox(height: 16.h),

@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart' show rootBundle;
-import 'package:hadist_pedia/data/app_database.dart';
+import 'package:hadist_pedia/presentation/common/utils/database/app_database.dart';
 
 class CacheManager {
   static final CacheManager _instance = CacheManager._internal();
@@ -19,7 +19,8 @@ class CacheManager {
   }
 
   Future<List<dynamic>> loadList(String path) async {
-    if (_memoryCache.containsKey(path)) return _memoryCache[path] as List<dynamic>;
+    if (_memoryCache.containsKey(path))
+      return _memoryCache[path] as List<dynamic>;
 
     final db = AppDatabase.instance;
     final cached = await db.getCachedJson(path);
@@ -37,7 +38,8 @@ class CacheManager {
   }
 
   Future<Map<String, dynamic>> loadMap(String path) async {
-    if (_memoryCache.containsKey(path)) return _memoryCache[path] as Map<String, dynamic>;
+    if (_memoryCache.containsKey(path))
+      return _memoryCache[path] as Map<String, dynamic>;
 
     final db = AppDatabase.instance;
     final cached = await db.getCachedJson(path);

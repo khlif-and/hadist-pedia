@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:hadist_pedia/data/cache_manager.dart';
+import 'package:hadist_pedia/presentation/common/utils/manager/cache_manager.dart';
 import 'package:hadist_pedia/presentation/templates/book_stories_template.dart';
 
 class BookPage extends StatelessWidget {
@@ -57,10 +57,10 @@ class BookPage extends StatelessWidget {
           pageNote: pageNote,
           editionRef: editionRef,
           onReadPressed: () {
-            context.push('/stories_book', extra: {
-              'index': index,
-              'jsonPath': jsonPath,
-            });
+            context.push(
+              '/stories_book',
+              extra: {'index': index, 'jsonPath': jsonPath},
+            );
           },
         );
       },

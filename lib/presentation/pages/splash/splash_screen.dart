@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:go_router/go_router.dart';
-import 'package:hadist_pedia/data/cache_manager.dart';
-import 'package:hadist_pedia/data/app_database.dart';
+import 'package:hadist_pedia/presentation/common/utils/manager/cache_manager.dart';
+import 'package:hadist_pedia/presentation/common/utils/database/app_database.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
@@ -133,7 +133,9 @@ class _SplashScreenState extends State<SplashScreen> {
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(30.r),
                         ),
-                        backgroundColor: const Color(0xFF1A1A1A).withValues(alpha: 0.6),
+                        backgroundColor: const Color(
+                          0xFF1A1A1A,
+                        ).withValues(alpha: 0.6),
                       ),
                       child: Text(
                         "Let's start",

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:hadist_pedia/data/feed_engine.dart';
+import 'package:hadist_pedia/presentation/common/utils/engine/feed_engine.dart';
 import 'package:hadist_pedia/presentation/molecules/home/card_grid_big_card.dart';
 
 class DynamicHomeFeed extends StatelessWidget {
@@ -14,7 +14,9 @@ class DynamicHomeFeed extends StatelessWidget {
         if (snapshot.connectionState == ConnectionState.waiting) {
           return Padding(
             padding: EdgeInsets.only(top: 50.h),
-            child: const Center(child: CircularProgressIndicator(color: Color(0xFFD4E99C))),
+            child: const Center(
+              child: CircularProgressIndicator(color: Color(0xFFD4E99C)),
+            ),
           );
         }
 
