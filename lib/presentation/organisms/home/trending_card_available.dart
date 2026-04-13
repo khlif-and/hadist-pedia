@@ -3,13 +3,15 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:hadist_pedia/presentation/common/utils/engine/feed_engine.dart';
 import 'package:hadist_pedia/presentation/molecules/home/card_grid_content_without_card.dart';
 
-class TrendingCardAvailable extends StatelessWidget {
-  const TrendingCardAvailable({super.key});
+class FeedSectionRow extends StatelessWidget {
+  final Future<FeedSection> Function() sectionLoader;
+
+  const FeedSectionRow({super.key, required this.sectionLoader});
 
   @override
   Widget build(BuildContext context) {
     return FutureBuilder<FeedSection>(
-      future: FeedEngine().getTrendingSection(),
+      future: sectionLoader(),
       builder: (context, snapshot) {
         if (snapshot.connectionState == ConnectionState.waiting) {
           return SizedBox(
@@ -21,18 +23,21 @@ class TrendingCardAvailable extends StatelessWidget {
         }
 
         final section = snapshot.data;
-        if (section == null || section.items.isEmpty)
+        if (section == null || section.items.isEmpty) {
           return const SizedBox.shrink();
+        }
 
-        return Column(
-          children: [
-            CardGridContentWithoutCard(
-              title: section.title,
-              subtitle: '',
-              items: section.items,
-            ),
-            SizedBox(height: 24.h),
-          ],
+        return RepaintBoundary(
+          child: Column(
+            children: [
+              CardGridContentWithoutCard(
+                title: section.title,
+                subtitle: '',
+                items: section.items,
+              ),
+              SizedBox(height: 24.h),
+            ],
+          ),
         );
       },
     );
