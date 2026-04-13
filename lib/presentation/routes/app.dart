@@ -1,5 +1,6 @@
 import 'package:go_router/go_router.dart';
 import 'package:hadist_pedia/presentation/pages/hadist/hadist_page.dart';
+import 'package:hadist_pedia/presentation/pages/hadist/hadist_read_page.dart';
 import 'package:hadist_pedia/presentation/pages/splash/splash_screen.dart';
 import 'package:hadist_pedia/presentation/pages/home/home_pages.dart';
 import 'package:hadist_pedia/presentation/pages/player/player_pages.dart';
@@ -41,6 +42,20 @@ final GoRouter appRouter = GoRouter(
         return NoTransitionPage(
           key: state.pageKey,
           child: HadistPage(index: index, jsonPath: jsonPath),
+        );
+      },
+    ),
+    GoRoute(
+      path: '/hadist_read',
+      pageBuilder: (context, state) {
+        final Map<String, dynamic> extra =
+            (state.extra as Map<String, dynamic>?) ?? {};
+        final int index = extra['index'] as int? ?? 0;
+        final String jsonPath =
+            extra['jsonPath'] as String? ?? 'lib/json/hadist_bukhari.json';
+        return NoTransitionPage(
+          key: state.pageKey,
+          child: HadistReadPage(index: index, jsonPath: jsonPath),
         );
       },
     ),

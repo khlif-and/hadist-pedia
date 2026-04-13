@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:hadist_pedia/presentation/common/utils/manager/cache_manager.dart';
-import 'package:hadist_pedia/presentation/templates/book_stories_template.dart';
+import 'package:hadist_pedia/presentation/templates/content_detail_template.dart';
 
 class BookPage extends StatelessWidget {
   final int index;
@@ -47,7 +47,7 @@ class BookPage extends StatelessWidget {
             ? categoryList.first.toString()
             : 'Umum';
 
-        return BookStoriesTemplate(
+        return ContentDetailTemplate(
           index: index,
           type: type,
           chapterName: chapterName,

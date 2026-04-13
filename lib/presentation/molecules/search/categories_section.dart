@@ -1,55 +1,57 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:go_router/go_router.dart';
 import 'package:hadist_pedia/presentation/atom/shared/chip.dart';
 
-class CategoriesSection extends StatelessWidget {
-  const CategoriesSection({super.key});
+class SearchCategoriesSection extends StatelessWidget {
+  final List<Map<String, dynamic>> categories;
+
+  const SearchCategoriesSection({super.key, required this.categories});
 
   @override
   Widget build(BuildContext context) {
+    if (categories.isEmpty) return const SizedBox.shrink();
+
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
-            const Text(
+            Text(
               'Categories',
               style: TextStyle(
                 color: Colors.white,
-                fontSize: 18,
+                fontSize: 18.sp,
                 fontWeight: FontWeight.w600,
               ),
             ),
-            GestureDetector(
-              onTap: () {},
-              child: const Text(
-                'See All',
-                style: TextStyle(
-                  color: Color(0xFFE54E70),
-                  fontSize: 14,
-                  fontWeight: FontWeight.w600,
-                ),
+            Text(
+              'See All',
+              style: TextStyle(
+                color: const Color(0xFFD4E99C),
+                fontSize: 14.sp,
+                fontWeight: FontWeight.w600,
               ),
             ),
           ],
         ),
-        const SizedBox(height: 16),
+        SizedBox(height: 16.h),
         Wrap(
           spacing: 10,
           runSpacing: 12,
-          children: const [
-            CategoryChip(label: 'Echoes of the Drum', isSelected: false),
-            CategoryChip(label: 'Soul of the Motherland', isSelected: false),
-            CategoryChip(label: 'Heartbeat of Africa', isSelected: false),
-            CategoryChip(label: 'Golden Sunset Beats', isSelected: false),
-            CategoryChip(label: 'Jungle Pulse', isSelected: false),
-            CategoryChip(label: 'Spirit of Ubuntu', isSelected: false),
-            CategoryChip(label: 'Crave', isSelected: false),
-            CategoryChip(label: 'Velvet Night', isSelected: false),
-            CategoryChip(label: 'Linger', isSelected: false),
-            CategoryChip(label: 'Afterglow', isSelected: false),
-            CategoryChip(label: 'Rhythms of the Savannah', isSelected: false),
-          ],
+          children: categories.map((cat) {
+            return GestureDetector(
+              onTap: () {
+                final route = cat['targetType'] == 'book' ? '/book' : '/hadist';
+                context.push(route, extra: {
+                  'index': cat['index'],
+                  'jsonPath': cat['jsonPath'],
+                });
+              },
+              child: CategoryChip(label: cat['title'], isSelected: false),
+            );
+          }).toList(),
         ),
       ],
     );

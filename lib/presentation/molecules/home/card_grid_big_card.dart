@@ -48,7 +48,7 @@ class CardGridBigCard extends StatelessWidget {
           ),
           SizedBox(height: 16.h),
           SizedBox(
-            height: 380.h,
+            height: 260.h,
             child: items.isEmpty
                 ? Center(
                     child: Text(
@@ -100,7 +100,7 @@ class CardGridBigCard extends StatelessWidget {
                             }
                           },
                           child: Container(
-                            width: 260.w,
+                            width: 200.w,
                             margin: EdgeInsets.only(right: 16.w),
                             child: ClipRRect(
                               borderRadius: BorderRadius.circular(24.r),

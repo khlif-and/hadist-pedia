@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:hadist_pedia/presentation/atom/home/background_home.dart';
+import 'package:hadist_pedia/presentation/common/utils/engine/feed_engine.dart';
 import 'package:hadist_pedia/presentation/molecules/home/chips_and_button.dart';
 import 'package:hadist_pedia/presentation/organisms/home/card_group_card.dart';
 import 'package:hadist_pedia/presentation/organisms/home/bottom_bar.dart';
@@ -54,7 +55,7 @@ class HomeTemplate extends StatelessWidget {
                           child: const CardGroupCard(),
                         ),
                         SizedBox(height: 20.h),
-                        const TrendingCardAvailable(),
+                        FeedSectionRow(sectionLoader: () => FeedEngine().getTrendingSection()),
                         SizedBox(height: 20.h),
                         const DynamicHomeFeed(),
                         SizedBox(height: 120.h),
