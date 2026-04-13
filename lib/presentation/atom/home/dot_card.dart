@@ -2,17 +2,17 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class DotCard extends StatelessWidget {
-  final MainAxisAlignment alignment; // Tambahkan parameter ini
+  final MainAxisAlignment alignment;
 
   const DotCard({
     Key? key,
-    this.alignment = MainAxisAlignment.center, // Default tetap di tengah
+    this.alignment = MainAxisAlignment.center,
   }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Row(
-      mainAxisAlignment: alignment, // Gunakan variabel di sini
+      mainAxisAlignment: alignment,
       children: [
         Container(
           width: 28.w,

@@ -1,7 +1,6 @@
-import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:flutter/services.dart' show rootBundle;
+import 'package:hadist_pedia/data/cache_manager.dart';
 import 'package:hadist_pedia/presentation/templates/hadist_template.dart';
 import 'package:hadist_pedia/presentation/atom/shared/bottom_sheet.dart';
 import 'package:hadist_pedia/presentation/atom/hadist/card_litte_container.dart';
@@ -16,26 +15,19 @@ class StoriesBookPage extends StatelessWidget {
   final String jsonPath;
 
   const StoriesBookPage({
-    Key? key,
+    super.key,
     this.index = 0,
     this.jsonPath = 'lib/json/story_tabiin.json',
-  }) : super(key: key);
+  });
 
   Future<Map<String, dynamic>> _loadData() async {
-    try {
-      final String response = await rootBundle.loadString(jsonPath);
-      final List<dynamic> data = json.decode(response);
-      if (data.length > index) return data[index] as Map<String, dynamic>;
-      return data[0] as Map<String, dynamic>;
-    } catch (e) {
-      return {};
-    }
+    return CacheManager().loadListItem(jsonPath, index);
   }
 
   @override
   Widget build(BuildContext context) {
     return HadistTemplate(
-        imageUrl: 'https://picsum.photos/800/1000?random=1',
+        imageUrl: 'https://picsum.photos/800/1000?random=$index',
         onBackPressed: () {
           Navigator.pop(context);
         },
@@ -62,7 +54,6 @@ class StoriesBookPage extends StatelessWidget {
             final tafsirScholars = (data['tafsir'] ?? {})['scholars'] as List<dynamic>? ?? [];
             final relevantAyat = data['relevant_ayat'] as List<dynamic>? ?? [];
 
-            // Membangun element CategoriesRow
             List<Widget> catChildren = [];
             void addCard(String title, String? value) {
               if (value != null && value.isNotEmpty) {
@@ -78,11 +69,9 @@ class StoriesBookPage extends StatelessWidget {
 
             return AppBottomSheet(
               children: [
-                // 1. Headline (dari shared/headline.dart)
                 Headline(text: book['chapter_name']?.toString() ?? 'Tanpa Judul'),
                 SizedBox(height: 24.h),
-                
-                // 2. Author (dari shared/author.dart)
+
                 Author(
                   status: data['type']?.toString() ?? 'Riwayat',
                   author: authorData['known_as']?.toString() ?? 'Tanpa Nama',
@@ -92,18 +81,15 @@ class StoriesBookPage extends StatelessWidget {
                   additionalInfo2: authorData['died'] != null ? "Wafat: ${authorData['died']}" : null,
                 ),
                 SizedBox(height: 24.h),
-                
-                // 3. Categories Row (dari shared/categories_row.dart)
+
                 CategoriesRow(children: catChildren.isNotEmpty ? catChildren : [const InfoCard(title: '-', value: '-')]),
-                
-                // 4. Story (Kisah)
+
                 SizedBox(height: 32.h),
                 ExpandableText(
                   label: 'Kisah',
                   text: data['story']?.toString() ?? '',
                 ),
-                
-                // 5. Source (Sumber) & Catatan Halaman/Edition
+
                 SizedBox(height: 24.h),
                 CardLittleContainer(
                   child: Column(
@@ -121,8 +107,7 @@ class StoriesBookPage extends StatelessWidget {
                     ],
                   ),
                 ),
-                
-                // 6. Meaning (Overview & Key Points point-per-point)
+
                 if (meaning.isNotEmpty) ...[
                   SizedBox(height: 32.h),
                   Text('Makna Kisah', style: TextStyle(color: const Color(0xFFD4E99C), fontSize: 18.sp, fontWeight: FontWeight.bold)),
@@ -148,13 +133,12 @@ class StoriesBookPage extends StatelessWidget {
                               ],
                             ),
                           );
-                        }).toList(),
+                        }),
                       ],
                     ),
                   ),
                 ],
 
-                // 7. Tafsir (Scholars & Work)
                 if (tafsirScholars.isNotEmpty) ...[
                   SizedBox(height: 32.h),
                   Text('Penjelasan Ulama', style: TextStyle(color: const Color(0xFFD4E99C), fontSize: 18.sp, fontWeight: FontWeight.bold)),
@@ -174,10 +158,9 @@ class StoriesBookPage extends StatelessWidget {
                         ),
                       ),
                     );
-                  }).toList(),
+                  }),
                 ],
 
-                // 8. Relevant Ayat (Surah, Nomor, Arabic, Translation, Relevance)
                 if (relevantAyat.isNotEmpty) ...[
                   SizedBox(height: 32.h),
                   Text('Ayat yang Relevan', style: TextStyle(color: const Color(0xFFD4E99C), fontSize: 18.sp, fontWeight: FontWeight.bold)),
@@ -206,7 +189,7 @@ class StoriesBookPage extends StatelessWidget {
                              Container(
                                padding: EdgeInsets.all(12.w),
                                width: double.infinity,
-                               decoration: BoxDecoration(color: Colors.white.withOpacity(0.05), borderRadius: BorderRadius.circular(8.r)),
+                               decoration: BoxDecoration(color: Colors.white.withValues(alpha: 0.05), borderRadius: BorderRadius.circular(8.r)),
                                child: Column(
                                  crossAxisAlignment: CrossAxisAlignment.start,
                                  children: [
@@ -220,9 +203,9 @@ class StoriesBookPage extends StatelessWidget {
                          ),
                       ),
                     );
-                  }).toList(),
+                  }),
                 ],
-                
+
                 SizedBox(height: 48.h),
               ],
             );

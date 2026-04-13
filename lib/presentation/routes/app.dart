@@ -11,32 +11,60 @@ final GoRouter appRouter = GoRouter(
   routes: [
     GoRoute(
       path: '/',
-      builder: (context, state) => const SplashScreen(),
+      pageBuilder: (context, state) => NoTransitionPage(
+        key: state.pageKey,
+        child: const SplashScreen(),
+      ),
     ),
     GoRoute(
       path: '/home',
-      builder: (context, state) => const HomePages(),
+      pageBuilder: (context, state) => NoTransitionPage(
+        key: state.pageKey,
+        child: const HomePages(),
+      ),
     ),
     GoRoute(
       path: '/player',
-      builder: (context, state) => const PlayerPages(),
+      pageBuilder: (context, state) => NoTransitionPage(
+        key: state.pageKey,
+        child: const PlayerPages(),
+      ),
     ),
     GoRoute(
       path: '/hadist',
-      builder: (context, state) {
+      pageBuilder: (context, state) {
         final Map<String, dynamic> extra = (state.extra as Map<String, dynamic>?) ?? {};
         final int index = extra['index'] as int? ?? 0;
         final String jsonPath = extra['jsonPath'] as String? ?? 'lib/json/hadist_bukhari.json';
-        return HadistPage(index: index, jsonPath: jsonPath);
+        return NoTransitionPage(
+          key: state.pageKey,
+          child: HadistPage(index: index, jsonPath: jsonPath),
+        );
       },
     ),
     GoRoute(
       path: '/book',
-      builder: (context, state) => const BookPage(),
+      pageBuilder: (context, state) {
+        final Map<String, dynamic> extra = (state.extra as Map<String, dynamic>?) ?? {};
+        final int index = extra['index'] as int? ?? 0;
+        final String jsonPath = extra['jsonPath'] as String? ?? 'lib/json/story_tabiin.json';
+        return NoTransitionPage(
+          key: state.pageKey,
+          child: BookPage(index: index, jsonPath: jsonPath),
+        );
+      },
     ),
     GoRoute(
       path: '/stories_book',
-      builder: (context, state) => const StoriesBookPage(),
+      pageBuilder: (context, state) {
+        final Map<String, dynamic> extra = (state.extra as Map<String, dynamic>?) ?? {};
+        final int index = extra['index'] as int? ?? 0;
+        final String jsonPath = extra['jsonPath'] as String? ?? 'lib/json/story_tabiin.json';
+        return NoTransitionPage(
+          key: state.pageKey,
+          child: StoriesBookPage(index: index, jsonPath: jsonPath),
+        );
+      },
     ),
   ],
 );

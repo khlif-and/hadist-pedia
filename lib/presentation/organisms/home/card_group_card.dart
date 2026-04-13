@@ -9,7 +9,7 @@ class CardGroupCard extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        const CardContainerCard(), // Memanggil Molecule dengan nama baru
+        const CardContainerCard(),
         SizedBox(height: 24.h),
       ],
     );
