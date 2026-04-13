@@ -1,18 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:go_router/go_router.dart';
-import 'package:hadist_pedia/data/app_database.dart';
-import 'package:hadist_pedia/presentation/atom/home/dot_card.dart';
+import 'package:hadist_pedia/presentation/common/utils/database/app_database.dart';
+import 'package:hadist_pedia/presentation/atom/shared/dot_card.dart';
 
 class CardGridBigCard extends StatelessWidget {
   final String title;
   final List<dynamic> items;
 
-  const CardGridBigCard({
-    super.key,
-    required this.title,
-    required this.items,
-  });
+  const CardGridBigCard({super.key, required this.title, required this.items});
 
   @override
   Widget build(BuildContext context) {
@@ -71,24 +67,36 @@ class CardGridBigCard extends StatelessWidget {
                       final badgeText = item['badge_text'] ?? 'Hadist';
                       final cardTitle = item['card_title'] ?? '';
                       final cardSubtitle = item['card_subtitle'] ?? '';
-                      final targetFile = item['target_file'] ?? 'lib/json/hadist_bukhari.json';
+                      final targetFile =
+                          item['target_file'] ?? 'lib/json/hadist_bukhari.json';
                       final targetIndex = item['target_index'] ?? 0;
-                      final targetType = item['target_type']?.toString() ?? 'hadist';
+                      final targetType =
+                          item['target_type']?.toString() ?? 'hadist';
 
                       return RepaintBoundary(
                         child: GestureDetector(
                           onTap: () {
-                            AppDatabase.instance.addLike(targetType, targetFile.toString(), targetIndex as int);
+                            AppDatabase.instance.addLike(
+                              targetType,
+                              targetFile.toString(),
+                              targetIndex as int,
+                            );
                             if (targetType == 'book') {
-                              context.push('/book', extra: {
-                                'index': targetIndex,
-                                'jsonPath': targetFile,
-                              });
+                              context.push(
+                                '/book',
+                                extra: {
+                                  'index': targetIndex,
+                                  'jsonPath': targetFile,
+                                },
+                              );
                             } else {
-                              context.push('/hadist', extra: {
-                                'index': targetIndex,
-                                'jsonPath': targetFile,
-                              });
+                              context.push(
+                                '/hadist',
+                                extra: {
+                                  'index': targetIndex,
+                                  'jsonPath': targetFile,
+                                },
+                              );
                             }
                           },
                           child: Container(
@@ -105,21 +113,37 @@ class CardGridBigCard extends StatelessWidget {
                                       cacheWidth: 400,
                                       cacheHeight: 600,
                                       gaplessPlayback: true,
-                                      frameBuilder: (context, child, frame, wasSynchronouslyLoaded) {
-                                        if (wasSynchronouslyLoaded) return child;
-                                        return AnimatedOpacity(
-                                          opacity: frame == null ? 0 : 1,
-                                          duration: const Duration(milliseconds: 300),
-                                          curve: Curves.easeOut,
-                                          child: child,
-                                        );
-                                      },
-                                      errorBuilder: (context, error, stackTrace) {
-                                        return Container(
-                                          color: Colors.white.withValues(alpha: 0.05),
-                                          child: Icon(Icons.image_outlined, color: Colors.white24, size: 48.sp),
-                                        );
-                                      },
+                                      frameBuilder:
+                                          (
+                                            context,
+                                            child,
+                                            frame,
+                                            wasSynchronouslyLoaded,
+                                          ) {
+                                            if (wasSynchronouslyLoaded)
+                                              return child;
+                                            return AnimatedOpacity(
+                                              opacity: frame == null ? 0 : 1,
+                                              duration: const Duration(
+                                                milliseconds: 300,
+                                              ),
+                                              curve: Curves.easeOut,
+                                              child: child,
+                                            );
+                                          },
+                                      errorBuilder:
+                                          (context, error, stackTrace) {
+                                            return Container(
+                                              color: Colors.white.withValues(
+                                                alpha: 0.05,
+                                              ),
+                                              child: Icon(
+                                                Icons.image_outlined,
+                                                color: Colors.white24,
+                                                size: 48.sp,
+                                              ),
+                                            );
+                                          },
                                     ),
                                   ),
                                   Positioned.fill(
@@ -131,7 +155,9 @@ class CardGridBigCard extends StatelessWidget {
                                           colors: [
                                             Colors.transparent,
                                             Colors.black.withValues(alpha: 0.2),
-                                            Colors.black.withValues(alpha: 0.85),
+                                            Colors.black.withValues(
+                                              alpha: 0.85,
+                                            ),
                                           ],
                                           stops: const [0.4, 0.7, 1.0],
                                         ),
@@ -142,19 +168,32 @@ class CardGridBigCard extends StatelessWidget {
                                     top: 16.h,
                                     right: 16.w,
                                     child: Container(
-                                      padding: EdgeInsets.symmetric(horizontal: 10.w, vertical: 6.h),
+                                      padding: EdgeInsets.symmetric(
+                                        horizontal: 10.w,
+                                        vertical: 6.h,
+                                      ),
                                       decoration: BoxDecoration(
                                         color: Colors.white,
-                                        borderRadius: BorderRadius.circular(12.r),
+                                        borderRadius: BorderRadius.circular(
+                                          12.r,
+                                        ),
                                       ),
                                       child: Row(
                                         mainAxisSize: MainAxisSize.min,
                                         children: [
-                                          Icon(Icons.verified_outlined, size: 16.sp, color: Colors.black),
+                                          Icon(
+                                            Icons.verified_outlined,
+                                            size: 16.sp,
+                                            color: Colors.black,
+                                          ),
                                           SizedBox(width: 4.w),
                                           Text(
                                             badgeText.toString(),
-                                            style: TextStyle(color: Colors.black, fontSize: 12.sp, fontWeight: FontWeight.w600),
+                                            style: TextStyle(
+                                              color: Colors.black,
+                                              fontSize: 12.sp,
+                                              fontWeight: FontWeight.w600,
+                                            ),
                                           ),
                                         ],
                                       ),
@@ -165,25 +204,42 @@ class CardGridBigCard extends StatelessWidget {
                                     right: 16.w,
                                     bottom: 16.h,
                                     child: Column(
-                                      crossAxisAlignment: CrossAxisAlignment.start,
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.start,
                                       children: [
                                         Text(
-                                          targetType == 'book' ? 'KISAH PILIHAN' : 'HIGHLIGHT HARI INI',
-                                          style: TextStyle(color: const Color(0xFFD4E99C), fontSize: 12.sp, fontWeight: FontWeight.w600),
+                                          targetType == 'book'
+                                              ? 'KISAH PILIHAN'
+                                              : 'HIGHLIGHT HARI INI',
+                                          style: TextStyle(
+                                            color: const Color(0xFFD4E99C),
+                                            fontSize: 12.sp,
+                                            fontWeight: FontWeight.w600,
+                                          ),
                                           maxLines: 1,
                                           overflow: TextOverflow.ellipsis,
                                         ),
                                         SizedBox(height: 4.h),
                                         Text(
                                           cardTitle.toString(),
-                                          style: TextStyle(color: Colors.white, fontSize: 22.sp, fontWeight: FontWeight.w700),
+                                          style: TextStyle(
+                                            color: Colors.white,
+                                            fontSize: 22.sp,
+                                            fontWeight: FontWeight.w700,
+                                          ),
                                           maxLines: 2,
                                           overflow: TextOverflow.ellipsis,
                                         ),
                                         SizedBox(height: 8.h),
                                         Text(
                                           cardSubtitle.toString(),
-                                          style: TextStyle(color: Colors.white.withValues(alpha: 0.9), fontSize: 13.sp, height: 1.4),
+                                          style: TextStyle(
+                                            color: Colors.white.withValues(
+                                              alpha: 0.9,
+                                            ),
+                                            fontSize: 13.sp,
+                                            height: 1.4,
+                                          ),
                                           maxLines: 3,
                                           overflow: TextOverflow.ellipsis,
                                         ),

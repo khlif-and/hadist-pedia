@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:hadist_pedia/data/feed_engine.dart';
+import 'package:hadist_pedia/presentation/common/utils/engine/feed_engine.dart';
 import 'package:hadist_pedia/presentation/molecules/home/card_grid_content_without_card.dart';
 
 class TrendingCardAvailable extends StatelessWidget {
@@ -21,7 +21,8 @@ class TrendingCardAvailable extends StatelessWidget {
         }
 
         final section = snapshot.data;
-        if (section == null || section.items.isEmpty) return const SizedBox.shrink();
+        if (section == null || section.items.isEmpty)
+          return const SizedBox.shrink();
 
         return Column(
           children: [

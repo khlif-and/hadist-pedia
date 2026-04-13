@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:hadist_pedia/presentation/atom/home/container_big_card.dart';
-import 'package:hadist_pedia/presentation/atom/home/dot_card.dart';
+import 'package:hadist_pedia/presentation/atom/shared/dot_card.dart';
 import 'package:hadist_pedia/presentation/atom/home/headline_card.dart';
 import 'package:hadist_pedia/presentation/atom/home/card_grid_medium_height.dart';
 

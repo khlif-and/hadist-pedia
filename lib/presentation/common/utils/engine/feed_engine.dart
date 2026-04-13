@@ -1,6 +1,6 @@
 import 'dart:math';
-import 'package:hadist_pedia/data/cache_manager.dart';
-import 'package:hadist_pedia/data/app_database.dart';
+import 'package:hadist_pedia/presentation/common/utils/manager/cache_manager.dart';
+import 'package:hadist_pedia/presentation/common/utils/database/app_database.dart';
 import 'package:hadist_pedia/env/app_env.dart';
 
 class FeedSection {
@@ -29,14 +29,16 @@ class FeedEngine {
     final titlesMap = await cache.loadMap(AppEnv.sectionTitlesPath);
 
     final timeSlot = AppEnv.getCurrentTimeSlot();
-    final titles = (titlesMap[timeSlot] as List<dynamic>?)
+    final titles =
+        (titlesMap[timeSlot] as List<dynamic>?)
             ?.map((e) => e.toString())
             .toList() ??
         [];
 
     final random = Random(slot);
     final shuffledHadist = List<dynamic>.from(hadistPool)..shuffle(random);
-    final shuffledStory = List<dynamic>.from(storyPool)..shuffle(Random(slot + 1));
+    final shuffledStory = List<dynamic>.from(storyPool)
+      ..shuffle(Random(slot + 1));
     final mixedPool = List<dynamic>.from([...shuffledHadist, ...shuffledStory])
       ..shuffle(Random(slot + 2));
 
@@ -55,26 +57,30 @@ class FeedEngine {
     List<dynamic> slicePool(List<dynamic> pool, int start, int count) {
       if (pool.isEmpty) return [];
       final end = (start + count).clamp(0, pool.length);
-      if (start >= pool.length) return pool.sublist(0, count.clamp(0, pool.length));
+      if (start >= pool.length)
+        return pool.sublist(0, count.clamp(0, pool.length));
       return pool.sublist(start, end);
     }
 
-    sections.add(FeedSection(
-      title: pickTitle(),
-      items: slicePool(shuffledHadist, 0, AppEnv.maxCardsPerSection),
-    ));
+    sections.add(
+      FeedSection(
+        title: pickTitle(),
+        items: slicePool(shuffledHadist, 0, AppEnv.maxCardsPerSection),
+      ),
+    );
     hadistOffset += AppEnv.maxCardsPerSection;
 
-    sections.add(FeedSection(
-      title: pickTitle(),
-      items: slicePool(mixedPool, 0, 5),
-    ));
+    sections.add(
+      FeedSection(title: pickTitle(), items: slicePool(mixedPool, 0, 5)),
+    );
     mixedOffset += 5;
 
-    sections.add(FeedSection(
-      title: pickTitle(),
-      items: slicePool(shuffledHadist, hadistOffset, 5),
-    ));
+    sections.add(
+      FeedSection(
+        title: pickTitle(),
+        items: slicePool(shuffledHadist, hadistOffset, 5),
+      ),
+    );
     hadistOffset += 5;
 
     final db = AppDatabase.instance;
@@ -84,10 +90,12 @@ class FeedEngine {
       if (likedSection != null) sections.add(likedSection);
     }
 
-    sections.add(FeedSection(
-      title: pickTitle(),
-      items: slicePool(mixedPool, mixedOffset, 5),
-    ));
+    sections.add(
+      FeedSection(
+        title: pickTitle(),
+        items: slicePool(mixedPool, mixedOffset, 5),
+      ),
+    );
 
     _cachedSections = sections;
     _cachedSlot = slot;
@@ -126,7 +134,8 @@ class FeedEngine {
     final titlesMap = await cache.loadMap(AppEnv.sectionTitlesPath);
 
     final timeSlot = AppEnv.getCurrentTimeSlot();
-    final titles = (titlesMap[timeSlot] as List<dynamic>?)
+    final titles =
+        (titlesMap[timeSlot] as List<dynamic>?)
             ?.map((e) => e.toString())
             .toList() ??
         [];
@@ -137,7 +146,9 @@ class FeedEngine {
     final titleIdx = random.nextInt(titles.length.clamp(1, 20));
 
     return FeedSection(
-      title: titles.isNotEmpty ? titles[titleIdx % titles.length] : 'Kisah Pilihan',
+      title: titles.isNotEmpty
+          ? titles[titleIdx % titles.length]
+          : 'Kisah Pilihan',
       items: shuffled.take(AppEnv.maxCardsPerSection).toList(),
     );
   }

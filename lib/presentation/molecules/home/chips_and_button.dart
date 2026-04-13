@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:hadist_pedia/presentation/atom/home/chip.dart';
+import 'package:hadist_pedia/presentation/atom/shared/chip.dart';
 
 class ChipsAndButton extends StatelessWidget {
   const ChipsAndButton({super.key});
@@ -27,9 +27,12 @@ class ChipsAndButton extends StatelessWidget {
         padding: EdgeInsets.symmetric(horizontal: 24.w),
         itemBuilder: (context, index) {
           final bool isSelected = index == 0;
-          return CategoryChip(
-            label: categories[index],
-            isSelected: isSelected,
+          // Bungkus CategoryChip dengan Center di sini
+          return Center(
+            child: CategoryChip(
+              label: categories[index],
+              isSelected: isSelected,
+            ),
           );
         },
       ),
